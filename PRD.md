@@ -226,9 +226,9 @@ Catatan implementasi: rata-rata β tiap musim dikunci ke nol karena tidak bisa d
 **Urutan tahap dan syarat selesai:**
 
 1. **Tahap 1: Data**
-   - [ ] `ingest.py` mengambil semua qualifying 2018–2026 dan menyimpannya ke cache
-   - [ ] `clean.py` menerapkan 6 aturan pembersihan dan menulis log data yang dibuang
-   - [ ] Tes: jumlah baris per musim masuk akal, tidak ada waktu kosong
+   - [x] `ingest.py` mengambil semua qualifying 2018–2026 dan menyimpannya ke cache
+   - [x] `clean.py` menerapkan 6 aturan pembersihan dan menulis log data yang dibuang
+   - [x] Tes: jumlah baris per musim masuk akal, tidak ada waktu kosong
 2. **Tahap 2: Peta dan pembanding**
    - [ ] Gambar peta perpindahan driver
    - [ ] Pembanding sederhana: rata-rata selisih ke rekan setim
