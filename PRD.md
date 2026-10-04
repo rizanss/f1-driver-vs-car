@@ -238,9 +238,9 @@ Catatan implementasi: rata-rata β tiap musim dikunci ke nol karena tidak bisa d
    - [x] Gambar peta perpindahan driver
    - [x] Pembanding sederhana: rata-rata selisih ke rekan setim
 3. **Tahap 3: Model**
-   - [ ] Model jalan untuk 2 musim tanpa peringatan teknis
-   - [ ] Model jalan untuk semua musim
-   - [ ] Simpan rating driver dan mobil ke `outputs/`
+   - [x] Model jalan untuk 2 musim tanpa peringatan teknis
+   - [x] Model jalan untuk semua musim
+   - [x] Simpan rating driver dan mobil ke `outputs/`
 4. **Tahap 4: Validasi**
    - [ ] Semua tes di bagian Ukuran keberhasilan dijalankan dan hasilnya dicatat
 5. **Tahap 5: Dashboard dan tulisan**

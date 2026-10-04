@@ -1,0 +1,2610 @@
+{
+  "drivers": [
+    {
+      "driver": "AIT",
+      "season": 2020,
+      "teams": [
+        "Williams"
+      ],
+      "rating": -0.172,
+      "q05": -0.488,
+      "q95": 0.141
+    },
+    {
+      "driver": "ALB",
+      "season": 2019,
+      "teams": [
+        "Toro Rosso",
+        "Red Bull Racing"
+      ],
+      "rating": 0.021,
+      "q05": -0.088,
+      "q95": 0.13
+    },
+    {
+      "driver": "ALB",
+      "season": 2020,
+      "teams": [
+        "Red Bull Racing"
+      ],
+      "rating": 0.03,
+      "q05": -0.083,
+      "q95": 0.143
+    },
+    {
+      "driver": "ALB",
+      "season": 2022,
+      "teams": [
+        "Williams"
+      ],
+      "rating": 0.033,
+      "q05": -0.087,
+      "q95": 0.154
+    },
+    {
+      "driver": "ALB",
+      "season": 2023,
+      "teams": [
+        "Williams"
+      ],
+      "rating": 0.016,
+      "q05": -0.108,
+      "q95": 0.139
+    },
+    {
+      "driver": "ALB",
+      "season": 2024,
+      "teams": [
+        "Williams"
+      ],
+      "rating": -0.004,
+      "q05": -0.124,
+      "q95": 0.114
+    },
+    {
+      "driver": "ALB",
+      "season": 2025,
+      "teams": [
+        "Williams"
+      ],
+      "rating": -0.02,
+      "q05": -0.147,
+      "q95": 0.109
+    },
+    {
+      "driver": "ALB",
+      "season": 2026,
+      "teams": [
+        "Williams"
+      ],
+      "rating": -0.062,
+      "q05": -0.22,
+      "q95": 0.093
+    },
+    {
+      "driver": "ALO",
+      "season": 2018,
+      "teams": [
+        "McLaren"
+      ],
+      "rating": 0.009,
+      "q05": -0.163,
+      "q95": 0.175
+    },
+    {
+      "driver": "ALO",
+      "season": 2021,
+      "teams": [
+        "Alpine"
+      ],
+      "rating": 0.04,
+      "q05": -0.089,
+      "q95": 0.163
+    },
+    {
+      "driver": "ALO",
+      "season": 2022,
+      "teams": [
+        "Alpine"
+      ],
+      "rating": 0.015,
+      "q05": -0.106,
+      "q95": 0.13
+    },
+    {
+      "driver": "ALO",
+      "season": 2023,
+      "teams": [
+        "Aston Martin"
+      ],
+      "rating": 0.002,
+      "q05": -0.13,
+      "q95": 0.133
+    },
+    {
+      "driver": "ALO",
+      "season": 2024,
+      "teams": [
+        "Aston Martin"
+      ],
+      "rating": -0.019,
+      "q05": -0.177,
+      "q95": 0.129
+    },
+    {
+      "driver": "ALO",
+      "season": 2025,
+      "teams": [
+        "Aston Martin"
+      ],
+      "rating": -0.041,
+      "q05": -0.212,
+      "q95": 0.126
+    },
+    {
+      "driver": "ALO",
+      "season": 2026,
+      "teams": [
+        "Aston Martin"
+      ],
+      "rating": -0.004,
+      "q05": -0.202,
+      "q95": 0.189
+    },
+    {
+      "driver": "ANT",
+      "season": 2025,
+      "teams": [
+        "Mercedes"
+      ],
+      "rating": 0.013,
+      "q05": -0.149,
+      "q95": 0.177
+    },
+    {
+      "driver": "ANT",
+      "season": 2026,
+      "teams": [
+        "Mercedes"
+      ],
+      "rating": 0.104,
+      "q05": -0.076,
+      "q95": 0.289
+    },
+    {
+      "driver": "BEA",
+      "season": 2024,
+      "teams": [
+        "Ferrari",
+        "Haas F1 Team"
+      ],
+      "rating": 0.008,
+      "q05": -0.139,
+      "q95": 0.154
+    },
+    {
+      "driver": "BEA",
+      "season": 2025,
+      "teams": [
+        "Haas F1 Team"
+      ],
+      "rating": -0.023,
+      "q05": -0.166,
+      "q95": 0.117
+    },
+    {
+      "driver": "BEA",
+      "season": 2026,
+      "teams": [
+        "Haas F1 Team"
+      ],
+      "rating": -0.015,
+      "q05": -0.182,
+      "q95": 0.147
+    },
+    {
+      "driver": "BOR",
+      "season": 2025,
+      "teams": [
+        "Kick Sauber"
+      ],
+      "rating": -0.059,
+      "q05": -0.243,
+      "q95": 0.116
+    },
+    {
+      "driver": "BOR",
+      "season": 2026,
+      "teams": [
+        "Audi"
+      ],
+      "rating": -0.027,
+      "q05": -0.222,
+      "q95": 0.163
+    },
+    {
+      "driver": "BOT",
+      "season": 2018,
+      "teams": [
+        "Mercedes"
+      ],
+      "rating": 0.045,
+      "q05": -0.119,
+      "q95": 0.211
+    },
+    {
+      "driver": "BOT",
+      "season": 2019,
+      "teams": [
+        "Mercedes"
+      ],
+      "rating": 0.06,
+      "q05": -0.095,
+      "q95": 0.222
+    },
+    {
+      "driver": "BOT",
+      "season": 2020,
+      "teams": [
+        "Mercedes"
+      ],
+      "rating": 0.094,
+      "q05": -0.058,
+      "q95": 0.253
+    },
+    {
+      "driver": "BOT",
+      "season": 2021,
+      "teams": [
+        "Mercedes"
+      ],
+      "rating": 0.083,
+      "q05": -0.059,
+      "q95": 0.227
+    },
+    {
+      "driver": "BOT",
+      "season": 2022,
+      "teams": [
+        "Alfa Romeo"
+      ],
+      "rating": 0.011,
+      "q05": -0.134,
+      "q95": 0.16
+    },
+    {
+      "driver": "BOT",
+      "season": 2023,
+      "teams": [
+        "Alfa Romeo"
+      ],
+      "rating": -0.05,
+      "q05": -0.206,
+      "q95": 0.109
+    },
+    {
+      "driver": "BOT",
+      "season": 2024,
+      "teams": [
+        "Kick Sauber"
+      ],
+      "rating": -0.029,
+      "q05": -0.195,
+      "q95": 0.14
+    },
+    {
+      "driver": "BOT",
+      "season": 2026,
+      "teams": [
+        "Cadillac"
+      ],
+      "rating": -0.133,
+      "q05": -0.325,
+      "q95": 0.056
+    },
+    {
+      "driver": "COL",
+      "season": 2024,
+      "teams": [
+        "Williams"
+      ],
+      "rating": -0.142,
+      "q05": -0.276,
+      "q95": -0.005
+    },
+    {
+      "driver": "COL",
+      "season": 2025,
+      "teams": [
+        "Alpine"
+      ],
+      "rating": -0.22,
+      "q05": -0.356,
+      "q95": -0.085
+    },
+    {
+      "driver": "COL",
+      "season": 2026,
+      "teams": [
+        "Alpine"
+      ],
+      "rating": -0.212,
+      "q05": -0.371,
+      "q95": -0.051
+    },
+    {
+      "driver": "DEV",
+      "season": 2022,
+      "teams": [
+        "Williams"
+      ],
+      "rating": -0.334,
+      "q05": -0.517,
+      "q95": -0.147
+    },
+    {
+      "driver": "DEV",
+      "season": 2023,
+      "teams": [
+        "AlphaTauri"
+      ],
+      "rating": -0.397,
+      "q05": -0.57,
+      "q95": -0.222
+    },
+    {
+      "driver": "DOO",
+      "season": 2024,
+      "teams": [
+        "Alpine"
+      ],
+      "rating": -0.106,
+      "q05": -0.303,
+      "q95": 0.089
+    },
+    {
+      "driver": "DOO",
+      "season": 2025,
+      "teams": [
+        "Alpine"
+      ],
+      "rating": -0.138,
+      "q05": -0.321,
+      "q95": 0.047
+    },
+    {
+      "driver": "ERI",
+      "season": 2018,
+      "teams": [
+        "Sauber"
+      ],
+      "rating": -0.158,
+      "q05": -0.349,
+      "q95": 0.032
+    },
+    {
+      "driver": "FIT",
+      "season": 2020,
+      "teams": [
+        "Haas F1 Team"
+      ],
+      "rating": -0.482,
+      "q05": -0.848,
+      "q95": -0.113
+    },
+    {
+      "driver": "GAS",
+      "season": 2018,
+      "teams": [
+        "Toro Rosso"
+      ],
+      "rating": -0.074,
+      "q05": -0.216,
+      "q95": 0.06
+    },
+    {
+      "driver": "GAS",
+      "season": 2019,
+      "teams": [
+        "Red Bull Racing",
+        "Toro Rosso"
+      ],
+      "rating": -0.091,
+      "q05": -0.2,
+      "q95": 0.016
+    },
+    {
+      "driver": "GAS",
+      "season": 2020,
+      "teams": [
+        "AlphaTauri"
+      ],
+      "rating": 0.007,
+      "q05": -0.109,
+      "q95": 0.126
+    },
+    {
+      "driver": "GAS",
+      "season": 2021,
+      "teams": [
+        "AlphaTauri"
+      ],
+      "rating": 0.096,
+      "q05": -0.017,
+      "q95": 0.215
+    },
+    {
+      "driver": "GAS",
+      "season": 2022,
+      "teams": [
+        "AlphaTauri"
+      ],
+      "rating": 0.012,
+      "q05": -0.101,
+      "q95": 0.123
+    },
+    {
+      "driver": "GAS",
+      "season": 2023,
+      "teams": [
+        "Alpine"
+      ],
+      "rating": 0.005,
+      "q05": -0.108,
+      "q95": 0.113
+    },
+    {
+      "driver": "GAS",
+      "season": 2024,
+      "teams": [
+        "Alpine"
+      ],
+      "rating": 0.064,
+      "q05": -0.048,
+      "q95": 0.176
+    },
+    {
+      "driver": "GAS",
+      "season": 2025,
+      "teams": [
+        "Alpine"
+      ],
+      "rating": 0.055,
+      "q05": -0.07,
+      "q95": 0.181
+    },
+    {
+      "driver": "GAS",
+      "season": 2026,
+      "teams": [
+        "Alpine"
+      ],
+      "rating": 0.045,
+      "q05": -0.109,
+      "q95": 0.203
+    },
+    {
+      "driver": "GIO",
+      "season": 2019,
+      "teams": [
+        "Alfa Romeo Racing"
+      ],
+      "rating": -0.095,
+      "q05": -0.264,
+      "q95": 0.071
+    },
+    {
+      "driver": "GIO",
+      "season": 2020,
+      "teams": [
+        "Alfa Romeo Racing"
+      ],
+      "rating": -0.039,
+      "q05": -0.219,
+      "q95": 0.14
+    },
+    {
+      "driver": "GIO",
+      "season": 2021,
+      "teams": [
+        "Alfa Romeo Racing"
+      ],
+      "rating": 0.049,
+      "q05": -0.139,
+      "q95": 0.239
+    },
+    {
+      "driver": "GRO",
+      "season": 2018,
+      "teams": [
+        "Haas F1 Team"
+      ],
+      "rating": 0.001,
+      "q05": -0.177,
+      "q95": 0.179
+    },
+    {
+      "driver": "GRO",
+      "season": 2019,
+      "teams": [
+        "Haas F1 Team"
+      ],
+      "rating": -0.038,
+      "q05": -0.214,
+      "q95": 0.144
+    },
+    {
+      "driver": "GRO",
+      "season": 2020,
+      "teams": [
+        "Haas F1 Team"
+      ],
+      "rating": 0.002,
+      "q05": -0.186,
+      "q95": 0.196
+    },
+    {
+      "driver": "HAD",
+      "season": 2025,
+      "teams": [
+        "Racing Bulls"
+      ],
+      "rating": 0.008,
+      "q05": -0.131,
+      "q95": 0.145
+    },
+    {
+      "driver": "HAD",
+      "season": 2026,
+      "teams": [
+        "Red Bull Racing"
+      ],
+      "rating": 0.081,
+      "q05": -0.061,
+      "q95": 0.224
+    },
+    {
+      "driver": "HAM",
+      "season": 2018,
+      "teams": [
+        "Mercedes"
+      ],
+      "rating": 0.222,
+      "q05": 0.056,
+      "q95": 0.392
+    },
+    {
+      "driver": "HAM",
+      "season": 2019,
+      "teams": [
+        "Mercedes"
+      ],
+      "rating": 0.201,
+      "q05": 0.049,
+      "q95": 0.363
+    },
+    {
+      "driver": "HAM",
+      "season": 2020,
+      "teams": [
+        "Mercedes"
+      ],
+      "rating": 0.213,
+      "q05": 0.063,
+      "q95": 0.366
+    },
+    {
+      "driver": "HAM",
+      "season": 2021,
+      "teams": [
+        "Mercedes"
+      ],
+      "rating": 0.243,
+      "q05": 0.108,
+      "q95": 0.382
+    },
+    {
+      "driver": "HAM",
+      "season": 2022,
+      "teams": [
+        "Mercedes"
+      ],
+      "rating": 0.162,
+      "q05": 0.039,
+      "q95": 0.285
+    },
+    {
+      "driver": "HAM",
+      "season": 2023,
+      "teams": [
+        "Mercedes"
+      ],
+      "rating": 0.133,
+      "q05": 0.008,
+      "q95": 0.262
+    },
+    {
+      "driver": "HAM",
+      "season": 2024,
+      "teams": [
+        "Mercedes"
+      ],
+      "rating": 0.107,
+      "q05": -0.017,
+      "q95": 0.234
+    },
+    {
+      "driver": "HAM",
+      "season": 2025,
+      "teams": [
+        "Ferrari"
+      ],
+      "rating": 0.088,
+      "q05": -0.037,
+      "q95": 0.219
+    },
+    {
+      "driver": "HAM",
+      "season": 2026,
+      "teams": [
+        "Ferrari"
+      ],
+      "rating": 0.102,
+      "q05": -0.046,
+      "q95": 0.259
+    },
+    {
+      "driver": "HAR",
+      "season": 2018,
+      "teams": [
+        "Toro Rosso"
+      ],
+      "rating": -0.174,
+      "q05": -0.351,
+      "q95": 0.002
+    },
+    {
+      "driver": "HUL",
+      "season": 2018,
+      "teams": [
+        "Renault"
+      ],
+      "rating": 0.055,
+      "q05": -0.066,
+      "q95": 0.178
+    },
+    {
+      "driver": "HUL",
+      "season": 2019,
+      "teams": [
+        "Renault"
+      ],
+      "rating": 0.003,
+      "q05": -0.11,
+      "q95": 0.114
+    },
+    {
+      "driver": "HUL",
+      "season": 2020,
+      "teams": [
+        "Racing Point"
+      ],
+      "rating": 0.019,
+      "q05": -0.111,
+      "q95": 0.145
+    },
+    {
+      "driver": "HUL",
+      "season": 2022,
+      "teams": [
+        "Aston Martin"
+      ],
+      "rating": -0.004,
+      "q05": -0.149,
+      "q95": 0.134
+    },
+    {
+      "driver": "HUL",
+      "season": 2023,
+      "teams": [
+        "Haas F1 Team"
+      ],
+      "rating": -0.004,
+      "q05": -0.147,
+      "q95": 0.136
+    },
+    {
+      "driver": "HUL",
+      "season": 2024,
+      "teams": [
+        "Haas F1 Team"
+      ],
+      "rating": -0.021,
+      "q05": -0.166,
+      "q95": 0.122
+    },
+    {
+      "driver": "HUL",
+      "season": 2025,
+      "teams": [
+        "Kick Sauber"
+      ],
+      "rating": -0.067,
+      "q05": -0.236,
+      "q95": 0.095
+    },
+    {
+      "driver": "HUL",
+      "season": 2026,
+      "teams": [
+        "Audi"
+      ],
+      "rating": -0.1,
+      "q05": -0.296,
+      "q95": 0.084
+    },
+    {
+      "driver": "KUB",
+      "season": 2019,
+      "teams": [
+        "Williams"
+      ],
+      "rating": -0.585,
+      "q05": -0.784,
+      "q95": -0.385
+    },
+    {
+      "driver": "KUB",
+      "season": 2021,
+      "teams": [
+        "Alfa Romeo Racing"
+      ],
+      "rating": -0.583,
+      "q05": -0.815,
+      "q95": -0.351
+    },
+    {
+      "driver": "KVY",
+      "season": 2019,
+      "teams": [
+        "Toro Rosso"
+      ],
+      "rating": -0.122,
+      "q05": -0.247,
+      "q95": 0.007
+    },
+    {
+      "driver": "KVY",
+      "season": 2020,
+      "teams": [
+        "AlphaTauri"
+      ],
+      "rating": -0.126,
+      "q05": -0.264,
+      "q95": 0.011
+    },
+    {
+      "driver": "LAT",
+      "season": 2020,
+      "teams": [
+        "Williams"
+      ],
+      "rating": -0.455,
+      "q05": -0.611,
+      "q95": -0.301
+    },
+    {
+      "driver": "LAT",
+      "season": 2021,
+      "teams": [
+        "Williams"
+      ],
+      "rating": -0.394,
+      "q05": -0.536,
+      "q95": -0.252
+    },
+    {
+      "driver": "LAT",
+      "season": 2022,
+      "teams": [
+        "Williams"
+      ],
+      "rating": -0.473,
+      "q05": -0.63,
+      "q95": -0.32
+    },
+    {
+      "driver": "LAW",
+      "season": 2023,
+      "teams": [
+        "AlphaTauri"
+      ],
+      "rating": -0.095,
+      "q05": -0.238,
+      "q95": 0.046
+    },
+    {
+      "driver": "LAW",
+      "season": 2024,
+      "teams": [
+        "RB"
+      ],
+      "rating": -0.109,
+      "q05": -0.241,
+      "q95": 0.021
+    },
+    {
+      "driver": "LAW",
+      "season": 2025,
+      "teams": [
+        "Red Bull Racing",
+        "Racing Bulls"
+      ],
+      "rating": -0.133,
+      "q05": -0.264,
+      "q95": -0.003
+    },
+    {
+      "driver": "LAW",
+      "season": 2026,
+      "teams": [
+        "Racing Bulls",
+        "Red Bull Racing"
+      ],
+      "rating": -0.063,
+      "q05": -0.195,
+      "q95": 0.076
+    },
+    {
+      "driver": "LEC",
+      "season": 2018,
+      "teams": [
+        "Sauber"
+      ],
+      "rating": 0.192,
+      "q05": 0.053,
+      "q95": 0.338
+    },
+    {
+      "driver": "LEC",
+      "season": 2019,
+      "teams": [
+        "Ferrari"
+      ],
+      "rating": 0.202,
+      "q05": 0.084,
+      "q95": 0.321
+    },
+    {
+      "driver": "LEC",
+      "season": 2020,
+      "teams": [
+        "Ferrari"
+      ],
+      "rating": 0.254,
+      "q05": 0.14,
+      "q95": 0.374
+    },
+    {
+      "driver": "LEC",
+      "season": 2021,
+      "teams": [
+        "Ferrari"
+      ],
+      "rating": 0.285,
+      "q05": 0.173,
+      "q95": 0.398
+    },
+    {
+      "driver": "LEC",
+      "season": 2022,
+      "teams": [
+        "Ferrari"
+      ],
+      "rating": 0.253,
+      "q05": 0.135,
+      "q95": 0.373
+    },
+    {
+      "driver": "LEC",
+      "season": 2023,
+      "teams": [
+        "Ferrari"
+      ],
+      "rating": 0.228,
+      "q05": 0.114,
+      "q95": 0.347
+    },
+    {
+      "driver": "LEC",
+      "season": 2024,
+      "teams": [
+        "Ferrari"
+      ],
+      "rating": 0.21,
+      "q05": 0.1,
+      "q95": 0.324
+    },
+    {
+      "driver": "LEC",
+      "season": 2025,
+      "teams": [
+        "Ferrari"
+      ],
+      "rating": 0.167,
+      "q05": 0.045,
+      "q95": 0.295
+    },
+    {
+      "driver": "LEC",
+      "season": 2026,
+      "teams": [
+        "Ferrari"
+      ],
+      "rating": 0.165,
+      "q05": 0.017,
+      "q95": 0.321
+    },
+    {
+      "driver": "LIN",
+      "season": 2026,
+      "teams": [
+        "Racing Bulls"
+      ],
+      "rating": 0.048,
+      "q05": -0.115,
+      "q95": 0.212
+    },
+    {
+      "driver": "MAG",
+      "season": 2018,
+      "teams": [
+        "Haas F1 Team"
+      ],
+      "rating": -0.044,
+      "q05": -0.219,
+      "q95": 0.134
+    },
+    {
+      "driver": "MAG",
+      "season": 2019,
+      "teams": [
+        "Haas F1 Team"
+      ],
+      "rating": -0.024,
+      "q05": -0.194,
+      "q95": 0.15
+    },
+    {
+      "driver": "MAG",
+      "season": 2020,
+      "teams": [
+        "Haas F1 Team"
+      ],
+      "rating": -0.011,
+      "q05": -0.178,
+      "q95": 0.155
+    },
+    {
+      "driver": "MAG",
+      "season": 2022,
+      "teams": [
+        "Haas F1 Team"
+      ],
+      "rating": -0.039,
+      "q05": -0.187,
+      "q95": 0.109
+    },
+    {
+      "driver": "MAG",
+      "season": 2023,
+      "teams": [
+        "Haas F1 Team"
+      ],
+      "rating": -0.105,
+      "q05": -0.255,
+      "q95": 0.041
+    },
+    {
+      "driver": "MAG",
+      "season": 2024,
+      "teams": [
+        "Haas F1 Team"
+      ],
+      "rating": -0.132,
+      "q05": -0.285,
+      "q95": 0.021
+    },
+    {
+      "driver": "MAZ",
+      "season": 2021,
+      "teams": [
+        "Haas F1 Team"
+      ],
+      "rating": -0.676,
+      "q05": -0.917,
+      "q95": -0.446
+    },
+    {
+      "driver": "MSC",
+      "season": 2021,
+      "teams": [
+        "Haas F1 Team"
+      ],
+      "rating": -0.097,
+      "q05": -0.291,
+      "q95": 0.086
+    },
+    {
+      "driver": "MSC",
+      "season": 2022,
+      "teams": [
+        "Haas F1 Team"
+      ],
+      "rating": -0.184,
+      "q05": -0.37,
+      "q95": -0.003
+    },
+    {
+      "driver": "NOR",
+      "season": 2019,
+      "teams": [
+        "McLaren"
+      ],
+      "rating": 0.105,
+      "q05": -0.026,
+      "q95": 0.231
+    },
+    {
+      "driver": "NOR",
+      "season": 2020,
+      "teams": [
+        "McLaren"
+      ],
+      "rating": 0.185,
+      "q05": 0.065,
+      "q95": 0.301
+    },
+    {
+      "driver": "NOR",
+      "season": 2021,
+      "teams": [
+        "McLaren"
+      ],
+      "rating": 0.294,
+      "q05": 0.18,
+      "q95": 0.412
+    },
+    {
+      "driver": "NOR",
+      "season": 2022,
+      "teams": [
+        "McLaren"
+      ],
+      "rating": 0.27,
+      "q05": 0.15,
+      "q95": 0.393
+    },
+    {
+      "driver": "NOR",
+      "season": 2023,
+      "teams": [
+        "McLaren"
+      ],
+      "rating": 0.264,
+      "q05": 0.122,
+      "q95": 0.412
+    },
+    {
+      "driver": "NOR",
+      "season": 2024,
+      "teams": [
+        "McLaren"
+      ],
+      "rating": 0.246,
+      "q05": 0.082,
+      "q95": 0.414
+    },
+    {
+      "driver": "NOR",
+      "season": 2025,
+      "teams": [
+        "McLaren"
+      ],
+      "rating": 0.185,
+      "q05": 0.007,
+      "q95": 0.368
+    },
+    {
+      "driver": "NOR",
+      "season": 2026,
+      "teams": [
+        "McLaren"
+      ],
+      "rating": 0.17,
+      "q05": -0.025,
+      "q95": 0.371
+    },
+    {
+      "driver": "OCO",
+      "season": 2018,
+      "teams": [
+        "Force India"
+      ],
+      "rating": -0.018,
+      "q05": -0.145,
+      "q95": 0.111
+    },
+    {
+      "driver": "OCO",
+      "season": 2020,
+      "teams": [
+        "Renault"
+      ],
+      "rating": -0.025,
+      "q05": -0.139,
+      "q95": 0.087
+    },
+    {
+      "driver": "OCO",
+      "season": 2021,
+      "teams": [
+        "Alpine"
+      ],
+      "rating": 0.029,
+      "q05": -0.084,
+      "q95": 0.142
+    },
+    {
+      "driver": "OCO",
+      "season": 2022,
+      "teams": [
+        "Alpine"
+      ],
+      "rating": -0.02,
+      "q05": -0.132,
+      "q95": 0.091
+    },
+    {
+      "driver": "OCO",
+      "season": 2023,
+      "teams": [
+        "Alpine"
+      ],
+      "rating": -0.027,
+      "q05": -0.138,
+      "q95": 0.082
+    },
+    {
+      "driver": "OCO",
+      "season": 2024,
+      "teams": [
+        "Alpine"
+      ],
+      "rating": -0.078,
+      "q05": -0.193,
+      "q95": 0.033
+    },
+    {
+      "driver": "OCO",
+      "season": 2025,
+      "teams": [
+        "Haas F1 Team"
+      ],
+      "rating": -0.132,
+      "q05": -0.266,
+      "q95": -0.001
+    },
+    {
+      "driver": "OCO",
+      "season": 2026,
+      "teams": [
+        "Haas F1 Team"
+      ],
+      "rating": -0.149,
+      "q05": -0.313,
+      "q95": 0.009
+    },
+    {
+      "driver": "PER",
+      "season": 2018,
+      "teams": [
+        "Force India"
+      ],
+      "rating": -0.033,
+      "q05": -0.158,
+      "q95": 0.092
+    },
+    {
+      "driver": "PER",
+      "season": 2019,
+      "teams": [
+        "Racing Point"
+      ],
+      "rating": -0.03,
+      "q05": -0.149,
+      "q95": 0.089
+    },
+    {
+      "driver": "PER",
+      "season": 2020,
+      "teams": [
+        "Racing Point"
+      ],
+      "rating": 0.003,
+      "q05": -0.108,
+      "q95": 0.114
+    },
+    {
+      "driver": "PER",
+      "season": 2021,
+      "teams": [
+        "Red Bull Racing"
+      ],
+      "rating": 0.067,
+      "q05": -0.047,
+      "q95": 0.184
+    },
+    {
+      "driver": "PER",
+      "season": 2022,
+      "teams": [
+        "Red Bull Racing"
+      ],
+      "rating": 0.071,
+      "q05": -0.05,
+      "q95": 0.197
+    },
+    {
+      "driver": "PER",
+      "season": 2023,
+      "teams": [
+        "Red Bull Racing"
+      ],
+      "rating": 0.032,
+      "q05": -0.091,
+      "q95": 0.158
+    },
+    {
+      "driver": "PER",
+      "season": 2024,
+      "teams": [
+        "Red Bull Racing"
+      ],
+      "rating": 0.022,
+      "q05": -0.105,
+      "q95": 0.154
+    },
+    {
+      "driver": "PER",
+      "season": 2026,
+      "teams": [
+        "Cadillac"
+      ],
+      "rating": -0.011,
+      "q05": -0.182,
+      "q95": 0.163
+    },
+    {
+      "driver": "PIA",
+      "season": 2023,
+      "teams": [
+        "McLaren"
+      ],
+      "rating": 0.069,
+      "q05": -0.091,
+      "q95": 0.234
+    },
+    {
+      "driver": "PIA",
+      "season": 2024,
+      "teams": [
+        "McLaren"
+      ],
+      "rating": 0.105,
+      "q05": -0.063,
+      "q95": 0.274
+    },
+    {
+      "driver": "PIA",
+      "season": 2025,
+      "teams": [
+        "McLaren"
+      ],
+      "rating": 0.106,
+      "q05": -0.069,
+      "q95": 0.29
+    },
+    {
+      "driver": "PIA",
+      "season": 2026,
+      "teams": [
+        "McLaren"
+      ],
+      "rating": 0.13,
+      "q05": -0.065,
+      "q95": 0.334
+    },
+    {
+      "driver": "RAI",
+      "season": 2018,
+      "teams": [
+        "Ferrari"
+      ],
+      "rating": -0.106,
+      "q05": -0.25,
+      "q95": 0.039
+    },
+    {
+      "driver": "RAI",
+      "season": 2019,
+      "teams": [
+        "Alfa Romeo Racing"
+      ],
+      "rating": -0.108,
+      "q05": -0.262,
+      "q95": 0.045
+    },
+    {
+      "driver": "RAI",
+      "season": 2020,
+      "teams": [
+        "Alfa Romeo Racing"
+      ],
+      "rating": -0.112,
+      "q05": -0.284,
+      "q95": 0.059
+    },
+    {
+      "driver": "RAI",
+      "season": 2021,
+      "teams": [
+        "Alfa Romeo Racing"
+      ],
+      "rating": -0.103,
+      "q05": -0.287,
+      "q95": 0.081
+    },
+    {
+      "driver": "RIC",
+      "season": 2018,
+      "teams": [
+        "Red Bull Racing"
+      ],
+      "rating": 0.11,
+      "q05": -0.008,
+      "q95": 0.23
+    },
+    {
+      "driver": "RIC",
+      "season": 2019,
+      "teams": [
+        "Renault"
+      ],
+      "rating": 0.089,
+      "q05": -0.019,
+      "q95": 0.196
+    },
+    {
+      "driver": "RIC",
+      "season": 2020,
+      "teams": [
+        "Renault"
+      ],
+      "rating": 0.07,
+      "q05": -0.038,
+      "q95": 0.179
+    },
+    {
+      "driver": "RIC",
+      "season": 2021,
+      "teams": [
+        "McLaren"
+      ],
+      "rating": 0.045,
+      "q05": -0.068,
+      "q95": 0.157
+    },
+    {
+      "driver": "RIC",
+      "season": 2022,
+      "teams": [
+        "McLaren"
+      ],
+      "rating": -0.013,
+      "q05": -0.125,
+      "q95": 0.099
+    },
+    {
+      "driver": "RIC",
+      "season": 2023,
+      "teams": [
+        "AlphaTauri"
+      ],
+      "rating": -0.032,
+      "q05": -0.14,
+      "q95": 0.079
+    },
+    {
+      "driver": "RIC",
+      "season": 2024,
+      "teams": [
+        "RB"
+      ],
+      "rating": -0.069,
+      "q05": -0.191,
+      "q95": 0.053
+    },
+    {
+      "driver": "RUS",
+      "season": 2019,
+      "teams": [
+        "Williams"
+      ],
+      "rating": 0.005,
+      "q05": -0.149,
+      "q95": 0.158
+    },
+    {
+      "driver": "RUS",
+      "season": 2020,
+      "teams": [
+        "Williams",
+        "Mercedes"
+      ],
+      "rating": 0.047,
+      "q05": -0.089,
+      "q95": 0.184
+    },
+    {
+      "driver": "RUS",
+      "season": 2021,
+      "teams": [
+        "Williams"
+      ],
+      "rating": 0.09,
+      "q05": -0.04,
+      "q95": 0.218
+    },
+    {
+      "driver": "RUS",
+      "season": 2022,
+      "teams": [
+        "Mercedes"
+      ],
+      "rating": 0.117,
+      "q05": -0.004,
+      "q95": 0.24
+    },
+    {
+      "driver": "RUS",
+      "season": 2023,
+      "teams": [
+        "Mercedes"
+      ],
+      "rating": 0.143,
+      "q05": 0.014,
+      "q95": 0.271
+    },
+    {
+      "driver": "RUS",
+      "season": 2024,
+      "teams": [
+        "Mercedes"
+      ],
+      "rating": 0.189,
+      "q05": 0.059,
+      "q95": 0.325
+    },
+    {
+      "driver": "RUS",
+      "season": 2025,
+      "teams": [
+        "Mercedes"
+      ],
+      "rating": 0.157,
+      "q05": 0.005,
+      "q95": 0.313
+    },
+    {
+      "driver": "RUS",
+      "season": 2026,
+      "teams": [
+        "Mercedes"
+      ],
+      "rating": 0.079,
+      "q05": -0.097,
+      "q95": 0.253
+    },
+    {
+      "driver": "SAI",
+      "season": 2018,
+      "teams": [
+        "Renault"
+      ],
+      "rating": 0.073,
+      "q05": -0.057,
+      "q95": 0.199
+    },
+    {
+      "driver": "SAI",
+      "season": 2019,
+      "teams": [
+        "McLaren"
+      ],
+      "rating": 0.127,
+      "q05": 0.009,
+      "q95": 0.243
+    },
+    {
+      "driver": "SAI",
+      "season": 2020,
+      "teams": [
+        "McLaren"
+      ],
+      "rating": 0.17,
+      "q05": 0.055,
+      "q95": 0.287
+    },
+    {
+      "driver": "SAI",
+      "season": 2021,
+      "teams": [
+        "Ferrari"
+      ],
+      "rating": 0.222,
+      "q05": 0.109,
+      "q95": 0.335
+    },
+    {
+      "driver": "SAI",
+      "season": 2022,
+      "teams": [
+        "Ferrari"
+      ],
+      "rating": 0.169,
+      "q05": 0.053,
+      "q95": 0.289
+    },
+    {
+      "driver": "SAI",
+      "season": 2023,
+      "teams": [
+        "Ferrari"
+      ],
+      "rating": 0.154,
+      "q05": 0.039,
+      "q95": 0.271
+    },
+    {
+      "driver": "SAI",
+      "season": 2024,
+      "teams": [
+        "Ferrari"
+      ],
+      "rating": 0.155,
+      "q05": 0.044,
+      "q95": 0.27
+    },
+    {
+      "driver": "SAI",
+      "season": 2025,
+      "teams": [
+        "Williams"
+      ],
+      "rating": 0.079,
+      "q05": -0.047,
+      "q95": 0.204
+    },
+    {
+      "driver": "SAI",
+      "season": 2026,
+      "teams": [
+        "Williams"
+      ],
+      "rating": 0.105,
+      "q05": -0.05,
+      "q95": 0.264
+    },
+    {
+      "driver": "SAR",
+      "season": 2023,
+      "teams": [
+        "Williams"
+      ],
+      "rating": -0.259,
+      "q05": -0.411,
+      "q95": -0.11
+    },
+    {
+      "driver": "SAR",
+      "season": 2024,
+      "teams": [
+        "Williams"
+      ],
+      "rating": -0.264,
+      "q05": -0.415,
+      "q95": -0.112
+    },
+    {
+      "driver": "SIR",
+      "season": 2018,
+      "teams": [
+        "Williams"
+      ],
+      "rating": -0.087,
+      "q05": -0.293,
+      "q95": 0.118
+    },
+    {
+      "driver": "STR",
+      "season": 2018,
+      "teams": [
+        "Williams"
+      ],
+      "rating": -0.16,
+      "q05": -0.304,
+      "q95": -0.019
+    },
+    {
+      "driver": "STR",
+      "season": 2019,
+      "teams": [
+        "Racing Point"
+      ],
+      "rating": -0.167,
+      "q05": -0.292,
+      "q95": -0.043
+    },
+    {
+      "driver": "STR",
+      "season": 2020,
+      "teams": [
+        "Racing Point"
+      ],
+      "rating": -0.132,
+      "q05": -0.243,
+      "q95": -0.018
+    },
+    {
+      "driver": "STR",
+      "season": 2021,
+      "teams": [
+        "Aston Martin"
+      ],
+      "rating": -0.093,
+      "q05": -0.208,
+      "q95": 0.023
+    },
+    {
+      "driver": "STR",
+      "season": 2022,
+      "teams": [
+        "Aston Martin"
+      ],
+      "rating": -0.177,
+      "q05": -0.3,
+      "q95": -0.056
+    },
+    {
+      "driver": "STR",
+      "season": 2023,
+      "teams": [
+        "Aston Martin"
+      ],
+      "rating": -0.222,
+      "q05": -0.36,
+      "q95": -0.092
+    },
+    {
+      "driver": "STR",
+      "season": 2024,
+      "teams": [
+        "Aston Martin"
+      ],
+      "rating": -0.238,
+      "q05": -0.393,
+      "q95": -0.089
+    },
+    {
+      "driver": "STR",
+      "season": 2025,
+      "teams": [
+        "Aston Martin"
+      ],
+      "rating": -0.324,
+      "q05": -0.501,
+      "q95": -0.157
+    },
+    {
+      "driver": "STR",
+      "season": 2026,
+      "teams": [
+        "Aston Martin"
+      ],
+      "rating": -0.393,
+      "q05": -0.612,
+      "q95": -0.196
+    },
+    {
+      "driver": "TSU",
+      "season": 2021,
+      "teams": [
+        "AlphaTauri"
+      ],
+      "rating": -0.123,
+      "q05": -0.254,
+      "q95": 0.008
+    },
+    {
+      "driver": "TSU",
+      "season": 2022,
+      "teams": [
+        "AlphaTauri"
+      ],
+      "rating": -0.087,
+      "q05": -0.199,
+      "q95": 0.026
+    },
+    {
+      "driver": "TSU",
+      "season": 2023,
+      "teams": [
+        "AlphaTauri"
+      ],
+      "rating": -0.071,
+      "q05": -0.173,
+      "q95": 0.034
+    },
+    {
+      "driver": "TSU",
+      "season": 2024,
+      "teams": [
+        "RB"
+      ],
+      "rating": -0.048,
+      "q05": -0.156,
+      "q95": 0.064
+    },
+    {
+      "driver": "TSU",
+      "season": 2025,
+      "teams": [
+        "Racing Bulls",
+        "Red Bull Racing"
+      ],
+      "rating": -0.117,
+      "q05": -0.231,
+      "q95": 0.004
+    },
+    {
+      "driver": "TSU",
+      "season": 2026,
+      "teams": [
+        "Racing Bulls"
+      ],
+      "rating": -0.164,
+      "q05": -0.311,
+      "q95": -0.02
+    },
+    {
+      "driver": "VAN",
+      "season": 2018,
+      "teams": [
+        "McLaren"
+      ],
+      "rating": -0.291,
+      "q05": -0.495,
+      "q95": -0.097
+    },
+    {
+      "driver": "VER",
+      "season": 2018,
+      "teams": [
+        "Red Bull Racing"
+      ],
+      "rating": 0.385,
+      "q05": 0.262,
+      "q95": 0.504
+    },
+    {
+      "driver": "VER",
+      "season": 2019,
+      "teams": [
+        "Red Bull Racing"
+      ],
+      "rating": 0.432,
+      "q05": 0.328,
+      "q95": 0.537
+    },
+    {
+      "driver": "VER",
+      "season": 2020,
+      "teams": [
+        "Red Bull Racing"
+      ],
+      "rating": 0.469,
+      "q05": 0.359,
+      "q95": 0.58
+    },
+    {
+      "driver": "VER",
+      "season": 2021,
+      "teams": [
+        "Red Bull Racing"
+      ],
+      "rating": 0.508,
+      "q05": 0.393,
+      "q95": 0.627
+    },
+    {
+      "driver": "VER",
+      "season": 2022,
+      "teams": [
+        "Red Bull Racing"
+      ],
+      "rating": 0.435,
+      "q05": 0.316,
+      "q95": 0.558
+    },
+    {
+      "driver": "VER",
+      "season": 2023,
+      "teams": [
+        "Red Bull Racing"
+      ],
+      "rating": 0.453,
+      "q05": 0.333,
+      "q95": 0.579
+    },
+    {
+      "driver": "VER",
+      "season": 2024,
+      "teams": [
+        "Red Bull Racing"
+      ],
+      "rating": 0.458,
+      "q05": 0.338,
+      "q95": 0.584
+    },
+    {
+      "driver": "VER",
+      "season": 2025,
+      "teams": [
+        "Red Bull Racing"
+      ],
+      "rating": 0.415,
+      "q05": 0.298,
+      "q95": 0.54
+    },
+    {
+      "driver": "VER",
+      "season": 2026,
+      "teams": [
+        "Red Bull Racing"
+      ],
+      "rating": 0.307,
+      "q05": 0.169,
+      "q95": 0.442
+    },
+    {
+      "driver": "VET",
+      "season": 2018,
+      "teams": [
+        "Ferrari"
+      ],
+      "rating": 0.052,
+      "q05": -0.079,
+      "q95": 0.185
+    },
+    {
+      "driver": "VET",
+      "season": 2019,
+      "teams": [
+        "Ferrari"
+      ],
+      "rating": 0.015,
+      "q05": -0.1,
+      "q95": 0.132
+    },
+    {
+      "driver": "VET",
+      "season": 2020,
+      "teams": [
+        "Ferrari"
+      ],
+      "rating": -0.01,
+      "q05": -0.127,
+      "q95": 0.106
+    },
+    {
+      "driver": "VET",
+      "season": 2021,
+      "teams": [
+        "Aston Martin"
+      ],
+      "rating": 0.017,
+      "q05": -0.102,
+      "q95": 0.135
+    },
+    {
+      "driver": "VET",
+      "season": 2022,
+      "teams": [
+        "Aston Martin"
+      ],
+      "rating": 0.006,
+      "q05": -0.134,
+      "q95": 0.147
+    },
+    {
+      "driver": "ZHO",
+      "season": 2022,
+      "teams": [
+        "Alfa Romeo"
+      ],
+      "rating": -0.224,
+      "q05": -0.384,
+      "q95": -0.061
+    },
+    {
+      "driver": "ZHO",
+      "season": 2023,
+      "teams": [
+        "Alfa Romeo"
+      ],
+      "rating": -0.237,
+      "q05": -0.399,
+      "q95": -0.069
+    },
+    {
+      "driver": "ZHO",
+      "season": 2024,
+      "teams": [
+        "Kick Sauber"
+      ],
+      "rating": -0.305,
+      "q05": -0.483,
+      "q95": -0.123
+    }
+  ],
+  "cars": [
+    {
+      "team": "Alfa Romeo",
+      "season": 2022,
+      "rating": -0.079,
+      "q05": -0.239,
+      "q95": 0.074
+    },
+    {
+      "team": "Alfa Romeo",
+      "season": 2023,
+      "rating": -0.167,
+      "q05": -0.333,
+      "q95": -0.009
+    },
+    {
+      "team": "Alfa Romeo Racing",
+      "season": 2019,
+      "rating": -0.063,
+      "q05": -0.223,
+      "q95": 0.098
+    },
+    {
+      "team": "Alfa Romeo Racing",
+      "season": 2020,
+      "rating": -0.582,
+      "q05": -0.765,
+      "q95": -0.399
+    },
+    {
+      "team": "Alfa Romeo Racing",
+      "season": 2021,
+      "rating": -0.317,
+      "q05": -0.504,
+      "q95": -0.132
+    },
+    {
+      "team": "AlphaTauri",
+      "season": 2020,
+      "rating": 0.131,
+      "q05": 0.0,
+      "q95": 0.257
+    },
+    {
+      "team": "AlphaTauri",
+      "season": 2021,
+      "rating": 0.262,
+      "q05": 0.139,
+      "q95": 0.385
+    },
+    {
+      "team": "AlphaTauri",
+      "season": 2022,
+      "rating": -0.146,
+      "q05": -0.263,
+      "q95": -0.027
+    },
+    {
+      "team": "AlphaTauri",
+      "season": 2023,
+      "rating": -0.076,
+      "q05": -0.189,
+      "q95": 0.036
+    },
+    {
+      "team": "Alpine",
+      "season": 2021,
+      "rating": 0.003,
+      "q05": -0.118,
+      "q95": 0.125
+    },
+    {
+      "team": "Alpine",
+      "season": 2022,
+      "rating": 0.001,
+      "q05": -0.115,
+      "q95": 0.121
+    },
+    {
+      "team": "Alpine",
+      "season": 2023,
+      "rating": -0.06,
+      "q05": -0.17,
+      "q95": 0.054
+    },
+    {
+      "team": "Alpine",
+      "season": 2024,
+      "rating": -0.214,
+      "q05": -0.331,
+      "q95": -0.091
+    },
+    {
+      "team": "Alpine",
+      "season": 2025,
+      "rating": -0.24,
+      "q05": -0.375,
+      "q95": -0.107
+    },
+    {
+      "team": "Alpine",
+      "season": 2026,
+      "rating": 0.137,
+      "q05": -0.025,
+      "q95": 0.296
+    },
+    {
+      "team": "Aston Martin",
+      "season": 2021,
+      "rating": -0.055,
+      "q05": -0.175,
+      "q95": 0.064
+    },
+    {
+      "team": "Aston Martin",
+      "season": 2022,
+      "rating": -0.296,
+      "q05": -0.429,
+      "q95": -0.16
+    },
+    {
+      "team": "Aston Martin",
+      "season": 2023,
+      "rating": 0.106,
+      "q05": -0.025,
+      "q95": 0.243
+    },
+    {
+      "team": "Aston Martin",
+      "season": 2024,
+      "rating": 0.07,
+      "q05": -0.081,
+      "q95": 0.228
+    },
+    {
+      "team": "Aston Martin",
+      "season": 2025,
+      "rating": 0.03,
+      "q05": -0.136,
+      "q95": 0.205
+    },
+    {
+      "team": "Aston Martin",
+      "season": 2026,
+      "rating": -1.546,
+      "q05": -1.769,
+      "q95": -1.318
+    },
+    {
+      "team": "Audi",
+      "season": 2026,
+      "rating": 0.152,
+      "q05": -0.036,
+      "q95": 0.349
+    },
+    {
+      "team": "Cadillac",
+      "season": 2026,
+      "rating": -1.414,
+      "q05": -1.601,
+      "q95": -1.232
+    },
+    {
+      "team": "Ferrari",
+      "season": 2018,
+      "rating": 1.103,
+      "q05": 0.963,
+      "q95": 1.24
+    },
+    {
+      "team": "Ferrari",
+      "season": 2019,
+      "rating": 0.862,
+      "q05": 0.743,
+      "q95": 0.981
+    },
+    {
+      "team": "Ferrari",
+      "season": 2020,
+      "rating": -0.044,
+      "q05": -0.163,
+      "q95": 0.075
+    },
+    {
+      "team": "Ferrari",
+      "season": 2021,
+      "rating": 0.172,
+      "q05": 0.056,
+      "q95": 0.286
+    },
+    {
+      "team": "Ferrari",
+      "season": 2022,
+      "rating": 0.69,
+      "q05": 0.569,
+      "q95": 0.809
+    },
+    {
+      "team": "Ferrari",
+      "season": 2023,
+      "rating": 0.186,
+      "q05": 0.067,
+      "q95": 0.301
+    },
+    {
+      "team": "Ferrari",
+      "season": 2024,
+      "rating": 0.232,
+      "q05": 0.118,
+      "q95": 0.342
+    },
+    {
+      "team": "Ferrari",
+      "season": 2025,
+      "rating": 0.024,
+      "q05": -0.104,
+      "q95": 0.148
+    },
+    {
+      "team": "Ferrari",
+      "season": 2026,
+      "rating": 0.853,
+      "q05": 0.698,
+      "q95": 1.003
+    },
+    {
+      "team": "Force India",
+      "season": 2018,
+      "rating": -0.208,
+      "q05": -0.336,
+      "q95": -0.08
+    },
+    {
+      "team": "Haas F1 Team",
+      "season": 2018,
+      "rating": -0.001,
+      "q05": -0.182,
+      "q95": 0.177
+    },
+    {
+      "team": "Haas F1 Team",
+      "season": 2019,
+      "rating": -0.046,
+      "q05": -0.226,
+      "q95": 0.13
+    },
+    {
+      "team": "Haas F1 Team",
+      "season": 2020,
+      "rating": -0.667,
+      "q05": -0.854,
+      "q95": -0.483
+    },
+    {
+      "team": "Haas F1 Team",
+      "season": 2021,
+      "rating": -1.011,
+      "q05": -1.219,
+      "q95": -0.794
+    },
+    {
+      "team": "Haas F1 Team",
+      "season": 2022,
+      "rating": -0.174,
+      "q05": -0.342,
+      "q95": -0.004
+    },
+    {
+      "team": "Haas F1 Team",
+      "season": 2023,
+      "rating": -0.119,
+      "q05": -0.264,
+      "q95": 0.029
+    },
+    {
+      "team": "Haas F1 Team",
+      "season": 2024,
+      "rating": -0.074,
+      "q05": -0.219,
+      "q95": 0.073
+    },
+    {
+      "team": "Haas F1 Team",
+      "season": 2025,
+      "rating": -0.11,
+      "q05": -0.248,
+      "q95": 0.031
+    },
+    {
+      "team": "Haas F1 Team",
+      "season": 2026,
+      "rating": -0.191,
+      "q05": -0.354,
+      "q95": -0.024
+    },
+    {
+      "team": "Kick Sauber",
+      "season": 2024,
+      "rating": -0.297,
+      "q05": -0.468,
+      "q95": -0.125
+    },
+    {
+      "team": "Kick Sauber",
+      "season": 2025,
+      "rating": -0.15,
+      "q05": -0.319,
+      "q95": 0.027
+    },
+    {
+      "team": "McLaren",
+      "season": 2018,
+      "rating": -0.445,
+      "q05": -0.624,
+      "q95": -0.26
+    },
+    {
+      "team": "McLaren",
+      "season": 2019,
+      "rating": -0.001,
+      "q05": -0.125,
+      "q95": 0.125
+    },
+    {
+      "team": "McLaren",
+      "season": 2020,
+      "rating": -0.02,
+      "q05": -0.137,
+      "q95": 0.1
+    },
+    {
+      "team": "McLaren",
+      "season": 2021,
+      "rating": 0.122,
+      "q05": 0.007,
+      "q95": 0.238
+    },
+    {
+      "team": "McLaren",
+      "season": 2022,
+      "rating": -0.17,
+      "q05": -0.292,
+      "q95": -0.05
+    },
+    {
+      "team": "McLaren",
+      "season": 2023,
+      "rating": -0.005,
+      "q05": -0.163,
+      "q95": 0.149
+    },
+    {
+      "team": "McLaren",
+      "season": 2024,
+      "rating": 0.256,
+      "q05": 0.089,
+      "q95": 0.422
+    },
+    {
+      "team": "McLaren",
+      "season": 2025,
+      "rating": 0.388,
+      "q05": 0.204,
+      "q95": 0.566
+    },
+    {
+      "team": "McLaren",
+      "season": 2026,
+      "rating": 0.715,
+      "q05": 0.513,
+      "q95": 0.909
+    },
+    {
+      "team": "Mercedes",
+      "season": 2018,
+      "rating": 0.99,
+      "q05": 0.82,
+      "q95": 1.159
+    },
+    {
+      "team": "Mercedes",
+      "season": 2019,
+      "rating": 0.883,
+      "q05": 0.716,
+      "q95": 1.042
+    },
+    {
+      "team": "Mercedes",
+      "season": 2020,
+      "rating": 1.05,
+      "q05": 0.895,
+      "q95": 1.203
+    },
+    {
+      "team": "Mercedes",
+      "season": 2021,
+      "rating": 0.71,
+      "q05": 0.566,
+      "q95": 0.851
+    },
+    {
+      "team": "Mercedes",
+      "season": 2022,
+      "rating": 0.13,
+      "q05": 0.005,
+      "q95": 0.256
+    },
+    {
+      "team": "Mercedes",
+      "season": 2023,
+      "rating": 0.051,
+      "q05": -0.076,
+      "q95": 0.178
+    },
+    {
+      "team": "Mercedes",
+      "season": 2024,
+      "rating": 0.106,
+      "q05": -0.024,
+      "q95": 0.233
+    },
+    {
+      "team": "Mercedes",
+      "season": 2025,
+      "rating": 0.141,
+      "q05": -0.018,
+      "q95": 0.297
+    },
+    {
+      "team": "Mercedes",
+      "season": 2026,
+      "rating": 1.015,
+      "q05": 0.834,
+      "q95": 1.194
+    },
+    {
+      "team": "RB",
+      "season": 2024,
+      "rating": -0.071,
+      "q05": -0.185,
+      "q95": 0.04
+    },
+    {
+      "team": "Racing Bulls",
+      "season": 2025,
+      "rating": -0.005,
+      "q05": -0.137,
+      "q95": 0.126
+    },
+    {
+      "team": "Racing Bulls",
+      "season": 2026,
+      "rating": 0.206,
+      "q05": 0.054,
+      "q95": 0.354
+    },
+    {
+      "team": "Racing Point",
+      "season": 2019,
+      "rating": -0.211,
+      "q05": -0.338,
+      "q95": -0.085
+    },
+    {
+      "team": "Racing Point",
+      "season": 2020,
+      "rating": 0.321,
+      "q05": 0.208,
+      "q95": 0.431
+    },
+    {
+      "team": "Red Bull Racing",
+      "season": 2018,
+      "rating": 0.453,
+      "q05": 0.331,
+      "q95": 0.576
+    },
+    {
+      "team": "Red Bull Racing",
+      "season": 2019,
+      "rating": 0.39,
+      "q05": 0.286,
+      "q95": 0.495
+    },
+    {
+      "team": "Red Bull Racing",
+      "season": 2020,
+      "rating": 0.201,
+      "q05": 0.089,
+      "q95": 0.313
+    },
+    {
+      "team": "Red Bull Racing",
+      "season": 2021,
+      "rating": 0.426,
+      "q05": 0.307,
+      "q95": 0.542
+    },
+    {
+      "team": "Red Bull Racing",
+      "season": 2022,
+      "rating": 0.529,
+      "q05": 0.403,
+      "q95": 0.653
+    },
+    {
+      "team": "Red Bull Racing",
+      "season": 2023,
+      "rating": 0.232,
+      "q05": 0.104,
+      "q95": 0.356
+    },
+    {
+      "team": "Red Bull Racing",
+      "season": 2024,
+      "rating": 0.173,
+      "q05": 0.046,
+      "q95": 0.296
+    },
+    {
+      "team": "Red Bull Racing",
+      "season": 2025,
+      "rating": -0.007,
+      "q05": -0.13,
+      "q95": 0.107
+    },
+    {
+      "team": "Red Bull Racing",
+      "season": 2026,
+      "rating": 0.544,
+      "q05": 0.403,
+      "q95": 0.686
+    },
+    {
+      "team": "Renault",
+      "season": 2018,
+      "rating": -0.256,
+      "q05": -0.382,
+      "q95": -0.128
+    },
+    {
+      "team": "Renault",
+      "season": 2019,
+      "rating": -0.092,
+      "q05": -0.201,
+      "q95": 0.02
+    },
+    {
+      "team": "Renault",
+      "season": 2020,
+      "rating": 0.084,
+      "q05": -0.025,
+      "q95": 0.194
+    },
+    {
+      "team": "Sauber",
+      "season": 2018,
+      "rating": -0.446,
+      "q05": -0.606,
+      "q95": -0.289
+    },
+    {
+      "team": "Toro Rosso",
+      "season": 2018,
+      "rating": -0.362,
+      "q05": -0.516,
+      "q95": -0.203
+    },
+    {
+      "team": "Toro Rosso",
+      "season": 2019,
+      "rating": -0.072,
+      "q05": -0.188,
+      "q95": 0.041
+    },
+    {
+      "team": "Williams",
+      "season": 2018,
+      "rating": -0.826,
+      "q05": -0.999,
+      "q95": -0.652
+    },
+    {
+      "team": "Williams",
+      "season": 2019,
+      "rating": -1.65,
+      "q05": -1.829,
+      "q95": -1.473
+    },
+    {
+      "team": "Williams",
+      "season": 2020,
+      "rating": -0.473,
+      "q05": -0.625,
+      "q95": -0.318
+    },
+    {
+      "team": "Williams",
+      "season": 2021,
+      "rating": -0.312,
+      "q05": -0.451,
+      "q95": -0.171
+    },
+    {
+      "team": "Williams",
+      "season": 2022,
+      "rating": -0.484,
+      "q05": -0.619,
+      "q95": -0.349
+    },
+    {
+      "team": "Williams",
+      "season": 2023,
+      "rating": -0.149,
+      "q05": -0.282,
+      "q95": -0.014
+    },
+    {
+      "team": "Williams",
+      "season": 2024,
+      "rating": -0.182,
+      "q05": -0.305,
+      "q95": -0.058
+    },
+    {
+      "team": "Williams",
+      "season": 2025,
+      "rating": -0.07,
+      "q05": -0.199,
+      "q95": 0.056
+    },
+    {
+      "team": "Williams",
+      "season": 2026,
+      "rating": -0.471,
+      "q05": -0.632,
+      "q95": -0.309
+    }
+  ]
+}

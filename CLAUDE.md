@@ -26,6 +26,8 @@ py -3.12 -m venv .venv
 .venv/Scripts/python -m src.clean
 .venv/Scripts/python -m src.network
 .venv/Scripts/python -m src.baseline
+.venv/Scripts/python -m src.model 2020 2021
+.venv/Scripts/python -m src.model
 ```
 
 ## Layout
