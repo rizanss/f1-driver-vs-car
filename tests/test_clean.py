@@ -1,7 +1,7 @@
 import numpy as np
 import pandas as pd
 
-from src.clean import clean, no_time, outlier_lap, slow_lap, took_part, wet_part
+from src.clean import clean, no_time, outlier_lap, slow_lap, took_part, unify_teams, wet_part
 
 
 def make_raw(rows):
@@ -18,6 +18,14 @@ def test_took_part_keeps_q1_and_drivers_who_ran():
         (1, "Q3", "CCC", 90.0, 0, False),
     ])
     assert took_part(df).tolist() == [True, False, True, True]
+
+
+def test_unify_teams_merges_force_india_2018_only():
+    df = pd.DataFrame({
+        "season": [2018, 2018, 2019],
+        "team": ["Force India", "Racing Point", "Racing Point"],
+    })
+    assert unify_teams(df)["team"].tolist() == ["Force India", "Force India", "Racing Point"]
 
 
 def test_wet_part_flags_whole_part():

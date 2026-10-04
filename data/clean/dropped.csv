@@ -46,8 +46,8 @@
 2018,12,Hungarian Grand Prix,Q,Q3,GRO,Haas F1 Team,10.0,100.593,8,True,True,wet
 2018,13,Belgian Grand Prix,Q,Q3,HAM,Mercedes,1.0,118.179,6,True,True,wet
 2018,13,Belgian Grand Prix,Q,Q3,VET,Ferrari,2.0,118.905,6,True,True,wet
-2018,13,Belgian Grand Prix,Q,Q3,OCO,Racing Point,3.0,121.851,6,True,True,wet
-2018,13,Belgian Grand Prix,Q,Q3,PER,Racing Point,4.0,121.894,5,True,True,wet
+2018,13,Belgian Grand Prix,Q,Q3,OCO,Force India,3.0,121.851,6,True,True,wet
+2018,13,Belgian Grand Prix,Q,Q3,PER,Force India,4.0,121.894,5,True,True,wet
 2018,13,Belgian Grand Prix,Q,Q3,GRO,Haas F1 Team,5.0,122.122,6,True,True,wet
 2018,13,Belgian Grand Prix,Q,Q3,RAI,Ferrari,6.0,122.671,4,True,True,wet
 2018,13,Belgian Grand Prix,Q,Q3,VER,Red Bull Racing,7.0,122.769,5,True,True,wet
@@ -61,9 +61,9 @@
 2018,17,Japanese Grand Prix,Q,Q3,GRO,Haas F1 Team,5.0,89.761,4,False,True,wet
 2018,17,Japanese Grand Prix,Q,Q3,HAR,Toro Rosso,6.0,90.023,5,False,True,wet
 2018,17,Japanese Grand Prix,Q,Q3,GAS,Toro Rosso,7.0,90.093,5,False,True,wet
-2018,17,Japanese Grand Prix,Q,Q3,OCO,Racing Point,8.0,90.126,5,False,True,wet
+2018,17,Japanese Grand Prix,Q,Q3,OCO,Force India,8.0,90.126,5,False,True,wet
 2018,17,Japanese Grand Prix,Q,Q3,VET,Ferrari,9.0,92.192,6,True,True,wet
-2018,17,Japanese Grand Prix,Q,Q3,PER,Racing Point,10.0,97.229,5,False,True,wet
+2018,17,Japanese Grand Prix,Q,Q3,PER,Force India,10.0,97.229,5,False,True,wet
 2020,2,Styrian Grand Prix,Q,Q1,HAM,Mercedes,1.0,78.188,12,True,True,wet
 2020,2,Styrian Grand Prix,Q,Q1,VER,Red Bull Racing,2.0,78.297,13,True,True,wet
 2020,2,Styrian Grand Prix,Q,Q1,SAI,McLaren,3.0,78.59,13,True,True,wet

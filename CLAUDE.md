@@ -24,6 +24,8 @@ py -3.12 -m venv .venv
 .venv/Scripts/python -m pytest
 .venv/Scripts/python -m src.ingest
 .venv/Scripts/python -m src.clean
+.venv/Scripts/python -m src.network
+.venv/Scripts/python -m src.baseline
 ```
 
 ## Layout

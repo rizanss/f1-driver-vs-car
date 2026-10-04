@@ -15,6 +15,11 @@ def took_part(df: pd.DataFrame) -> pd.Series:
     return (df["part"] == "Q1") | df["lap_time"].notna() | (df["n_laps"] > 0)
 
 
+def unify_teams(df: pd.DataFrame) -> pd.DataFrame:
+    renamed_mid_season = (df["season"] == 2018) & (df["team"] == "Racing Point")
+    return df.assign(team=df["team"].mask(renamed_mid_season, "Force India"))
+
+
 def wet_part(df: pd.DataFrame) -> pd.Series:
     return df.groupby(PART_KEYS)["wet_tyres"].transform("any")
 
@@ -37,7 +42,7 @@ RULES = {"wet": wet_part, "no_time": no_time, "over_107pct": outlier_lap, "slow_
 
 
 def clean(raw: pd.DataFrame) -> tuple[pd.DataFrame, pd.DataFrame]:
-    df = raw[took_part(raw)]
+    df = unify_teams(raw[took_part(raw)])
     dropped = []
     for reason, rule in RULES.items():
         mask = rule(df)

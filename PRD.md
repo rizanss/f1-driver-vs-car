@@ -140,6 +140,11 @@ Project dianggap berhasil kalau semua tes di bawah lolos.
 | Ketahanan asumsi | Kalau asumsi awal diubah sedikit, apakah ranking berubah drastis? | Urutan 5 besar tetap mirip |
 | Akal sehat | Apakah hasil cocok dengan kasus yang sudah diketahui publik? | Kasus driver pindah tim yang terkenal bisa dijelaskan model |
 
+**Definisi dua tes pertama:** yang ditebak adalah selisih waktu ke rekan setim di tiap bagian sesi (dalam persen), pada data yang tidak dipakai untuk latihan. Ukurannya MAE (rata-rata besar melesetnya tebakan). Pembanding = rata-rata selisih driver ke rekan setim per musim, dan tebakan selisih A vs B = (rating A − rating B) / 2.
+
+- Tes lawan pembanding: 20% GP per musim disembunyikan secara acak (satu akhir pekan utuh). Angka pembanding: MAE 0,315%.
+- Tes masa depan: latih dengan data sampai 2025, uji di 2026. Angka pembanding: MAE 0,382%, sedikit lebih buruk dari tebakan "semua rekan setim setara" (0,372%), karena banyak pasangan baru di 2026.
+
 Tes "masa depan" adalah yang paling penting. Regulasi 2026 mengubah mobil secara total, jadi ini membuktikan rating driver benar-benar terbawa ke mobil baru, bukan sekadar menghafal data lama.
 
 ## Risiko dan batasan
@@ -230,8 +235,8 @@ Catatan implementasi: rata-rata β tiap musim dikunci ke nol karena tidak bisa d
    - [x] `clean.py` menerapkan 6 aturan pembersihan dan menulis log data yang dibuang
    - [x] Tes: jumlah baris per musim masuk akal, tidak ada waktu kosong
 2. **Tahap 2: Peta dan pembanding**
-   - [ ] Gambar peta perpindahan driver
-   - [ ] Pembanding sederhana: rata-rata selisih ke rekan setim
+   - [x] Gambar peta perpindahan driver
+   - [x] Pembanding sederhana: rata-rata selisih ke rekan setim
 3. **Tahap 3: Model**
    - [ ] Model jalan untuk 2 musim tanpa peringatan teknis
    - [ ] Model jalan untuk semua musim
