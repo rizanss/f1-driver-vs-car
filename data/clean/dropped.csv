@@ -1,0 +1,1031 @@
+﻿season,round,event,session,part,driver,team,position,lap_time,n_laps,wet_tyres,rainfall,reason
+2018,12,Hungarian Grand Prix,Q,Q1,HAM,Mercedes,1.0,77.419,12,True,True,wet
+2018,12,Hungarian Grand Prix,Q,Q1,BOT,Mercedes,2.0,77.123,13,True,True,wet
+2018,12,Hungarian Grand Prix,Q,Q1,RAI,Ferrari,3.0,77.526,13,True,True,wet
+2018,12,Hungarian Grand Prix,Q,Q1,VET,Ferrari,4.0,76.666,12,True,True,wet
+2018,12,Hungarian Grand Prix,Q,Q1,SAI,Renault,5.0,77.829,12,True,True,wet
+2018,12,Hungarian Grand Prix,Q,Q1,GAS,Toro Rosso,6.0,78.577,12,True,True,wet
+2018,12,Hungarian Grand Prix,Q,Q1,VER,Red Bull Racing,7.0,76.94,12,True,True,wet
+2018,12,Hungarian Grand Prix,Q,Q1,HAR,Toro Rosso,8.0,78.429,12,True,True,wet
+2018,12,Hungarian Grand Prix,Q,Q1,MAG,Haas F1 Team,9.0,78.314,11,True,True,wet
+2018,12,Hungarian Grand Prix,Q,Q1,GRO,Haas F1 Team,10.0,77.901,11,True,True,wet
+2018,12,Hungarian Grand Prix,Q,Q1,ALO,McLaren,11.0,78.208,11,True,True,wet
+2018,12,Hungarian Grand Prix,Q,Q1,RIC,Red Bull Racing,12.0,78.54,12,True,True,wet
+2018,12,Hungarian Grand Prix,Q,Q1,HUL,Renault,13.0,77.905,12,True,True,wet
+2018,12,Hungarian Grand Prix,Q,Q1,ERI,Sauber,14.0,78.641,13,True,True,wet
+2018,12,Hungarian Grand Prix,Q,Q1,STR,Williams,15.0,78.56,12,True,True,wet
+2018,12,Hungarian Grand Prix,Q,Q1,VAN,McLaren,16.0,78.782,11,True,True,wet
+2018,12,Hungarian Grand Prix,Q,Q1,LEC,Sauber,17.0,78.817,13,True,True,wet
+2018,12,Hungarian Grand Prix,Q,Q1,OCO,Force India,18.0,79.142,12,True,True,wet
+2018,12,Hungarian Grand Prix,Q,Q1,PER,Force India,19.0,79.2,11,True,True,wet
+2018,12,Hungarian Grand Prix,Q,Q1,SIR,Williams,20.0,79.301,12,True,True,wet
+2018,12,Hungarian Grand Prix,Q,Q2,HAM,Mercedes,1.0,91.242,5,True,True,wet
+2018,12,Hungarian Grand Prix,Q,Q2,BOT,Mercedes,2.0,92.081,4,True,True,wet
+2018,12,Hungarian Grand Prix,Q,Q2,RAI,Ferrari,3.0,92.762,4,True,True,wet
+2018,12,Hungarian Grand Prix,Q,Q2,VET,Ferrari,4.0,88.636,4,True,True,wet
+2018,12,Hungarian Grand Prix,Q,Q2,SAI,Renault,5.0,90.771,5,True,True,wet
+2018,12,Hungarian Grand Prix,Q,Q2,GAS,Toro Rosso,6.0,91.286,5,True,True,wet
+2018,12,Hungarian Grand Prix,Q,Q2,VER,Red Bull Racing,7.0,91.178,4,True,True,wet
+2018,12,Hungarian Grand Prix,Q,Q2,HAR,Toro Rosso,8.0,92.59,5,True,True,wet
+2018,12,Hungarian Grand Prix,Q,Q2,MAG,Haas F1 Team,9.0,92.968,5,True,True,wet
+2018,12,Hungarian Grand Prix,Q,Q2,GRO,Haas F1 Team,10.0,93.65,5,True,True,wet
+2018,12,Hungarian Grand Prix,Q,Q2,ALO,McLaren,11.0,95.214,8,True,True,wet
+2018,12,Hungarian Grand Prix,Q,Q2,RIC,Red Bull Racing,12.0,96.442,9,True,True,wet
+2018,12,Hungarian Grand Prix,Q,Q2,HUL,Renault,13.0,96.506,8,True,True,wet
+2018,12,Hungarian Grand Prix,Q,Q2,ERI,Sauber,14.0,97.075,9,True,True,wet
+2018,12,Hungarian Grand Prix,Q,Q2,STR,Williams,15.0,,3,True,True,wet
+2018,12,Hungarian Grand Prix,Q,Q3,HAM,Mercedes,1.0,95.658,8,True,True,wet
+2018,12,Hungarian Grand Prix,Q,Q3,BOT,Mercedes,2.0,95.918,8,True,True,wet
+2018,12,Hungarian Grand Prix,Q,Q3,RAI,Ferrari,3.0,96.186,8,True,True,wet
+2018,12,Hungarian Grand Prix,Q,Q3,VET,Ferrari,4.0,96.21,8,True,True,wet
+2018,12,Hungarian Grand Prix,Q,Q3,SAI,Renault,5.0,96.743,8,True,True,wet
+2018,12,Hungarian Grand Prix,Q,Q3,GAS,Toro Rosso,6.0,97.591,8,True,True,wet
+2018,12,Hungarian Grand Prix,Q,Q3,VER,Red Bull Racing,7.0,98.032,8,True,True,wet
+2018,12,Hungarian Grand Prix,Q,Q3,HAR,Toro Rosso,8.0,98.128,8,True,True,wet
+2018,12,Hungarian Grand Prix,Q,Q3,MAG,Haas F1 Team,9.0,99.858,8,True,True,wet
+2018,12,Hungarian Grand Prix,Q,Q3,GRO,Haas F1 Team,10.0,100.593,8,True,True,wet
+2018,13,Belgian Grand Prix,Q,Q3,HAM,Mercedes,1.0,118.179,6,True,True,wet
+2018,13,Belgian Grand Prix,Q,Q3,VET,Ferrari,2.0,118.905,6,True,True,wet
+2018,13,Belgian Grand Prix,Q,Q3,OCO,Racing Point,3.0,121.851,6,True,True,wet
+2018,13,Belgian Grand Prix,Q,Q3,PER,Racing Point,4.0,121.894,5,True,True,wet
+2018,13,Belgian Grand Prix,Q,Q3,GRO,Haas F1 Team,5.0,122.122,6,True,True,wet
+2018,13,Belgian Grand Prix,Q,Q3,RAI,Ferrari,6.0,122.671,4,True,True,wet
+2018,13,Belgian Grand Prix,Q,Q3,VER,Red Bull Racing,7.0,122.769,5,True,True,wet
+2018,13,Belgian Grand Prix,Q,Q3,RIC,Red Bull Racing,8.0,122.939,5,True,True,wet
+2018,13,Belgian Grand Prix,Q,Q3,MAG,Haas F1 Team,9.0,124.933,5,True,True,wet
+2018,13,Belgian Grand Prix,Q,Q3,BOT,Mercedes,10.0,,1,False,True,wet
+2018,17,Japanese Grand Prix,Q,Q3,HAM,Mercedes,1.0,87.76,5,False,True,wet
+2018,17,Japanese Grand Prix,Q,Q3,BOT,Mercedes,2.0,88.059,5,False,True,wet
+2018,17,Japanese Grand Prix,Q,Q3,VER,Red Bull Racing,3.0,89.057,4,False,True,wet
+2018,17,Japanese Grand Prix,Q,Q3,RAI,Ferrari,4.0,89.521,6,False,True,wet
+2018,17,Japanese Grand Prix,Q,Q3,GRO,Haas F1 Team,5.0,89.761,4,False,True,wet
+2018,17,Japanese Grand Prix,Q,Q3,HAR,Toro Rosso,6.0,90.023,5,False,True,wet
+2018,17,Japanese Grand Prix,Q,Q3,GAS,Toro Rosso,7.0,90.093,5,False,True,wet
+2018,17,Japanese Grand Prix,Q,Q3,OCO,Racing Point,8.0,90.126,5,False,True,wet
+2018,17,Japanese Grand Prix,Q,Q3,VET,Ferrari,9.0,92.192,6,True,True,wet
+2018,17,Japanese Grand Prix,Q,Q3,PER,Racing Point,10.0,97.229,5,False,True,wet
+2020,2,Styrian Grand Prix,Q,Q1,HAM,Mercedes,1.0,78.188,12,True,True,wet
+2020,2,Styrian Grand Prix,Q,Q1,VER,Red Bull Racing,2.0,78.297,13,True,True,wet
+2020,2,Styrian Grand Prix,Q,Q1,SAI,McLaren,3.0,78.59,13,True,True,wet
+2020,2,Styrian Grand Prix,Q,Q1,BOT,Mercedes,4.0,78.791,13,True,True,wet
+2020,2,Styrian Grand Prix,Q,Q1,OCO,Renault,5.0,79.687,12,True,True,wet
+2020,2,Styrian Grand Prix,Q,Q1,NOR,McLaren,6.0,78.504,13,True,True,wet
+2020,2,Styrian Grand Prix,Q,Q1,ALB,Red Bull Racing,7.0,80.882,12,True,True,wet
+2020,2,Styrian Grand Prix,Q,Q1,GAS,AlphaTauri,8.0,80.192,12,True,True,wet
+2020,2,Styrian Grand Prix,Q,Q1,RIC,Renault,9.0,79.662,13,True,True,wet
+2020,2,Styrian Grand Prix,Q,Q1,VET,Ferrari,10.0,80.243,13,True,True,wet
+2020,2,Styrian Grand Prix,Q,Q1,LEC,Ferrari,11.0,80.871,12,True,True,wet
+2020,2,Styrian Grand Prix,Q,Q1,RUS,Williams,12.0,80.382,12,True,True,wet
+2020,2,Styrian Grand Prix,Q,Q1,STR,Racing Point,13.0,79.697,12,True,True,wet
+2020,2,Styrian Grand Prix,Q,Q1,KVY,AlphaTauri,14.0,79.824,12,True,True,wet
+2020,2,Styrian Grand Prix,Q,Q1,MAG,Haas F1 Team,15.0,81.14,11,True,True,wet
+2020,2,Styrian Grand Prix,Q,Q1,RAI,Alfa Romeo Racing,16.0,81.14,12,True,True,wet
+2020,2,Styrian Grand Prix,Q,Q1,PER,Racing Point,17.0,81.607,12,True,True,wet
+2020,2,Styrian Grand Prix,Q,Q1,LAT,Williams,18.0,81.759,12,True,True,wet
+2020,2,Styrian Grand Prix,Q,Q1,GIO,Alfa Romeo Racing,19.0,81.831,12,True,True,wet
+2020,2,Styrian Grand Prix,Q,Q1,GRO,Haas F1 Team,20.0,,1,True,True,wet
+2020,2,Styrian Grand Prix,Q,Q2,HAM,Mercedes,1.0,77.825,12,True,True,wet
+2020,2,Styrian Grand Prix,Q,Q2,VER,Red Bull Racing,2.0,77.938,11,True,True,wet
+2020,2,Styrian Grand Prix,Q,Q2,SAI,McLaren,3.0,78.836,11,True,True,wet
+2020,2,Styrian Grand Prix,Q,Q2,BOT,Mercedes,4.0,78.657,11,True,True,wet
+2020,2,Styrian Grand Prix,Q,Q2,OCO,Renault,5.0,78.764,11,True,True,wet
+2020,2,Styrian Grand Prix,Q,Q2,NOR,McLaren,6.0,78.448,11,True,True,wet
+2020,2,Styrian Grand Prix,Q,Q2,ALB,Red Bull Racing,7.0,79.014,11,True,True,wet
+2020,2,Styrian Grand Prix,Q,Q2,GAS,AlphaTauri,8.0,78.744,12,True,True,wet
+2020,2,Styrian Grand Prix,Q,Q2,RIC,Renault,9.0,79.229,10,True,True,wet
+2020,2,Styrian Grand Prix,Q,Q2,VET,Ferrari,10.0,79.545,12,True,True,wet
+2020,2,Styrian Grand Prix,Q,Q2,LEC,Ferrari,11.0,79.628,12,True,True,wet
+2020,2,Styrian Grand Prix,Q,Q2,RUS,Williams,12.0,79.636,10,True,True,wet
+2020,2,Styrian Grand Prix,Q,Q2,STR,Racing Point,13.0,79.645,11,True,True,wet
+2020,2,Styrian Grand Prix,Q,Q2,KVY,AlphaTauri,14.0,79.717,12,True,True,wet
+2020,2,Styrian Grand Prix,Q,Q2,MAG,Haas F1 Team,15.0,80.211,11,True,True,wet
+2020,2,Styrian Grand Prix,Q,Q3,HAM,Mercedes,1.0,79.273,10,True,True,wet
+2020,2,Styrian Grand Prix,Q,Q3,VER,Red Bull Racing,2.0,80.489,10,True,True,wet
+2020,2,Styrian Grand Prix,Q,Q3,SAI,McLaren,3.0,80.671,9,True,True,wet
+2020,2,Styrian Grand Prix,Q,Q3,BOT,Mercedes,4.0,80.701,10,True,True,wet
+2020,2,Styrian Grand Prix,Q,Q3,OCO,Renault,5.0,80.922,10,True,True,wet
+2020,2,Styrian Grand Prix,Q,Q3,NOR,McLaren,6.0,80.925,10,True,True,wet
+2020,2,Styrian Grand Prix,Q,Q3,ALB,Red Bull Racing,7.0,81.011,8,True,True,wet
+2020,2,Styrian Grand Prix,Q,Q3,GAS,AlphaTauri,8.0,81.028,9,True,True,wet
+2020,2,Styrian Grand Prix,Q,Q3,RIC,Renault,9.0,81.192,9,True,True,wet
+2020,2,Styrian Grand Prix,Q,Q3,VET,Ferrari,10.0,81.651,8,True,True,wet
+2020,14,Turkish Grand Prix,Q,Q1,STR,Racing Point,1.0,127.467,7,True,True,wet
+2020,14,Turkish Grand Prix,Q,Q1,VER,Red Bull Racing,2.0,117.485,10,True,True,wet
+2020,14,Turkish Grand Prix,Q,Q1,PER,Racing Point,3.0,127.614,7,True,True,wet
+2020,14,Turkish Grand Prix,Q,Q1,ALB,Red Bull Racing,4.0,119.431,10,True,True,wet
+2020,14,Turkish Grand Prix,Q,Q1,RIC,Renault,5.0,125.598,10,True,True,wet
+2020,14,Turkish Grand Prix,Q,Q1,HAM,Mercedes,6.0,127.599,8,True,True,wet
+2020,14,Turkish Grand Prix,Q,Q1,OCO,Renault,7.0,126.115,10,True,True,wet
+2020,14,Turkish Grand Prix,Q,Q1,RAI,Alfa Romeo Racing,8.0,121.249,11,True,True,wet
+2020,14,Turkish Grand Prix,Q,Q1,BOT,Mercedes,9.0,127.001,9,True,True,wet
+2020,14,Turkish Grand Prix,Q,Q1,GIO,Alfa Romeo Racing,10.0,127.341,10,True,True,wet
+2020,14,Turkish Grand Prix,Q,Q1,NOR,McLaren,11.0,127.167,9,True,True,wet
+2020,14,Turkish Grand Prix,Q,Q1,VET,Ferrari,12.0,123.356,9,True,True,wet
+2020,14,Turkish Grand Prix,Q,Q1,SAI,McLaren,13.0,127.489,10,True,True,wet
+2020,14,Turkish Grand Prix,Q,Q1,LEC,Ferrari,14.0,124.464,9,True,True,wet
+2020,14,Turkish Grand Prix,Q,Q1,GAS,AlphaTauri,15.0,125.579,9,True,True,wet
+2020,14,Turkish Grand Prix,Q,Q1,MAG,Haas F1 Team,16.0,128.007,10,True,True,wet
+2020,14,Turkish Grand Prix,Q,Q1,KVY,AlphaTauri,17.0,129.07,8,True,True,wet
+2020,14,Turkish Grand Prix,Q,Q1,RUS,Williams,18.0,130.017,9,True,True,wet
+2020,14,Turkish Grand Prix,Q,Q1,GRO,Haas F1 Team,19.0,132.909,7,True,True,wet
+2020,14,Turkish Grand Prix,Q,Q1,LAT,Williams,20.0,141.611,9,True,True,wet
+2020,14,Turkish Grand Prix,Q,Q2,STR,Racing Point,1.0,113.372,8,True,False,wet
+2020,14,Turkish Grand Prix,Q,Q2,VER,Red Bull Racing,2.0,110.293,8,True,False,wet
+2020,14,Turkish Grand Prix,Q,Q2,PER,Racing Point,3.0,114.097,8,True,False,wet
+2020,14,Turkish Grand Prix,Q,Q2,ALB,Red Bull Racing,4.0,112.282,8,True,False,wet
+2020,14,Turkish Grand Prix,Q,Q2,RIC,Renault,5.0,114.278,9,True,False,wet
+2020,14,Turkish Grand Prix,Q,Q2,HAM,Mercedes,6.0,112.709,8,True,False,wet
+2020,14,Turkish Grand Prix,Q,Q2,OCO,Renault,7.0,113.657,9,True,False,wet
+2020,14,Turkish Grand Prix,Q,Q2,RAI,Alfa Romeo Racing,8.0,113.793,9,True,False,wet
+2020,14,Turkish Grand Prix,Q,Q2,BOT,Mercedes,9.0,113.767,7,True,False,wet
+2020,14,Turkish Grand Prix,Q,Q2,GIO,Alfa Romeo Racing,10.0,113.431,9,True,False,wet
+2020,14,Turkish Grand Prix,Q,Q2,NOR,McLaren,11.0,114.945,9,True,False,wet
+2020,14,Turkish Grand Prix,Q,Q2,VET,Ferrari,12.0,115.169,9,True,False,wet
+2020,14,Turkish Grand Prix,Q,Q2,SAI,McLaren,13.0,115.41,8,True,False,wet
+2020,14,Turkish Grand Prix,Q,Q2,LEC,Ferrari,14.0,116.696,9,True,False,wet
+2020,14,Turkish Grand Prix,Q,Q2,GAS,AlphaTauri,15.0,118.556,8,True,False,wet
+2020,14,Turkish Grand Prix,Q,Q3,STR,Racing Point,1.0,107.765,7,True,False,wet
+2020,14,Turkish Grand Prix,Q,Q3,VER,Red Bull Racing,2.0,108.055,8,True,False,wet
+2020,14,Turkish Grand Prix,Q,Q3,PER,Racing Point,3.0,109.321,6,True,False,wet
+2020,14,Turkish Grand Prix,Q,Q3,ALB,Red Bull Racing,4.0,110.448,8,True,False,wet
+2020,14,Turkish Grand Prix,Q,Q3,RIC,Renault,5.0,111.595,7,True,False,wet
+2020,14,Turkish Grand Prix,Q,Q3,HAM,Mercedes,6.0,112.56,7,True,False,wet
+2020,14,Turkish Grand Prix,Q,Q3,OCO,Renault,7.0,112.622,7,True,False,wet
+2020,14,Turkish Grand Prix,Q,Q3,RAI,Alfa Romeo Racing,8.0,112.745,7,True,False,wet
+2020,14,Turkish Grand Prix,Q,Q3,BOT,Mercedes,9.0,113.258,7,True,False,wet
+2020,14,Turkish Grand Prix,Q,Q3,GIO,Alfa Romeo Racing,10.0,117.226,7,True,False,wet
+2021,12,Belgian Grand Prix,Q,Q1,VER,Red Bull Racing,1.0,118.717,8,True,False,wet
+2021,12,Belgian Grand Prix,Q,Q1,RUS,Williams,2.0,119.864,9,True,False,wet
+2021,12,Belgian Grand Prix,Q,Q1,HAM,Mercedes,3.0,119.218,8,True,False,wet
+2021,12,Belgian Grand Prix,Q,Q1,RIC,McLaren,4.0,121.583,8,True,False,wet
+2021,12,Belgian Grand Prix,Q,Q1,VET,Aston Martin,5.0,120.175,9,True,False,wet
+2021,12,Belgian Grand Prix,Q,Q1,GAS,AlphaTauri,6.0,120.387,9,True,False,wet
+2021,12,Belgian Grand Prix,Q,Q1,PER,Red Bull Racing,7.0,119.334,9,True,False,wet
+2021,12,Belgian Grand Prix,Q,Q1,BOT,Mercedes,8.0,119.87,8,True,False,wet
+2021,12,Belgian Grand Prix,Q,Q1,OCO,Alpine,9.0,121.824,8,True,False,wet
+2021,12,Belgian Grand Prix,Q,Q1,NOR,McLaren,10.0,118.301,9,True,False,wet
+2021,12,Belgian Grand Prix,Q,Q1,LEC,Ferrari,11.0,120.728,8,True,False,wet
+2021,12,Belgian Grand Prix,Q,Q1,LAT,Williams,12.0,120.966,9,True,False,wet
+2021,12,Belgian Grand Prix,Q,Q1,SAI,Ferrari,13.0,121.184,8,True,False,wet
+2021,12,Belgian Grand Prix,Q,Q1,ALO,Alpine,14.0,121.653,8,True,False,wet
+2021,12,Belgian Grand Prix,Q,Q1,STR,Aston Martin,15.0,121.597,9,True,False,wet
+2021,12,Belgian Grand Prix,Q,Q1,GIO,Alfa Romeo Racing,16.0,122.306,9,True,False,wet
+2021,12,Belgian Grand Prix,Q,Q1,TSU,AlphaTauri,17.0,122.413,9,True,False,wet
+2021,12,Belgian Grand Prix,Q,Q1,MSC,Haas F1 Team,18.0,123.973,9,True,False,wet
+2021,12,Belgian Grand Prix,Q,Q1,RAI,Alfa Romeo Racing,19.0,124.452,9,True,False,wet
+2021,12,Belgian Grand Prix,Q,Q1,MAZ,Haas F1 Team,20.0,124.939,8,True,False,wet
+2021,12,Belgian Grand Prix,Q,Q2,VER,Red Bull Racing,1.0,116.559,6,True,True,wet
+2021,12,Belgian Grand Prix,Q,Q2,RUS,Williams,2.0,116.95,8,True,True,wet
+2021,12,Belgian Grand Prix,Q,Q2,HAM,Mercedes,3.0,116.229,8,True,True,wet
+2021,12,Belgian Grand Prix,Q,Q2,RIC,McLaren,4.0,117.127,8,True,True,wet
+2021,12,Belgian Grand Prix,Q,Q2,VET,Aston Martin,5.0,116.814,7,True,True,wet
+2021,12,Belgian Grand Prix,Q,Q2,GAS,AlphaTauri,6.0,116.44,8,True,True,wet
+2021,12,Belgian Grand Prix,Q,Q2,PER,Red Bull Racing,7.0,116.886,7,True,True,wet
+2021,12,Belgian Grand Prix,Q,Q2,BOT,Mercedes,8.0,116.295,8,True,True,wet
+2021,12,Belgian Grand Prix,Q,Q2,OCO,Alpine,9.0,117.354,8,True,True,wet
+2021,12,Belgian Grand Prix,Q,Q2,NOR,McLaren,10.0,116.025,8,True,True,wet
+2021,12,Belgian Grand Prix,Q,Q2,LEC,Ferrari,11.0,117.721,8,True,True,wet
+2021,12,Belgian Grand Prix,Q,Q2,LAT,Williams,12.0,118.056,8,True,True,wet
+2021,12,Belgian Grand Prix,Q,Q2,SAI,Ferrari,13.0,118.137,7,True,True,wet
+2021,12,Belgian Grand Prix,Q,Q2,ALO,Alpine,14.0,118.205,8,True,True,wet
+2021,12,Belgian Grand Prix,Q,Q2,STR,Aston Martin,15.0,118.231,7,True,True,wet
+2021,12,Belgian Grand Prix,Q,Q3,VER,Red Bull Racing,1.0,119.765,6,True,True,wet
+2021,12,Belgian Grand Prix,Q,Q3,RUS,Williams,2.0,120.086,7,True,True,wet
+2021,12,Belgian Grand Prix,Q,Q3,HAM,Mercedes,3.0,120.099,6,True,True,wet
+2021,12,Belgian Grand Prix,Q,Q3,RIC,McLaren,4.0,120.864,6,True,True,wet
+2021,12,Belgian Grand Prix,Q,Q3,VET,Aston Martin,5.0,120.935,7,True,True,wet
+2021,12,Belgian Grand Prix,Q,Q3,GAS,AlphaTauri,6.0,121.164,6,True,True,wet
+2021,12,Belgian Grand Prix,Q,Q3,PER,Red Bull Racing,7.0,122.112,6,True,True,wet
+2021,12,Belgian Grand Prix,Q,Q3,BOT,Mercedes,8.0,122.502,6,True,True,wet
+2021,12,Belgian Grand Prix,Q,Q3,OCO,Alpine,9.0,123.513,7,True,True,wet
+2021,12,Belgian Grand Prix,Q,Q3,NOR,McLaren,10.0,,2,True,True,wet
+2021,15,Russian Grand Prix,Q,Q1,NOR,McLaren,1.0,107.238,9,True,True,wet
+2021,15,Russian Grand Prix,Q,Q1,SAI,Ferrari,2.0,107.924,10,True,True,wet
+2021,15,Russian Grand Prix,Q,Q1,RUS,Williams,3.0,108.303,10,True,True,wet
+2021,15,Russian Grand Prix,Q,Q1,HAM,Mercedes,4.0,105.992,10,True,True,wet
+2021,15,Russian Grand Prix,Q,Q1,RIC,McLaren,5.0,108.345,8,True,True,wet
+2021,15,Russian Grand Prix,Q,Q1,ALO,Alpine,6.0,107.877,10,True,True,wet
+2021,15,Russian Grand Prix,Q,Q1,BOT,Mercedes,7.0,106.396,9,True,True,wet
+2021,15,Russian Grand Prix,Q,Q1,STR,Aston Martin,8.0,108.322,9,True,True,wet
+2021,15,Russian Grand Prix,Q,Q1,PER,Red Bull Racing,9.0,106.455,9,True,True,wet
+2021,15,Russian Grand Prix,Q,Q1,OCO,Alpine,10.0,108.099,10,True,True,wet
+2021,15,Russian Grand Prix,Q,Q1,VET,Aston Martin,11.0,107.205,10,True,True,wet
+2021,15,Russian Grand Prix,Q,Q1,GAS,AlphaTauri,12.0,107.828,9,True,True,wet
+2021,15,Russian Grand Prix,Q,Q1,TSU,AlphaTauri,13.0,108.854,11,True,True,wet
+2021,15,Russian Grand Prix,Q,Q1,LAT,Williams,14.0,108.252,10,True,True,wet
+2021,15,Russian Grand Prix,Q,Q1,LEC,Ferrari,15.0,108.47,10,True,True,wet
+2021,15,Russian Grand Prix,Q,Q1,RAI,Alfa Romeo Racing,16.0,109.586,10,True,True,wet
+2021,15,Russian Grand Prix,Q,Q1,MSC,Haas F1 Team,17.0,109.83,10,True,True,wet
+2021,15,Russian Grand Prix,Q,Q1,GIO,Alfa Romeo Racing,18.0,111.023,9,True,True,wet
+2021,15,Russian Grand Prix,Q,Q1,MAZ,Haas F1 Team,19.0,113.764,10,True,True,wet
+2021,15,Russian Grand Prix,Q,Q1,VER,Red Bull Racing,20.0,,2,True,True,wet
+2021,15,Russian Grand Prix,Q,Q2,NOR,McLaren,1.0,105.827,7,True,True,wet
+2021,15,Russian Grand Prix,Q,Q2,SAI,Ferrari,2.0,106.521,8,True,True,wet
+2021,15,Russian Grand Prix,Q,Q2,RUS,Williams,3.0,106.435,9,True,True,wet
+2021,15,Russian Grand Prix,Q,Q2,HAM,Mercedes,4.0,105.129,8,True,True,wet
+2021,15,Russian Grand Prix,Q,Q2,RIC,McLaren,5.0,106.361,8,True,True,wet
+2021,15,Russian Grand Prix,Q,Q2,ALO,Alpine,6.0,105.514,8,True,True,wet
+2021,15,Russian Grand Prix,Q,Q2,BOT,Mercedes,7.0,105.306,8,True,True,wet
+2021,15,Russian Grand Prix,Q,Q2,STR,Aston Martin,8.0,106.36,7,True,True,wet
+2021,15,Russian Grand Prix,Q,Q2,PER,Red Bull Racing,9.0,105.834,8,True,True,wet
+2021,15,Russian Grand Prix,Q,Q2,OCO,Alpine,10.0,106.07,8,True,True,wet
+2021,15,Russian Grand Prix,Q,Q2,VET,Aston Martin,11.0,106.573,8,True,True,wet
+2021,15,Russian Grand Prix,Q,Q2,GAS,AlphaTauri,12.0,106.641,9,True,True,wet
+2021,15,Russian Grand Prix,Q,Q2,TSU,AlphaTauri,13.0,106.751,9,True,True,wet
+2021,15,Russian Grand Prix,Q,Q2,LAT,Williams,14.0,,2,True,True,wet
+2021,15,Russian Grand Prix,Q,Q3,NOR,McLaren,1.0,101.993,7,True,False,wet
+2021,15,Russian Grand Prix,Q,Q3,SAI,Ferrari,2.0,102.51,7,True,False,wet
+2021,15,Russian Grand Prix,Q,Q3,RUS,Williams,3.0,102.983,7,True,False,wet
+2021,15,Russian Grand Prix,Q,Q3,HAM,Mercedes,4.0,104.05,6,True,False,wet
+2021,15,Russian Grand Prix,Q,Q3,RIC,McLaren,5.0,104.156,7,True,False,wet
+2021,15,Russian Grand Prix,Q,Q3,ALO,Alpine,6.0,104.204,7,True,False,wet
+2021,15,Russian Grand Prix,Q,Q3,BOT,Mercedes,7.0,104.71,7,True,False,wet
+2021,15,Russian Grand Prix,Q,Q3,STR,Aston Martin,8.0,104.956,7,True,False,wet
+2021,15,Russian Grand Prix,Q,Q3,PER,Red Bull Racing,9.0,105.337,7,True,False,wet
+2021,15,Russian Grand Prix,Q,Q3,OCO,Alpine,10.0,105.865,7,True,False,wet
+2022,4,Emilia Romagna Grand Prix,Q,Q1,VER,Red Bull Racing,1.0,79.295,11,True,False,wet
+2022,4,Emilia Romagna Grand Prix,Q,Q1,LEC,Ferrari,2.0,78.796,10,False,False,wet
+2022,4,Emilia Romagna Grand Prix,Q,Q1,NOR,McLaren,3.0,80.168,10,True,False,wet
+2022,4,Emilia Romagna Grand Prix,Q,Q1,MAG,Haas F1 Team,4.0,80.147,11,True,False,wet
+2022,4,Emilia Romagna Grand Prix,Q,Q1,ALO,Alpine,5.0,80.198,12,False,False,wet
+2022,4,Emilia Romagna Grand Prix,Q,Q1,RIC,McLaren,6.0,79.98,11,True,False,wet
+2022,4,Emilia Romagna Grand Prix,Q,Q1,PER,Red Bull Racing,7.0,79.773,12,True,False,wet
+2022,4,Emilia Romagna Grand Prix,Q,Q1,BOT,Alfa Romeo,8.0,80.419,13,False,False,wet
+2022,4,Emilia Romagna Grand Prix,Q,Q1,VET,Aston Martin,9.0,80.364,12,False,False,wet
+2022,4,Emilia Romagna Grand Prix,Q,Q1,SAI,Ferrari,10.0,79.305,10,False,False,wet
+2022,4,Emilia Romagna Grand Prix,Q,Q1,RUS,Mercedes,11.0,80.383,13,True,False,wet
+2022,4,Emilia Romagna Grand Prix,Q,Q1,MSC,Haas F1 Team,12.0,80.422,13,True,False,wet
+2022,4,Emilia Romagna Grand Prix,Q,Q1,HAM,Mercedes,13.0,80.47,12,True,False,wet
+2022,4,Emilia Romagna Grand Prix,Q,Q1,ZHO,Alfa Romeo,14.0,79.73,13,False,False,wet
+2022,4,Emilia Romagna Grand Prix,Q,Q1,STR,Aston Martin,15.0,80.342,11,False,False,wet
+2022,4,Emilia Romagna Grand Prix,Q,Q1,TSU,AlphaTauri,16.0,80.474,11,True,False,wet
+2022,4,Emilia Romagna Grand Prix,Q,Q1,GAS,AlphaTauri,17.0,80.732,11,True,False,wet
+2022,4,Emilia Romagna Grand Prix,Q,Q1,LAT,Williams,18.0,81.971,13,True,False,wet
+2022,4,Emilia Romagna Grand Prix,Q,Q1,OCO,Alpine,19.0,82.338,9,False,False,wet
+2022,4,Emilia Romagna Grand Prix,Q,Q1,ALB,Williams,20.0,,3,True,False,wet
+2022,4,Emilia Romagna Grand Prix,Q,Q2,VER,Red Bull Racing,1.0,78.793,3,False,True,wet
+2022,4,Emilia Romagna Grand Prix,Q,Q2,LEC,Ferrari,2.0,79.584,4,True,True,wet
+2022,4,Emilia Romagna Grand Prix,Q,Q2,NOR,McLaren,3.0,79.294,5,True,True,wet
+2022,4,Emilia Romagna Grand Prix,Q,Q2,MAG,Haas F1 Team,4.0,79.902,3,False,True,wet
+2022,4,Emilia Romagna Grand Prix,Q,Q2,ALO,Alpine,5.0,79.595,6,True,True,wet
+2022,4,Emilia Romagna Grand Prix,Q,Q2,RIC,McLaren,6.0,80.031,3,False,True,wet
+2022,4,Emilia Romagna Grand Prix,Q,Q2,PER,Red Bull Racing,7.0,79.296,5,True,True,wet
+2022,4,Emilia Romagna Grand Prix,Q,Q2,BOT,Alfa Romeo,8.0,80.192,5,True,True,wet
+2022,4,Emilia Romagna Grand Prix,Q,Q2,VET,Aston Martin,9.0,79.957,6,True,True,wet
+2022,4,Emilia Romagna Grand Prix,Q,Q2,SAI,Ferrari,10.0,78.99,3,False,True,wet
+2022,4,Emilia Romagna Grand Prix,Q,Q2,RUS,Mercedes,11.0,80.757,2,False,True,wet
+2022,4,Emilia Romagna Grand Prix,Q,Q2,MSC,Haas F1 Team,12.0,80.916,3,False,True,wet
+2022,4,Emilia Romagna Grand Prix,Q,Q2,HAM,Mercedes,13.0,81.138,2,False,True,wet
+2022,4,Emilia Romagna Grand Prix,Q,Q2,ZHO,Alfa Romeo,14.0,81.434,3,False,True,wet
+2022,4,Emilia Romagna Grand Prix,Q,Q2,STR,Aston Martin,15.0,88.119,2,False,True,wet
+2022,4,Emilia Romagna Grand Prix,Q,Q3,VER,Red Bull Racing,1.0,87.999,8,True,True,wet
+2022,4,Emilia Romagna Grand Prix,Q,Q3,LEC,Ferrari,2.0,88.778,7,True,True,wet
+2022,4,Emilia Romagna Grand Prix,Q,Q3,NOR,McLaren,3.0,89.131,7,True,True,wet
+2022,4,Emilia Romagna Grand Prix,Q,Q3,MAG,Haas F1 Team,4.0,89.164,7,True,True,wet
+2022,4,Emilia Romagna Grand Prix,Q,Q3,ALO,Alpine,5.0,89.202,7,True,True,wet
+2022,4,Emilia Romagna Grand Prix,Q,Q3,RIC,McLaren,6.0,89.742,7,True,True,wet
+2022,4,Emilia Romagna Grand Prix,Q,Q3,PER,Red Bull Racing,7.0,89.808,7,True,True,wet
+2022,4,Emilia Romagna Grand Prix,Q,Q3,BOT,Alfa Romeo,8.0,90.439,5,True,True,wet
+2022,4,Emilia Romagna Grand Prix,Q,Q3,VET,Aston Martin,9.0,91.062,7,True,True,wet
+2022,9,Canadian Grand Prix,Q,Q1,VER,Red Bull Racing,1.0,92.219,11,True,True,wet
+2022,9,Canadian Grand Prix,Q,Q1,ALO,Alpine,2.0,92.277,11,True,True,wet
+2022,9,Canadian Grand Prix,Q,Q1,SAI,Ferrari,3.0,92.781,10,True,True,wet
+2022,9,Canadian Grand Prix,Q,Q1,HAM,Mercedes,4.0,93.841,11,True,True,wet
+2022,9,Canadian Grand Prix,Q,Q1,MAG,Haas F1 Team,5.0,92.957,12,True,True,wet
+2022,9,Canadian Grand Prix,Q,Q1,MSC,Haas F1 Team,6.0,93.707,11,True,True,wet
+2022,9,Canadian Grand Prix,Q,Q1,OCO,Alpine,7.0,93.012,11,True,True,wet
+2022,9,Canadian Grand Prix,Q,Q1,RUS,Mercedes,8.0,93.16,11,True,True,wet
+2022,9,Canadian Grand Prix,Q,Q1,RIC,McLaren,9.0,93.636,11,True,True,wet
+2022,9,Canadian Grand Prix,Q,Q1,ZHO,Alfa Romeo,10.0,93.692,11,True,True,wet
+2022,9,Canadian Grand Prix,Q,Q1,BOT,Alfa Romeo,11.0,93.689,11,True,True,wet
+2022,9,Canadian Grand Prix,Q,Q1,ALB,Williams,12.0,94.047,11,True,True,wet
+2022,9,Canadian Grand Prix,Q,Q1,PER,Red Bull Racing,13.0,93.929,11,True,True,wet
+2022,9,Canadian Grand Prix,Q,Q1,NOR,McLaren,14.0,94.066,11,True,True,wet
+2022,9,Canadian Grand Prix,Q,Q1,LEC,Ferrari,15.0,93.008,10,True,True,wet
+2022,9,Canadian Grand Prix,Q,Q1,GAS,AlphaTauri,16.0,94.492,11,True,True,wet
+2022,9,Canadian Grand Prix,Q,Q1,VET,Aston Martin,17.0,94.512,12,True,True,wet
+2022,9,Canadian Grand Prix,Q,Q1,STR,Aston Martin,18.0,95.532,11,True,True,wet
+2022,9,Canadian Grand Prix,Q,Q1,LAT,Williams,19.0,95.66,11,True,True,wet
+2022,9,Canadian Grand Prix,Q,Q1,TSU,AlphaTauri,20.0,96.575,4,True,True,wet
+2022,9,Canadian Grand Prix,Q,Q2,VER,Red Bull Racing,1.0,83.746,10,True,True,wet
+2022,9,Canadian Grand Prix,Q,Q2,ALO,Alpine,2.0,84.848,10,True,True,wet
+2022,9,Canadian Grand Prix,Q,Q2,SAI,Ferrari,3.0,85.197,10,True,True,wet
+2022,9,Canadian Grand Prix,Q,Q2,HAM,Mercedes,4.0,85.543,11,True,True,wet
+2022,9,Canadian Grand Prix,Q,Q2,MAG,Haas F1 Team,5.0,86.254,11,True,True,wet
+2022,9,Canadian Grand Prix,Q,Q2,MSC,Haas F1 Team,6.0,85.684,11,True,True,wet
+2022,9,Canadian Grand Prix,Q,Q2,OCO,Alpine,7.0,86.135,11,True,True,wet
+2022,9,Canadian Grand Prix,Q,Q2,RUS,Mercedes,8.0,84.95,11,True,True,wet
+2022,9,Canadian Grand Prix,Q,Q2,RIC,McLaren,9.0,86.375,10,True,True,wet
+2022,9,Canadian Grand Prix,Q,Q2,ZHO,Alfa Romeo,10.0,86.116,11,True,True,wet
+2022,9,Canadian Grand Prix,Q,Q2,BOT,Alfa Romeo,11.0,86.788,10,True,True,wet
+2022,9,Canadian Grand Prix,Q,Q2,ALB,Williams,12.0,86.858,10,True,True,wet
+2022,9,Canadian Grand Prix,Q,Q2,PER,Red Bull Racing,13.0,93.127,3,True,True,wet
+2022,9,Canadian Grand Prix,Q,Q2,NOR,McLaren,14.0,,4,True,True,wet
+2022,9,Canadian Grand Prix,Q,Q3,VER,Red Bull Racing,1.0,81.299,9,True,False,wet
+2022,9,Canadian Grand Prix,Q,Q3,ALO,Alpine,2.0,81.944,8,True,False,wet
+2022,9,Canadian Grand Prix,Q,Q3,SAI,Ferrari,3.0,82.096,9,True,False,wet
+2022,9,Canadian Grand Prix,Q,Q3,HAM,Mercedes,4.0,82.891,9,True,False,wet
+2022,9,Canadian Grand Prix,Q,Q3,MAG,Haas F1 Team,5.0,82.96,8,True,False,wet
+2022,9,Canadian Grand Prix,Q,Q3,MSC,Haas F1 Team,6.0,83.356,9,True,False,wet
+2022,9,Canadian Grand Prix,Q,Q3,OCO,Alpine,7.0,83.529,8,True,False,wet
+2022,9,Canadian Grand Prix,Q,Q3,RUS,Mercedes,8.0,83.557,8,True,False,wet
+2022,9,Canadian Grand Prix,Q,Q3,RIC,McLaren,9.0,83.749,9,True,False,wet
+2022,9,Canadian Grand Prix,Q,Q3,ZHO,Alfa Romeo,10.0,84.03,9,True,False,wet
+2022,10,British Grand Prix,Q,Q1,SAI,Ferrari,1.0,100.19,11,True,True,wet
+2022,10,British Grand Prix,Q,Q1,VER,Red Bull Racing,2.0,99.129,10,True,True,wet
+2022,10,British Grand Prix,Q,Q1,LEC,Ferrari,3.0,99.846,11,True,True,wet
+2022,10,British Grand Prix,Q,Q1,PER,Red Bull Racing,4.0,100.521,10,True,True,wet
+2022,10,British Grand Prix,Q,Q1,HAM,Mercedes,5.0,100.428,11,True,True,wet
+2022,10,British Grand Prix,Q,Q1,NOR,McLaren,6.0,101.515,10,True,True,wet
+2022,10,British Grand Prix,Q,Q1,ALO,Alpine,7.0,101.598,8,True,True,wet
+2022,10,British Grand Prix,Q,Q1,RUS,Mercedes,8.0,100.028,11,True,True,wet
+2022,10,British Grand Prix,Q,Q1,ZHO,Alfa Romeo,9.0,100.791,11,True,True,wet
+2022,10,British Grand Prix,Q,Q1,LAT,Williams,10.0,101.998,11,True,True,wet
+2022,10,British Grand Prix,Q,Q1,GAS,AlphaTauri,11.0,101.68,11,True,True,wet
+2022,10,British Grand Prix,Q,Q1,BOT,Alfa Romeo,12.0,101.396,11,True,True,wet
+2022,10,British Grand Prix,Q,Q1,TSU,AlphaTauri,13.0,101.893,10,True,True,wet
+2022,10,British Grand Prix,Q,Q1,RIC,McLaren,14.0,101.933,10,True,True,wet
+2022,10,British Grand Prix,Q,Q1,OCO,Alpine,15.0,101.73,8,True,True,wet
+2022,10,British Grand Prix,Q,Q1,ALB,Williams,16.0,102.078,11,True,True,wet
+2022,10,British Grand Prix,Q,Q1,MAG,Haas F1 Team,17.0,102.159,11,True,True,wet
+2022,10,British Grand Prix,Q,Q1,VET,Aston Martin,18.0,102.666,9,True,True,wet
+2022,10,British Grand Prix,Q,Q1,MSC,Haas F1 Team,19.0,102.708,11,True,True,wet
+2022,10,British Grand Prix,Q,Q1,STR,Aston Martin,20.0,103.43,10,True,True,wet
+2022,10,British Grand Prix,Q,Q2,SAI,Ferrari,1.0,101.602,6,True,True,wet
+2022,10,British Grand Prix,Q,Q2,VER,Red Bull Racing,2.0,100.655,5,True,True,wet
+2022,10,British Grand Prix,Q,Q2,LEC,Ferrari,3.0,101.247,6,True,True,wet
+2022,10,British Grand Prix,Q,Q2,PER,Red Bull Racing,4.0,102.513,8,True,True,wet
+2022,10,British Grand Prix,Q,Q2,HAM,Mercedes,5.0,101.062,4,True,True,wet
+2022,10,British Grand Prix,Q,Q2,NOR,McLaren,6.0,101.821,8,True,True,wet
+2022,10,British Grand Prix,Q,Q2,ALO,Alpine,7.0,102.209,8,True,True,wet
+2022,10,British Grand Prix,Q,Q2,RUS,Mercedes,8.0,101.725,4,True,True,wet
+2022,10,British Grand Prix,Q,Q2,ZHO,Alfa Romeo,9.0,102.64,9,True,True,wet
+2022,10,British Grand Prix,Q,Q2,LAT,Williams,10.0,103.273,8,True,True,wet
+2022,10,British Grand Prix,Q,Q2,GAS,AlphaTauri,11.0,103.702,8,True,True,wet
+2022,10,British Grand Prix,Q,Q2,BOT,Alfa Romeo,12.0,104.232,9,True,True,wet
+2022,10,British Grand Prix,Q,Q2,TSU,AlphaTauri,13.0,104.311,9,True,True,wet
+2022,10,British Grand Prix,Q,Q2,RIC,McLaren,14.0,104.355,8,True,True,wet
+2022,10,British Grand Prix,Q,Q2,OCO,Alpine,15.0,105.19,9,True,True,wet
+2022,10,British Grand Prix,Q,Q3,SAI,Ferrari,1.0,100.983,9,True,True,wet
+2022,10,British Grand Prix,Q,Q3,VER,Red Bull Racing,2.0,101.055,8,True,True,wet
+2022,10,British Grand Prix,Q,Q3,LEC,Ferrari,3.0,101.298,8,True,True,wet
+2022,10,British Grand Prix,Q,Q3,PER,Red Bull Racing,4.0,101.616,8,True,True,wet
+2022,10,British Grand Prix,Q,Q3,HAM,Mercedes,5.0,101.995,8,True,True,wet
+2022,10,British Grand Prix,Q,Q3,NOR,McLaren,6.0,102.084,8,True,True,wet
+2022,10,British Grand Prix,Q,Q3,ALO,Alpine,7.0,102.116,7,True,True,wet
+2022,10,British Grand Prix,Q,Q3,RUS,Mercedes,8.0,102.161,8,True,True,wet
+2022,10,British Grand Prix,Q,Q3,ZHO,Alfa Romeo,9.0,102.719,8,True,True,wet
+2022,10,British Grand Prix,Q,Q3,LAT,Williams,10.0,123.095,5,True,True,wet
+2022,17,Singapore Grand Prix,Q,Q1,LEC,Ferrari,1.0,114.129,7,True,False,wet
+2022,17,Singapore Grand Prix,Q,Q1,PER,Red Bull Racing,2.0,114.404,7,True,False,wet
+2022,17,Singapore Grand Prix,Q,Q1,HAM,Mercedes,3.0,113.161,9,True,False,wet
+2022,17,Singapore Grand Prix,Q,Q1,SAI,Ferrari,4.0,114.559,8,True,False,wet
+2022,17,Singapore Grand Prix,Q,Q1,ALO,Alpine,5.0,115.36,8,True,False,wet
+2022,17,Singapore Grand Prix,Q,Q1,NOR,McLaren,6.0,115.914,9,True,False,wet
+2022,17,Singapore Grand Prix,Q,Q1,GAS,AlphaTauri,7.0,115.606,9,True,False,wet
+2022,17,Singapore Grand Prix,Q,Q1,VER,Red Bull Racing,8.0,113.057,8,True,False,wet
+2022,17,Singapore Grand Prix,Q,Q1,MAG,Haas F1 Team,9.0,115.103,8,True,False,wet
+2022,17,Singapore Grand Prix,Q,Q1,TSU,AlphaTauri,10.0,115.314,9,True,False,wet
+2022,17,Singapore Grand Prix,Q,Q1,RUS,Mercedes,11.0,114.633,9,True,False,wet
+2022,17,Singapore Grand Prix,Q,Q1,STR,Aston Martin,12.0,115.629,7,True,False,wet
+2022,17,Singapore Grand Prix,Q,Q1,MSC,Haas F1 Team,13.0,115.736,8,True,False,wet
+2022,17,Singapore Grand Prix,Q,Q1,VET,Aston Martin,14.0,115.602,8,True,False,wet
+2022,17,Singapore Grand Prix,Q,Q1,ZHO,Alfa Romeo,15.0,115.375,7,True,False,wet
+2022,17,Singapore Grand Prix,Q,Q1,BOT,Alfa Romeo,16.0,116.083,7,True,False,wet
+2022,17,Singapore Grand Prix,Q,Q1,RIC,McLaren,17.0,116.226,9,True,False,wet
+2022,17,Singapore Grand Prix,Q,Q1,OCO,Alpine,18.0,116.337,9,True,False,wet
+2022,17,Singapore Grand Prix,Q,Q1,ALB,Williams,19.0,116.985,7,True,False,wet
+2022,17,Singapore Grand Prix,Q,Q1,LAT,Williams,20.0,117.532,8,True,False,wet
+2022,17,Singapore Grand Prix,Q,Q2,LEC,Ferrari,1.0,112.343,7,True,False,wet
+2022,17,Singapore Grand Prix,Q,Q2,PER,Red Bull Racing,2.0,112.818,5,True,False,wet
+2022,17,Singapore Grand Prix,Q,Q2,HAM,Mercedes,3.0,112.691,7,True,False,wet
+2022,17,Singapore Grand Prix,Q,Q2,SAI,Ferrari,4.0,113.219,7,True,False,wet
+2022,17,Singapore Grand Prix,Q,Q2,ALO,Alpine,5.0,113.127,8,True,False,wet
+2022,17,Singapore Grand Prix,Q,Q2,NOR,McLaren,6.0,113.942,8,True,False,wet
+2022,17,Singapore Grand Prix,Q,Q2,GAS,AlphaTauri,7.0,113.546,8,True,False,wet
+2022,17,Singapore Grand Prix,Q,Q2,VER,Red Bull Racing,8.0,112.723,5,True,False,wet
+2022,17,Singapore Grand Prix,Q,Q2,MAG,Haas F1 Team,9.0,114.006,8,True,False,wet
+2022,17,Singapore Grand Prix,Q,Q2,TSU,AlphaTauri,10.0,113.848,7,True,False,wet
+2022,17,Singapore Grand Prix,Q,Q2,RUS,Mercedes,11.0,114.012,8,True,False,wet
+2022,17,Singapore Grand Prix,Q,Q2,STR,Aston Martin,12.0,114.211,8,True,False,wet
+2022,17,Singapore Grand Prix,Q,Q2,MSC,Haas F1 Team,13.0,114.37,8,True,False,wet
+2022,17,Singapore Grand Prix,Q,Q2,VET,Aston Martin,14.0,114.38,7,True,False,wet
+2022,17,Singapore Grand Prix,Q,Q2,ZHO,Alfa Romeo,15.0,115.518,7,True,False,wet
+2022,17,Singapore Grand Prix,Q,Q3,LEC,Ferrari,1.0,109.412,6,False,False,wet
+2022,17,Singapore Grand Prix,Q,Q3,PER,Red Bull Racing,2.0,109.434,8,False,False,wet
+2022,17,Singapore Grand Prix,Q,Q3,HAM,Mercedes,3.0,109.466,7,False,False,wet
+2022,17,Singapore Grand Prix,Q,Q3,SAI,Ferrari,4.0,109.583,7,False,False,wet
+2022,17,Singapore Grand Prix,Q,Q3,ALO,Alpine,5.0,109.966,7,False,False,wet
+2022,17,Singapore Grand Prix,Q,Q3,NOR,McLaren,6.0,110.584,7,False,False,wet
+2022,17,Singapore Grand Prix,Q,Q3,GAS,AlphaTauri,7.0,111.211,7,False,False,wet
+2022,17,Singapore Grand Prix,Q,Q3,VER,Red Bull Racing,8.0,111.395,7,False,False,wet
+2022,17,Singapore Grand Prix,Q,Q3,MAG,Haas F1 Team,9.0,111.573,7,True,False,wet
+2022,17,Singapore Grand Prix,Q,Q3,TSU,AlphaTauri,10.0,111.983,7,True,False,wet
+2022,21,São Paulo Grand Prix,Q,Q1,MAG,Haas F1 Team,1.0,73.954,13,True,False,wet
+2022,21,São Paulo Grand Prix,Q,Q1,VER,Red Bull Racing,2.0,73.625,11,True,False,wet
+2022,21,São Paulo Grand Prix,Q,Q1,RUS,Mercedes,3.0,74.427,11,True,False,wet
+2022,21,São Paulo Grand Prix,Q,Q1,NOR,McLaren,4.0,73.106,13,True,False,wet
+2022,21,São Paulo Grand Prix,Q,Q1,SAI,Ferrari,5.0,74.68,12,True,False,wet
+2022,21,São Paulo Grand Prix,Q,Q1,OCO,Alpine,6.0,74.663,10,True,False,wet
+2022,21,São Paulo Grand Prix,Q,Q1,ALO,Alpine,7.0,73.542,9,True,False,wet
+2022,21,São Paulo Grand Prix,Q,Q1,HAM,Mercedes,8.0,73.403,11,True,False,wet
+2022,21,São Paulo Grand Prix,Q,Q1,PER,Red Bull Racing,9.0,73.613,12,True,False,wet
+2022,21,São Paulo Grand Prix,Q,Q1,LEC,Ferrari,10.0,74.486,12,True,False,wet
+2022,21,São Paulo Grand Prix,Q,Q1,ALB,Williams,11.0,74.324,13,True,False,wet
+2022,21,São Paulo Grand Prix,Q,Q1,GAS,AlphaTauri,12.0,74.371,13,True,False,wet
+2022,21,São Paulo Grand Prix,Q,Q1,VET,Aston Martin,13.0,73.597,12,True,False,wet
+2022,21,São Paulo Grand Prix,Q,Q1,RIC,McLaren,14.0,74.931,12,True,False,wet
+2022,21,São Paulo Grand Prix,Q,Q1,STR,Aston Martin,15.0,74.398,13,True,False,wet
+2022,21,São Paulo Grand Prix,Q,Q1,LAT,Williams,16.0,75.095,13,True,False,wet
+2022,21,São Paulo Grand Prix,Q,Q1,ZHO,Alfa Romeo,17.0,75.197,12,True,False,wet
+2022,21,São Paulo Grand Prix,Q,Q1,BOT,Alfa Romeo,18.0,75.486,13,True,False,wet
+2022,21,São Paulo Grand Prix,Q,Q1,TSU,AlphaTauri,19.0,76.264,12,True,False,wet
+2022,21,São Paulo Grand Prix,Q,Q1,MSC,Haas F1 Team,20.0,76.361,12,True,False,wet
+2022,21,São Paulo Grand Prix,Q,Q3,MAG,Haas F1 Team,1.0,71.674,3,False,True,wet
+2022,21,São Paulo Grand Prix,Q,Q3,VER,Red Bull Racing,2.0,71.877,3,False,True,wet
+2022,21,São Paulo Grand Prix,Q,Q3,RUS,Mercedes,3.0,72.059,3,False,True,wet
+2022,21,São Paulo Grand Prix,Q,Q3,NOR,McLaren,4.0,72.263,3,False,True,wet
+2022,21,São Paulo Grand Prix,Q,Q3,SAI,Ferrari,5.0,72.357,3,False,True,wet
+2022,21,São Paulo Grand Prix,Q,Q3,OCO,Alpine,6.0,72.425,3,False,True,wet
+2022,21,São Paulo Grand Prix,Q,Q3,ALO,Alpine,7.0,72.504,3,False,True,wet
+2022,21,São Paulo Grand Prix,Q,Q3,HAM,Mercedes,8.0,72.611,4,True,True,wet
+2022,21,São Paulo Grand Prix,Q,Q3,PER,Red Bull Racing,9.0,75.601,4,True,True,wet
+2022,21,São Paulo Grand Prix,Q,Q3,LEC,Ferrari,10.0,,3,True,True,wet
+2023,8,Canadian Grand Prix,Q,Q1,VER,Red Bull Racing,1.0,80.851,12,True,True,wet
+2023,8,Canadian Grand Prix,Q,Q1,HUL,Haas F1 Team,2.0,82.73,13,True,True,wet
+2023,8,Canadian Grand Prix,Q,Q1,ALO,Aston Martin,3.0,81.481,12,True,True,wet
+2023,8,Canadian Grand Prix,Q,Q1,HAM,Mercedes,4.0,81.554,12,True,True,wet
+2023,8,Canadian Grand Prix,Q,Q1,RUS,Mercedes,5.0,81.798,12,True,True,wet
+2023,8,Canadian Grand Prix,Q,Q1,OCO,Alpine,6.0,82.114,12,True,True,wet
+2023,8,Canadian Grand Prix,Q,Q1,NOR,McLaren,7.0,81.998,12,True,True,wet
+2023,8,Canadian Grand Prix,Q,Q1,SAI,Ferrari,8.0,82.248,12,True,True,wet
+2023,8,Canadian Grand Prix,Q,Q1,PIA,McLaren,9.0,82.19,12,True,True,wet
+2023,8,Canadian Grand Prix,Q,Q1,ALB,Williams,10.0,81.938,14,True,True,wet
+2023,8,Canadian Grand Prix,Q,Q1,LEC,Ferrari,11.0,81.843,12,True,True,wet
+2023,8,Canadian Grand Prix,Q,Q1,PER,Red Bull Racing,12.0,82.151,13,True,True,wet
+2023,8,Canadian Grand Prix,Q,Q1,STR,Aston Martin,13.0,82.677,12,True,True,wet
+2023,8,Canadian Grand Prix,Q,Q1,MAG,Haas F1 Team,14.0,82.351,12,True,True,wet
+2023,8,Canadian Grand Prix,Q,Q1,BOT,Alfa Romeo,15.0,82.332,13,True,True,wet
+2023,8,Canadian Grand Prix,Q,Q1,TSU,AlphaTauri,16.0,82.746,11,True,True,wet
+2023,8,Canadian Grand Prix,Q,Q1,GAS,Alpine,17.0,82.886,11,True,True,wet
+2023,8,Canadian Grand Prix,Q,Q1,DEV,AlphaTauri,18.0,83.137,12,True,True,wet
+2023,8,Canadian Grand Prix,Q,Q1,SAR,Williams,19.0,83.337,14,True,True,wet
+2023,8,Canadian Grand Prix,Q,Q1,ZHO,Alfa Romeo,20.0,83.342,11,True,True,wet
+2023,8,Canadian Grand Prix,Q,Q2,VER,Red Bull Racing,1.0,79.092,9,True,True,wet
+2023,8,Canadian Grand Prix,Q,Q2,HUL,Haas F1 Team,2.0,80.305,7,True,True,wet
+2023,8,Canadian Grand Prix,Q,Q2,ALO,Aston Martin,3.0,79.776,8,True,True,wet
+2023,8,Canadian Grand Prix,Q,Q2,HAM,Mercedes,4.0,80.426,9,True,True,wet
+2023,8,Canadian Grand Prix,Q,Q2,RUS,Mercedes,5.0,80.098,8,True,True,wet
+2023,8,Canadian Grand Prix,Q,Q2,OCO,Alpine,6.0,80.406,8,True,True,wet
+2023,8,Canadian Grand Prix,Q,Q2,NOR,McLaren,7.0,79.347,9,True,True,wet
+2023,8,Canadian Grand Prix,Q,Q2,SAI,Ferrari,8.0,79.856,8,True,True,wet
+2023,8,Canadian Grand Prix,Q,Q2,PIA,McLaren,9.0,79.659,9,True,True,wet
+2023,8,Canadian Grand Prix,Q,Q2,ALB,Williams,10.0,78.725,5,False,True,wet
+2023,8,Canadian Grand Prix,Q,Q2,LEC,Ferrari,11.0,80.615,10,True,True,wet
+2023,8,Canadian Grand Prix,Q,Q2,PER,Red Bull Racing,12.0,80.959,10,True,True,wet
+2023,8,Canadian Grand Prix,Q,Q2,STR,Aston Martin,13.0,81.484,8,True,True,wet
+2023,8,Canadian Grand Prix,Q,Q2,MAG,Haas F1 Team,14.0,81.678,9,True,True,wet
+2023,8,Canadian Grand Prix,Q,Q2,BOT,Alfa Romeo,15.0,81.821,11,True,True,wet
+2023,8,Canadian Grand Prix,Q,Q3,VER,Red Bull Racing,1.0,85.858,5,True,True,wet
+2023,8,Canadian Grand Prix,Q,Q3,HUL,Haas F1 Team,2.0,87.102,5,True,True,wet
+2023,8,Canadian Grand Prix,Q,Q3,ALO,Aston Martin,3.0,87.286,5,True,True,wet
+2023,8,Canadian Grand Prix,Q,Q3,HAM,Mercedes,4.0,87.627,5,True,True,wet
+2023,8,Canadian Grand Prix,Q,Q3,RUS,Mercedes,5.0,87.893,5,True,True,wet
+2023,8,Canadian Grand Prix,Q,Q3,OCO,Alpine,6.0,87.945,5,True,True,wet
+2023,8,Canadian Grand Prix,Q,Q3,NOR,McLaren,7.0,88.046,5,True,True,wet
+2023,8,Canadian Grand Prix,Q,Q3,SAI,Ferrari,8.0,89.294,6,True,True,wet
+2023,8,Canadian Grand Prix,Q,Q3,PIA,McLaren,9.0,91.349,3,True,True,wet
+2023,8,Canadian Grand Prix,Q,Q3,ALB,Williams,10.0,,5,True,True,wet
+2023,9,Austrian Grand Prix,SQ,Q1,VER,Red Bull Racing,1.0,66.236,9,False,False,wet
+2023,9,Austrian Grand Prix,SQ,Q1,PER,Red Bull Racing,2.0,66.924,9,False,False,wet
+2023,9,Austrian Grand Prix,SQ,Q1,NOR,McLaren,3.0,66.723,9,False,False,wet
+2023,9,Austrian Grand Prix,SQ,Q1,HUL,Haas F1 Team,4.0,66.548,9,False,False,wet
+2023,9,Austrian Grand Prix,SQ,Q1,SAI,Ferrari,5.0,66.187,5,False,False,wet
+2023,9,Austrian Grand Prix,SQ,Q1,LEC,Ferrari,6.0,67.061,10,False,False,wet
+2023,9,Austrian Grand Prix,SQ,Q1,ALO,Aston Martin,7.0,66.611,10,False,False,wet
+2023,9,Austrian Grand Prix,SQ,Q1,STR,Aston Martin,8.0,66.569,10,False,False,wet
+2023,9,Austrian Grand Prix,SQ,Q1,OCO,Alpine,9.0,66.84,10,False,False,wet
+2023,9,Austrian Grand Prix,SQ,Q1,MAG,Haas F1 Team,10.0,66.629,9,False,False,wet
+2023,9,Austrian Grand Prix,SQ,Q1,ALB,Williams,11.0,66.892,10,True,False,wet
+2023,9,Austrian Grand Prix,SQ,Q1,GAS,Alpine,12.0,66.873,10,False,False,wet
+2023,9,Austrian Grand Prix,SQ,Q1,TSU,AlphaTauri,13.0,66.896,10,False,False,wet
+2023,9,Austrian Grand Prix,SQ,Q1,DEV,AlphaTauri,14.0,66.704,10,False,False,wet
+2023,9,Austrian Grand Prix,SQ,Q1,RUS,Mercedes,15.0,66.653,10,False,False,wet
+2023,9,Austrian Grand Prix,SQ,Q1,ZHO,Alfa Romeo,16.0,67.062,9,False,False,wet
+2023,9,Austrian Grand Prix,SQ,Q1,PIA,McLaren,17.0,67.106,10,True,False,wet
+2023,9,Austrian Grand Prix,SQ,Q1,HAM,Mercedes,18.0,67.282,9,False,False,wet
+2023,9,Austrian Grand Prix,SQ,Q1,BOT,Alfa Romeo,19.0,67.291,9,False,False,wet
+2023,9,Austrian Grand Prix,SQ,Q1,SAR,Williams,20.0,67.426,10,True,False,wet
+2023,10,British Grand Prix,Q,Q1,VER,Red Bull Racing,1.0,89.428,11,False,True,wet
+2023,10,British Grand Prix,Q,Q1,NOR,McLaren,2.0,88.917,11,False,True,wet
+2023,10,British Grand Prix,Q,Q1,PIA,McLaren,3.0,89.874,11,False,True,wet
+2023,10,British Grand Prix,Q,Q1,LEC,Ferrari,4.0,89.143,11,True,True,wet
+2023,10,British Grand Prix,Q,Q1,SAI,Ferrari,5.0,89.865,12,True,True,wet
+2023,10,British Grand Prix,Q,Q1,RUS,Mercedes,6.0,89.412,10,False,True,wet
+2023,10,British Grand Prix,Q,Q1,HAM,Mercedes,7.0,89.415,11,False,True,wet
+2023,10,British Grand Prix,Q,Q1,ALB,Williams,8.0,89.466,11,False,True,wet
+2023,10,British Grand Prix,Q,Q1,ALO,Aston Martin,9.0,89.949,10,False,True,wet
+2023,10,British Grand Prix,Q,Q1,GAS,Alpine,10.0,89.533,11,False,True,wet
+2023,10,British Grand Prix,Q,Q1,HUL,Haas F1 Team,11.0,89.603,11,True,True,wet
+2023,10,British Grand Prix,Q,Q1,STR,Aston Martin,12.0,89.448,11,False,True,wet
+2023,10,British Grand Prix,Q,Q1,OCO,Alpine,13.0,89.7,11,False,True,wet
+2023,10,British Grand Prix,Q,Q1,SAR,Williams,14.0,89.873,11,True,True,wet
+2023,10,British Grand Prix,Q,Q1,BOT,Alfa Romeo,15.0,89.798,11,False,True,wet
+2023,10,British Grand Prix,Q,Q1,PER,Red Bull Racing,15.0,89.968,11,False,True,wet
+2023,10,British Grand Prix,Q,Q1,TSU,AlphaTauri,16.0,90.025,11,False,True,wet
+2023,10,British Grand Prix,Q,Q1,ZHO,Alfa Romeo,17.0,90.123,11,False,True,wet
+2023,10,British Grand Prix,Q,Q1,DEV,AlphaTauri,18.0,90.513,11,False,True,wet
+2023,10,British Grand Prix,Q,Q1,MAG,Haas F1 Team,19.0,92.378,7,True,True,wet
+2023,12,Belgian Grand Prix,Q,Q1,VER,Red Bull Racing,1.0,118.515,8,True,False,wet
+2023,12,Belgian Grand Prix,Q,Q1,LEC,Ferrari,2.0,118.3,9,True,False,wet
+2023,12,Belgian Grand Prix,Q,Q1,PER,Red Bull Racing,3.0,118.899,8,True,False,wet
+2023,12,Belgian Grand Prix,Q,Q1,HAM,Mercedes,4.0,118.563,9,True,False,wet
+2023,12,Belgian Grand Prix,Q,Q1,SAI,Ferrari,5.0,118.688,9,True,False,wet
+2023,12,Belgian Grand Prix,Q,Q1,PIA,McLaren,6.0,118.872,9,True,False,wet
+2023,12,Belgian Grand Prix,Q,Q1,NOR,McLaren,7.0,119.981,8,True,False,wet
+2023,12,Belgian Grand Prix,Q,Q1,RUS,Mercedes,8.0,119.035,9,True,False,wet
+2023,12,Belgian Grand Prix,Q,Q1,ALO,Aston Martin,9.0,118.834,8,True,False,wet
+2023,12,Belgian Grand Prix,Q,Q1,STR,Aston Martin,10.0,119.663,8,True,False,wet
+2023,12,Belgian Grand Prix,Q,Q1,TSU,AlphaTauri,11.0,119.044,8,True,False,wet
+2023,12,Belgian Grand Prix,Q,Q1,GAS,Alpine,12.0,119.511,9,True,False,wet
+2023,12,Belgian Grand Prix,Q,Q1,MAG,Haas F1 Team,13.0,120.02,9,True,False,wet
+2023,12,Belgian Grand Prix,Q,Q1,BOT,Alfa Romeo,14.0,119.484,9,True,False,wet
+2023,12,Belgian Grand Prix,Q,Q1,OCO,Alpine,15.0,119.634,8,True,False,wet
+2023,12,Belgian Grand Prix,Q,Q1,ALB,Williams,16.0,120.314,8,True,False,wet
+2023,12,Belgian Grand Prix,Q,Q1,ZHO,Alfa Romeo,17.0,120.832,9,True,False,wet
+2023,12,Belgian Grand Prix,Q,Q1,SAR,Williams,18.0,121.535,6,True,False,wet
+2023,12,Belgian Grand Prix,Q,Q1,RIC,AlphaTauri,19.0,122.159,8,True,False,wet
+2023,12,Belgian Grand Prix,Q,Q1,HUL,Haas F1 Team,20.0,123.166,5,True,False,wet
+2023,12,Belgian Grand Prix,Q,Q2,VER,Red Bull Racing,1.0,112.784,8,True,False,wet
+2023,12,Belgian Grand Prix,Q,Q2,LEC,Ferrari,2.0,112.017,8,True,False,wet
+2023,12,Belgian Grand Prix,Q,Q2,PER,Red Bull Racing,3.0,112.353,8,True,False,wet
+2023,12,Belgian Grand Prix,Q,Q2,HAM,Mercedes,4.0,112.345,8,True,False,wet
+2023,12,Belgian Grand Prix,Q,Q2,SAI,Ferrari,5.0,111.711,8,True,False,wet
+2023,12,Belgian Grand Prix,Q,Q2,PIA,McLaren,6.0,111.534,8,True,False,wet
+2023,12,Belgian Grand Prix,Q,Q2,NOR,McLaren,7.0,112.252,7,True,False,wet
+2023,12,Belgian Grand Prix,Q,Q2,RUS,Mercedes,8.0,112.605,8,True,False,wet
+2023,12,Belgian Grand Prix,Q,Q2,ALO,Aston Martin,9.0,112.751,8,True,False,wet
+2023,12,Belgian Grand Prix,Q,Q2,STR,Aston Martin,10.0,112.193,8,True,False,wet
+2023,12,Belgian Grand Prix,Q,Q2,TSU,AlphaTauri,11.0,113.148,7,True,False,wet
+2023,12,Belgian Grand Prix,Q,Q2,GAS,Alpine,12.0,113.671,8,True,False,wet
+2023,12,Belgian Grand Prix,Q,Q2,MAG,Haas F1 Team,13.0,114.16,8,True,False,wet
+2023,12,Belgian Grand Prix,Q,Q2,BOT,Alfa Romeo,14.0,114.694,8,True,False,wet
+2023,12,Belgian Grand Prix,Q,Q2,OCO,Alpine,15.0,116.372,5,True,False,wet
+2023,12,Belgian Grand Prix,SQ,Q1,VER,Red Bull Racing,1.0,118.135,6,True,False,wet
+2023,12,Belgian Grand Prix,SQ,Q1,PIA,McLaren,2.0,120.056,6,True,False,wet
+2023,12,Belgian Grand Prix,SQ,Q1,SAI,Ferrari,3.0,119.414,6,True,False,wet
+2023,12,Belgian Grand Prix,SQ,Q1,LEC,Ferrari,4.0,119.575,6,True,False,wet
+2023,12,Belgian Grand Prix,SQ,Q1,NOR,McLaren,5.0,120.436,7,True,False,wet
+2023,12,Belgian Grand Prix,SQ,Q1,GAS,Alpine,6.0,120.032,6,True,False,wet
+2023,12,Belgian Grand Prix,SQ,Q1,HAM,Mercedes,7.0,118.939,7,True,False,wet
+2023,12,Belgian Grand Prix,SQ,Q1,PER,Red Bull Racing,8.0,119.362,6,True,False,wet
+2023,12,Belgian Grand Prix,SQ,Q1,OCO,Alpine,9.0,119.884,6,True,False,wet
+2023,12,Belgian Grand Prix,SQ,Q1,RUS,Mercedes,10.0,120.475,6,True,False,wet
+2023,12,Belgian Grand Prix,SQ,Q1,RIC,AlphaTauri,11.0,120.177,6,True,False,wet
+2023,12,Belgian Grand Prix,SQ,Q1,ALO,Aston Martin,12.0,119.038,5,True,False,wet
+2023,12,Belgian Grand Prix,SQ,Q1,ALB,Williams,13.0,119.198,6,True,False,wet
+2023,12,Belgian Grand Prix,SQ,Q1,SAR,Williams,14.0,120.031,6,True,False,wet
+2023,12,Belgian Grand Prix,SQ,Q1,STR,Aston Martin,15.0,120.46,6,True,False,wet
+2023,12,Belgian Grand Prix,SQ,Q1,TSU,AlphaTauri,16.0,120.568,6,True,False,wet
+2023,12,Belgian Grand Prix,SQ,Q1,BOT,Alfa Romeo,17.0,120.951,6,True,False,wet
+2023,12,Belgian Grand Prix,SQ,Q1,MAG,Haas F1 Team,18.0,121.079,7,True,False,wet
+2023,12,Belgian Grand Prix,SQ,Q1,ZHO,Alfa Romeo,19.0,121.43,7,True,False,wet
+2023,12,Belgian Grand Prix,SQ,Q1,HUL,Haas F1 Team,20.0,,6,True,False,wet
+2023,12,Belgian Grand Prix,SQ,Q2,VER,Red Bull Racing,1.0,115.2,3,True,False,wet
+2023,12,Belgian Grand Prix,SQ,Q2,PIA,McLaren,2.0,116.392,3,True,False,wet
+2023,12,Belgian Grand Prix,SQ,Q2,SAI,Ferrari,3.0,116.557,3,True,False,wet
+2023,12,Belgian Grand Prix,SQ,Q2,LEC,Ferrari,4.0,116.265,3,True,False,wet
+2023,12,Belgian Grand Prix,SQ,Q2,NOR,McLaren,5.0,116.828,4,True,False,wet
+2023,12,Belgian Grand Prix,SQ,Q2,GAS,Alpine,6.0,116.137,4,True,False,wet
+2023,12,Belgian Grand Prix,SQ,Q2,HAM,Mercedes,7.0,115.823,4,True,False,wet
+2023,12,Belgian Grand Prix,SQ,Q2,PER,Red Bull Racing,8.0,115.878,3,True,False,wet
+2023,12,Belgian Grand Prix,SQ,Q2,OCO,Alpine,9.0,117.051,4,True,False,wet
+2023,12,Belgian Grand Prix,SQ,Q2,RUS,Mercedes,10.0,117.393,3,True,False,wet
+2023,12,Belgian Grand Prix,SQ,Q2,RIC,AlphaTauri,11.0,117.687,4,True,False,wet
+2023,12,Belgian Grand Prix,SQ,Q2,ALO,Aston Martin,12.0,,1,True,False,wet
+2023,12,Belgian Grand Prix,SQ,Q2,ALB,Williams,13.0,,1,True,False,wet
+2023,12,Belgian Grand Prix,SQ,Q2,SAR,Williams,14.0,,3,True,False,wet
+2023,12,Belgian Grand Prix,SQ,Q2,STR,Aston Martin,15.0,,3,True,False,wet
+2023,13,Dutch Grand Prix,Q,Q1,VER,Red Bull Racing,1.0,80.965,12,True,True,wet
+2023,13,Dutch Grand Prix,Q,Q1,NOR,McLaren,2.0,81.276,12,True,True,wet
+2023,13,Dutch Grand Prix,Q,Q1,RUS,Mercedes,3.0,81.345,12,True,True,wet
+2023,13,Dutch Grand Prix,Q,Q1,ALB,Williams,4.0,80.939,12,True,True,wet
+2023,13,Dutch Grand Prix,Q,Q1,ALO,Aston Martin,5.0,81.84,11,True,True,wet
+2023,13,Dutch Grand Prix,Q,Q1,SAI,Ferrari,6.0,81.321,12,True,True,wet
+2023,13,Dutch Grand Prix,Q,Q1,PER,Red Bull Racing,7.0,81.972,13,True,True,wet
+2023,13,Dutch Grand Prix,Q,Q1,PIA,McLaren,8.0,81.231,12,True,True,wet
+2023,13,Dutch Grand Prix,Q,Q1,LEC,Ferrari,9.0,82.019,12,True,True,wet
+2023,13,Dutch Grand Prix,Q,Q1,SAR,Williams,10.0,82.036,13,True,True,wet
+2023,13,Dutch Grand Prix,Q,Q1,STR,Aston Martin,11.0,81.57,12,True,True,wet
+2023,13,Dutch Grand Prix,Q,Q1,GAS,Alpine,12.0,81.735,11,True,True,wet
+2023,13,Dutch Grand Prix,Q,Q1,HAM,Mercedes,13.0,81.919,13,True,True,wet
+2023,13,Dutch Grand Prix,Q,Q1,TSU,AlphaTauri,14.0,81.781,12,True,True,wet
+2023,13,Dutch Grand Prix,Q,Q1,HUL,Haas F1 Team,15.0,81.891,10,True,True,wet
+2023,13,Dutch Grand Prix,Q,Q1,ZHO,Alfa Romeo,16.0,82.067,12,True,True,wet
+2023,13,Dutch Grand Prix,Q,Q1,OCO,Alpine,17.0,82.11,12,True,True,wet
+2023,13,Dutch Grand Prix,Q,Q1,MAG,Haas F1 Team,18.0,82.192,11,True,True,wet
+2023,13,Dutch Grand Prix,Q,Q1,BOT,Alfa Romeo,19.0,82.26,12,True,True,wet
+2023,13,Dutch Grand Prix,Q,Q1,LAW,AlphaTauri,20.0,83.42,12,True,True,wet
+2023,13,Dutch Grand Prix,Q,Q2,VER,Red Bull Racing,1.0,78.856,11,True,True,wet
+2023,13,Dutch Grand Prix,Q,Q2,NOR,McLaren,2.0,79.769,11,True,True,wet
+2023,13,Dutch Grand Prix,Q,Q2,RUS,Mercedes,3.0,79.62,11,True,True,wet
+2023,13,Dutch Grand Prix,Q,Q2,ALB,Williams,4.0,79.399,10,True,True,wet
+2023,13,Dutch Grand Prix,Q,Q2,ALO,Aston Martin,5.0,79.429,10,True,True,wet
+2023,13,Dutch Grand Prix,Q,Q2,SAI,Ferrari,6.0,79.929,11,True,True,wet
+2023,13,Dutch Grand Prix,Q,Q2,PER,Red Bull Racing,7.0,79.856,11,True,True,wet
+2023,13,Dutch Grand Prix,Q,Q2,PIA,McLaren,8.0,79.392,10,True,True,wet
+2023,13,Dutch Grand Prix,Q,Q2,LEC,Ferrari,9.0,79.6,10,True,True,wet
+2023,13,Dutch Grand Prix,Q,Q2,SAR,Williams,10.0,80.067,11,True,True,wet
+2023,13,Dutch Grand Prix,Q,Q2,STR,Aston Martin,11.0,80.121,10,True,True,wet
+2023,13,Dutch Grand Prix,Q,Q2,GAS,Alpine,12.0,80.128,10,True,True,wet
+2023,13,Dutch Grand Prix,Q,Q2,HAM,Mercedes,13.0,80.151,10,True,True,wet
+2023,13,Dutch Grand Prix,Q,Q2,TSU,AlphaTauri,14.0,80.23,10,True,True,wet
+2023,13,Dutch Grand Prix,Q,Q2,HUL,Haas F1 Team,15.0,80.25,10,True,True,wet
+2023,13,Dutch Grand Prix,Q,Q3,VER,Red Bull Racing,1.0,70.567,8,True,False,wet
+2023,13,Dutch Grand Prix,Q,Q3,NOR,McLaren,2.0,71.104,7,False,False,wet
+2023,13,Dutch Grand Prix,Q,Q3,RUS,Mercedes,3.0,71.294,9,False,False,wet
+2023,13,Dutch Grand Prix,Q,Q3,ALB,Williams,4.0,71.419,10,False,False,wet
+2023,13,Dutch Grand Prix,Q,Q3,ALO,Aston Martin,5.0,71.506,9,False,False,wet
+2023,13,Dutch Grand Prix,Q,Q3,SAI,Ferrari,6.0,71.754,9,False,False,wet
+2023,13,Dutch Grand Prix,Q,Q3,PER,Red Bull Racing,7.0,71.88,9,True,False,wet
+2023,13,Dutch Grand Prix,Q,Q3,PIA,McLaren,8.0,71.938,9,True,False,wet
+2023,13,Dutch Grand Prix,Q,Q3,LEC,Ferrari,9.0,72.665,5,True,False,wet
+2023,13,Dutch Grand Prix,Q,Q3,SAR,Williams,10.0,76.748,3,False,False,wet
+2024,5,Chinese Grand Prix,SQ,Q3,NOR,McLaren,1.0,117.94,5,True,True,wet
+2024,5,Chinese Grand Prix,SQ,Q3,HAM,Mercedes,2.0,119.201,5,True,True,wet
+2024,5,Chinese Grand Prix,SQ,Q3,ALO,Aston Martin,3.0,119.915,5,True,True,wet
+2024,5,Chinese Grand Prix,SQ,Q3,VER,Red Bull Racing,4.0,120.028,5,True,True,wet
+2024,5,Chinese Grand Prix,SQ,Q3,SAI,Ferrari,5.0,120.214,5,True,True,wet
+2024,5,Chinese Grand Prix,SQ,Q3,PER,Red Bull Racing,6.0,120.375,5,True,True,wet
+2024,5,Chinese Grand Prix,SQ,Q3,LEC,Ferrari,7.0,120.566,4,True,True,wet
+2024,5,Chinese Grand Prix,SQ,Q3,PIA,McLaren,8.0,120.99,5,True,True,wet
+2024,5,Chinese Grand Prix,SQ,Q3,BOT,Kick Sauber,9.0,121.044,4,True,True,wet
+2024,5,Chinese Grand Prix,SQ,Q3,ZHO,Kick Sauber,10.0,123.537,5,True,True,wet
+2024,12,British Grand Prix,Q,Q1,RUS,Mercedes,1.0,90.106,11,True,True,wet
+2024,12,British Grand Prix,Q,Q1,HAM,Mercedes,2.0,89.547,11,True,True,wet
+2024,12,British Grand Prix,Q,Q1,NOR,McLaren,3.0,91.596,9,True,True,wet
+2024,12,British Grand Prix,Q,Q1,VER,Red Bull Racing,4.0,91.342,10,True,True,wet
+2024,12,British Grand Prix,Q,Q1,PIA,McLaren,5.0,90.895,9,True,True,wet
+2024,12,British Grand Prix,Q,Q1,HUL,Haas F1 Team,6.0,91.929,3,False,True,wet
+2024,12,British Grand Prix,Q,Q1,SAI,Ferrari,7.0,90.557,10,True,True,wet
+2024,12,British Grand Prix,Q,Q1,STR,Aston Martin,8.0,91.41,10,True,True,wet
+2024,12,British Grand Prix,Q,Q1,ALB,Williams,9.0,91.135,9,True,True,wet
+2024,12,British Grand Prix,Q,Q1,ALO,Aston Martin,10.0,91.264,11,True,True,wet
+2024,12,British Grand Prix,Q,Q1,LEC,Ferrari,11.0,90.496,10,True,True,wet
+2024,12,British Grand Prix,Q,Q1,SAR,Williams,12.0,91.608,10,True,True,wet
+2024,12,British Grand Prix,Q,Q1,TSU,RB,13.0,90.994,10,True,True,wet
+2024,12,British Grand Prix,Q,Q1,ZHO,Kick Sauber,14.0,91.19,12,True,True,wet
+2024,12,British Grand Prix,Q,Q1,RIC,RB,15.0,91.291,10,True,True,wet
+2024,12,British Grand Prix,Q,Q1,BOT,Kick Sauber,16.0,92.431,11,True,True,wet
+2024,12,British Grand Prix,Q,Q1,MAG,Haas F1 Team,17.0,92.905,6,True,True,wet
+2024,12,British Grand Prix,Q,Q1,OCO,Alpine,18.0,94.557,11,True,True,wet
+2024,12,British Grand Prix,Q,Q1,PER,Red Bull Racing,19.0,98.348,5,True,True,wet
+2024,12,British Grand Prix,Q,Q1,GAS,Alpine,20.0,99.804,7,True,True,wet
+2024,14,Belgian Grand Prix,Q,Q1,VER,Red Bull Racing,1.0,114.938,8,True,False,wet
+2024,14,Belgian Grand Prix,Q,Q1,LEC,Ferrari,2.0,115.349,8,True,False,wet
+2024,14,Belgian Grand Prix,Q,Q1,PER,Red Bull Racing,3.0,115.139,9,True,False,wet
+2024,14,Belgian Grand Prix,Q,Q1,HAM,Mercedes,4.0,115.692,8,True,False,wet
+2024,14,Belgian Grand Prix,Q,Q1,NOR,McLaren,5.0,115.582,10,True,False,wet
+2024,14,Belgian Grand Prix,Q,Q1,PIA,McLaren,6.0,114.835,9,True,False,wet
+2024,14,Belgian Grand Prix,Q,Q1,RUS,Mercedes,7.0,115.353,8,True,False,wet
+2024,14,Belgian Grand Prix,Q,Q1,SAI,Ferrari,8.0,115.169,9,True,False,wet
+2024,14,Belgian Grand Prix,Q,Q1,ALO,Aston Martin,9.0,115.489,9,True,False,wet
+2024,14,Belgian Grand Prix,Q,Q1,OCO,Alpine,10.0,115.417,9,True,False,wet
+2024,14,Belgian Grand Prix,Q,Q1,ALB,Williams,11.0,115.722,9,True,False,wet
+2024,14,Belgian Grand Prix,Q,Q1,GAS,Alpine,12.0,114.911,9,True,False,wet
+2024,14,Belgian Grand Prix,Q,Q1,RIC,RB,13.0,115.451,8,True,False,wet
+2024,14,Belgian Grand Prix,Q,Q1,BOT,Kick Sauber,14.0,115.531,9,True,False,wet
+2024,14,Belgian Grand Prix,Q,Q1,STR,Aston Martin,15.0,116.072,9,True,False,wet
+2024,14,Belgian Grand Prix,Q,Q1,HUL,Haas F1 Team,16.0,116.308,9,True,False,wet
+2024,14,Belgian Grand Prix,Q,Q1,MAG,Haas F1 Team,17.0,116.5,9,True,False,wet
+2024,14,Belgian Grand Prix,Q,Q1,TSU,RB,18.0,116.593,8,True,False,wet
+2024,14,Belgian Grand Prix,Q,Q1,SAR,Williams,19.0,117.23,8,True,False,wet
+2024,14,Belgian Grand Prix,Q,Q1,ZHO,Kick Sauber,20.0,117.775,9,True,False,wet
+2024,14,Belgian Grand Prix,Q,Q2,VER,Red Bull Racing,1.0,113.837,7,True,True,wet
+2024,14,Belgian Grand Prix,Q,Q2,LEC,Ferrari,2.0,114.193,8,True,True,wet
+2024,14,Belgian Grand Prix,Q,Q2,PER,Red Bull Racing,3.0,114.47,7,True,True,wet
+2024,14,Belgian Grand Prix,Q,Q2,HAM,Mercedes,4.0,114.037,8,True,True,wet
+2024,14,Belgian Grand Prix,Q,Q2,NOR,McLaren,5.0,114.358,8,True,True,wet
+2024,14,Belgian Grand Prix,Q,Q2,PIA,McLaren,6.0,114.136,7,True,True,wet
+2024,14,Belgian Grand Prix,Q,Q2,RUS,Mercedes,7.0,114.095,8,True,True,wet
+2024,14,Belgian Grand Prix,Q,Q2,SAI,Ferrari,8.0,114.112,8,True,True,wet
+2024,14,Belgian Grand Prix,Q,Q2,ALO,Aston Martin,9.0,114.258,8,True,True,wet
+2024,14,Belgian Grand Prix,Q,Q2,OCO,Alpine,10.0,114.46,8,True,True,wet
+2024,14,Belgian Grand Prix,Q,Q2,ALB,Williams,11.0,114.473,7,True,True,wet
+2024,14,Belgian Grand Prix,Q,Q2,GAS,Alpine,12.0,114.635,8,True,True,wet
+2024,14,Belgian Grand Prix,Q,Q2,RIC,RB,13.0,114.682,6,True,True,wet
+2024,14,Belgian Grand Prix,Q,Q2,BOT,Kick Sauber,14.0,114.764,8,True,True,wet
+2024,14,Belgian Grand Prix,Q,Q2,STR,Aston Martin,15.0,115.716,8,True,True,wet
+2024,14,Belgian Grand Prix,Q,Q3,VER,Red Bull Racing,1.0,113.159,6,True,True,wet
+2024,14,Belgian Grand Prix,Q,Q3,LEC,Ferrari,2.0,113.754,6,True,True,wet
+2024,14,Belgian Grand Prix,Q,Q3,PER,Red Bull Racing,3.0,113.765,5,True,True,wet
+2024,14,Belgian Grand Prix,Q,Q3,HAM,Mercedes,4.0,113.835,6,True,True,wet
+2024,14,Belgian Grand Prix,Q,Q3,NOR,McLaren,5.0,113.981,6,True,True,wet
+2024,14,Belgian Grand Prix,Q,Q3,PIA,McLaren,6.0,114.027,7,True,True,wet
+2024,14,Belgian Grand Prix,Q,Q3,RUS,Mercedes,7.0,114.184,6,True,True,wet
+2024,14,Belgian Grand Prix,Q,Q3,SAI,Ferrari,8.0,114.477,6,True,True,wet
+2024,14,Belgian Grand Prix,Q,Q3,ALO,Aston Martin,9.0,114.765,6,True,True,wet
+2024,14,Belgian Grand Prix,Q,Q3,OCO,Alpine,10.0,114.81,6,True,True,wet
+2024,21,São Paulo Grand Prix,Q,Q1,NOR,McLaren,1.0,90.944,13,True,True,wet
+2024,21,São Paulo Grand Prix,Q,Q1,RUS,Mercedes,2.0,89.121,11,True,True,wet
+2024,21,São Paulo Grand Prix,Q,Q1,TSU,RB,3.0,89.172,12,True,True,wet
+2024,21,São Paulo Grand Prix,Q,Q1,OCO,Alpine,4.0,89.171,13,True,True,wet
+2024,21,São Paulo Grand Prix,Q,Q1,LAW,RB,5.0,90.758,12,True,True,wet
+2024,21,São Paulo Grand Prix,Q,Q1,LEC,Ferrari,6.0,89.839,11,True,True,wet
+2024,21,São Paulo Grand Prix,Q,Q1,ALB,Williams,7.0,89.072,12,True,True,wet
+2024,21,São Paulo Grand Prix,Q,Q1,PIA,McLaren,8.0,90.114,10,True,True,wet
+2024,21,São Paulo Grand Prix,Q,Q1,ALO,Aston Martin,9.0,90.207,10,True,True,wet
+2024,21,São Paulo Grand Prix,Q,Q1,STR,Aston Martin,10.0,90.58,10,True,True,wet
+2024,21,São Paulo Grand Prix,Q,Q1,BOT,Kick Sauber,11.0,90.633,12,True,True,wet
+2024,21,São Paulo Grand Prix,Q,Q1,VER,Red Bull Racing,12.0,88.522,11,True,True,wet
+2024,21,São Paulo Grand Prix,Q,Q1,PER,Red Bull Racing,13.0,90.035,10,True,True,wet
+2024,21,São Paulo Grand Prix,Q,Q1,SAI,Ferrari,14.0,90.303,11,True,True,wet
+2024,21,São Paulo Grand Prix,Q,Q1,GAS,Alpine,15.0,89.42,13,True,True,wet
+2024,21,São Paulo Grand Prix,Q,Q1,HAM,Mercedes,16.0,91.15,11,True,True,wet
+2024,21,São Paulo Grand Prix,Q,Q1,BEA,Haas F1 Team,17.0,91.229,11,True,True,wet
+2024,21,São Paulo Grand Prix,Q,Q1,COL,Williams,18.0,91.27,5,True,True,wet
+2024,21,São Paulo Grand Prix,Q,Q1,HUL,Haas F1 Team,19.0,91.623,12,True,True,wet
+2024,21,São Paulo Grand Prix,Q,Q1,ZHO,Kick Sauber,20.0,92.263,12,True,True,wet
+2024,21,São Paulo Grand Prix,Q,Q2,NOR,McLaren,1.0,84.844,9,True,True,wet
+2024,21,São Paulo Grand Prix,Q,Q2,RUS,Mercedes,2.0,86.307,9,True,True,wet
+2024,21,São Paulo Grand Prix,Q,Q2,TSU,RB,3.0,86.464,10,True,True,wet
+2024,21,São Paulo Grand Prix,Q,Q2,OCO,Alpine,4.0,86.206,8,True,True,wet
+2024,21,São Paulo Grand Prix,Q,Q2,LAW,RB,5.0,85.654,10,True,True,wet
+2024,21,São Paulo Grand Prix,Q,Q2,LEC,Ferrari,6.0,86.097,9,True,True,wet
+2024,21,São Paulo Grand Prix,Q,Q2,ALB,Williams,7.0,84.657,9,True,True,wet
+2024,21,São Paulo Grand Prix,Q,Q2,PIA,McLaren,8.0,84.686,9,True,True,wet
+2024,21,São Paulo Grand Prix,Q,Q2,ALO,Aston Martin,9.0,88.998,8,True,True,wet
+2024,21,São Paulo Grand Prix,Q,Q2,STR,Aston Martin,10.0,86.334,9,True,True,wet
+2024,21,São Paulo Grand Prix,Q,Q2,BOT,Kick Sauber,11.0,86.472,9,True,True,wet
+2024,21,São Paulo Grand Prix,Q,Q2,VER,Red Bull Racing,12.0,87.771,8,True,True,wet
+2024,21,São Paulo Grand Prix,Q,Q2,PER,Red Bull Racing,13.0,88.158,8,True,True,wet
+2024,21,São Paulo Grand Prix,Q,Q2,SAI,Ferrari,14.0,89.406,6,True,True,wet
+2024,21,São Paulo Grand Prix,Q,Q2,GAS,Alpine,15.0,89.614,8,True,True,wet
+2024,21,São Paulo Grand Prix,Q,Q3,NOR,McLaren,1.0,83.405,11,True,True,wet
+2024,21,São Paulo Grand Prix,Q,Q3,RUS,Mercedes,2.0,83.578,9,True,True,wet
+2024,21,São Paulo Grand Prix,Q,Q3,TSU,RB,3.0,84.111,8,True,True,wet
+2024,21,São Paulo Grand Prix,Q,Q3,OCO,Alpine,4.0,84.475,10,True,True,wet
+2024,21,São Paulo Grand Prix,Q,Q3,LAW,RB,5.0,84.484,8,True,True,wet
+2024,21,São Paulo Grand Prix,Q,Q3,LEC,Ferrari,6.0,84.525,9,True,True,wet
+2024,21,São Paulo Grand Prix,Q,Q3,ALB,Williams,7.0,84.657,7,True,True,wet
+2024,21,São Paulo Grand Prix,Q,Q3,PIA,McLaren,8.0,84.686,9,True,True,wet
+2024,21,São Paulo Grand Prix,Q,Q3,ALO,Aston Martin,9.0,88.998,3,True,True,wet
+2025,22,Las Vegas Grand Prix,Q,Q1,NOR,McLaren,1.0,115.473,8,True,True,wet
+2025,22,Las Vegas Grand Prix,Q,Q1,VER,Red Bull Racing,2.0,113.458,9,True,True,wet
+2025,22,Las Vegas Grand Prix,Q,Q1,SAI,Williams,3.0,114.873,9,True,True,wet
+2025,22,Las Vegas Grand Prix,Q,Q1,RUS,Mercedes,4.0,113.144,9,True,True,wet
+2025,22,Las Vegas Grand Prix,Q,Q1,PIA,McLaren,5.0,114.544,8,True,True,wet
+2025,22,Las Vegas Grand Prix,Q,Q1,LAW,Racing Bulls,6.0,114.828,9,True,True,wet
+2025,22,Las Vegas Grand Prix,Q,Q1,ALO,Aston Martin,7.0,113.739,10,True,True,wet
+2025,22,Las Vegas Grand Prix,Q,Q1,HAD,Racing Bulls,8.0,115.613,9,True,True,wet
+2025,22,Las Vegas Grand Prix,Q,Q1,LEC,Ferrari,9.0,114.814,9,True,True,wet
+2025,22,Las Vegas Grand Prix,Q,Q1,GAS,Alpine,10.0,114.432,10,True,True,wet
+2025,22,Las Vegas Grand Prix,Q,Q1,HUL,Kick Sauber,11.0,114.555,10,True,True,wet
+2025,22,Las Vegas Grand Prix,Q,Q1,STR,Aston Martin,12.0,114.416,10,True,True,wet
+2025,22,Las Vegas Grand Prix,Q,Q1,OCO,Haas F1 Team,13.0,114.635,9,True,True,wet
+2025,22,Las Vegas Grand Prix,Q,Q1,BEA,Haas F1 Team,14.0,116.016,9,True,True,wet
+2025,22,Las Vegas Grand Prix,Q,Q1,COL,Alpine,15.0,114.847,9,True,True,wet
+2025,22,Las Vegas Grand Prix,Q,Q1,ALB,Williams,16.0,116.22,8,True,True,wet
+2025,22,Las Vegas Grand Prix,Q,Q1,ANT,Mercedes,17.0,116.314,8,True,True,wet
+2025,22,Las Vegas Grand Prix,Q,Q1,BOR,Kick Sauber,18.0,116.674,9,True,True,wet
+2025,22,Las Vegas Grand Prix,Q,Q1,TSU,Red Bull Racing,19.0,116.798,9,True,True,wet
+2025,22,Las Vegas Grand Prix,Q,Q1,HAM,Ferrari,20.0,117.115,9,True,True,wet
+2025,22,Las Vegas Grand Prix,Q,Q2,NOR,McLaren,1.0,111.379,9,True,True,wet
+2025,22,Las Vegas Grand Prix,Q,Q2,VER,Red Bull Racing,2.0,111.593,8,True,True,wet
+2025,22,Las Vegas Grand Prix,Q,Q2,SAI,Williams,3.0,111.144,8,True,True,wet
+2025,22,Las Vegas Grand Prix,Q,Q2,RUS,Mercedes,4.0,110.935,9,True,True,wet
+2025,22,Las Vegas Grand Prix,Q,Q2,PIA,McLaren,5.0,112.126,8,True,True,wet
+2025,22,Las Vegas Grand Prix,Q,Q2,LAW,Racing Bulls,6.0,111.621,9,True,True,wet
+2025,22,Las Vegas Grand Prix,Q,Q2,ALO,Aston Martin,7.0,111.865,8,True,True,wet
+2025,22,Las Vegas Grand Prix,Q,Q2,HAD,Racing Bulls,8.0,111.12,9,True,True,wet
+2025,22,Las Vegas Grand Prix,Q,Q2,LEC,Ferrari,9.0,111.952,8,True,True,wet
+2025,22,Las Vegas Grand Prix,Q,Q2,GAS,Alpine,10.0,111.76,9,True,True,wet
+2025,22,Las Vegas Grand Prix,Q,Q2,HUL,Kick Sauber,11.0,112.781,8,True,True,wet
+2025,22,Las Vegas Grand Prix,Q,Q2,STR,Aston Martin,12.0,112.85,8,True,True,wet
+2025,22,Las Vegas Grand Prix,Q,Q2,OCO,Haas F1 Team,13.0,112.987,8,True,True,wet
+2025,22,Las Vegas Grand Prix,Q,Q2,BEA,Haas F1 Team,14.0,113.094,8,True,True,wet
+2025,22,Las Vegas Grand Prix,Q,Q2,COL,Alpine,15.0,113.683,8,True,True,wet
+2025,22,Las Vegas Grand Prix,Q,Q3,NOR,McLaren,1.0,107.934,8,True,False,wet
+2025,22,Las Vegas Grand Prix,Q,Q3,VER,Red Bull Racing,2.0,108.257,7,True,False,wet
+2025,22,Las Vegas Grand Prix,Q,Q3,SAI,Williams,3.0,108.296,7,True,False,wet
+2025,22,Las Vegas Grand Prix,Q,Q3,RUS,Mercedes,4.0,108.803,7,True,False,wet
+2025,22,Las Vegas Grand Prix,Q,Q3,PIA,McLaren,5.0,108.961,7,True,False,wet
+2025,22,Las Vegas Grand Prix,Q,Q3,LAW,Racing Bulls,6.0,109.062,7,True,False,wet
+2025,22,Las Vegas Grand Prix,Q,Q3,ALO,Aston Martin,7.0,109.466,7,True,False,wet
+2025,22,Las Vegas Grand Prix,Q,Q3,HAD,Racing Bulls,8.0,109.554,7,True,False,wet
+2025,22,Las Vegas Grand Prix,Q,Q3,LEC,Ferrari,9.0,109.872,7,True,False,wet
+2025,22,Las Vegas Grand Prix,Q,Q3,GAS,Alpine,10.0,111.54,6,True,False,wet
+2018,1,Australian Grand Prix,Q,Q3,BOT,Mercedes,10.0,,2,False,False,no_time
+2018,4,Azerbaijan Grand Prix,Q,Q1,GRO,Haas F1 Team,20.0,,2,False,True,no_time
+2018,5,Spanish Grand Prix,Q,Q1,HAR,Toro Rosso,20.0,,0,False,True,no_time
+2018,6,Monaco Grand Prix,Q,Q1,VER,Red Bull Racing,20.0,,0,False,False,no_time
+2018,7,Canadian Grand Prix,Q,Q1,GRO,Haas F1 Team,20.0,,0,False,False,no_time
+2018,8,French Grand Prix,Q,Q3,GRO,Haas F1 Team,10.0,,2,False,True,no_time
+2018,10,British Grand Prix,Q,Q1,STR,Williams,19.0,,2,False,False,no_time
+2018,10,British Grand Prix,Q,Q1,HAR,Toro Rosso,20.0,,0,False,False,no_time
+2018,14,Italian Grand Prix,Q,Q2,HUL,Renault,14.0,,4,False,True,no_time
+2018,17,Japanese Grand Prix,Q,Q2,RIC,Red Bull Racing,15.0,,1,False,True,no_time
+2018,18,United States Grand Prix,Q,Q2,GAS,Toro Rosso,13.0,,4,False,False,no_time
+2018,18,United States Grand Prix,Q,Q2,HAR,Toro Rosso,14.0,,4,False,False,no_time
+2018,19,Mexican Grand Prix,Q,Q2,GAS,Toro Rosso,15.0,,2,False,False,no_time
+2019,3,Chinese Grand Prix,Q,Q1,ALB,Toro Rosso,,,0,False,False,no_time
+2019,3,Chinese Grand Prix,Q,Q1,GIO,Alfa Romeo Racing,,,2,False,False,no_time
+2019,3,Chinese Grand Prix,Q,Q3,MAG,Haas F1 Team,9.0,,4,False,False,no_time
+2019,3,Chinese Grand Prix,Q,Q3,GRO,Haas F1 Team,10.0,,4,False,False,no_time
+2019,4,Azerbaijan Grand Prix,Q,Q1,RAI,Alfa Romeo Racing,19.0,,9,False,False,no_time
+2019,4,Azerbaijan Grand Prix,Q,Q1,GAS,Red Bull Racing,20.0,,5,False,False,no_time
+2019,4,Azerbaijan Grand Prix,Q,Q2,RAI,Alfa Romeo Racing,19.0,,6,False,False,no_time
+2019,4,Azerbaijan Grand Prix,Q,Q3,RAI,Alfa Romeo Racing,19.0,,6,False,False,no_time
+2019,7,Canadian Grand Prix,Q,Q2,GRO,Haas F1 Team,15.0,,5,False,False,no_time
+2019,11,German Grand Prix,Q,Q1,VET,Ferrari,20.0,,1,False,False,no_time
+2019,13,Belgian Grand Prix,Q,Q1,KUB,Williams,20.0,,2,False,False,no_time
+2019,14,Italian Grand Prix,Q,Q1,VER,Red Bull Racing,20.0,,3,False,False,no_time
+2019,14,Italian Grand Prix,Q,Q3,ALB,Red Bull Racing,8.0,,4,False,False,no_time
+2019,14,Italian Grand Prix,Q,Q3,STR,Racing Point,9.0,,2,False,False,no_time
+2019,14,Italian Grand Prix,Q,Q3,RAI,Alfa Romeo Racing,10.0,,2,False,False,no_time
+2019,15,Singapore Grand Prix,Q,Q1,RIC,Renault,20.0,,6,False,False,no_time
+2019,15,Singapore Grand Prix,Q,Q2,RIC,Renault,20.0,,6,False,False,no_time
+2019,15,Singapore Grand Prix,Q,Q3,RIC,Renault,20.0,,6,False,False,no_time
+2019,17,Japanese Grand Prix,Q,Q1,MAG,Haas F1 Team,19.0,,2,False,False,no_time
+2019,17,Japanese Grand Prix,Q,Q1,KUB,Williams,20.0,,1,False,False,no_time
+2019,20,Brazilian Grand Prix,Q,Q1,SAI,McLaren,20.0,,2,False,False,no_time
+2020,9,Tuscan Grand Prix,Q,Q3,OCO,Renault,10.0,,2,False,False,no_time
+2020,15,Bahrain Grand Prix,Q,Q2,SAI,McLaren,15.0,,2,False,False,no_time
+2020,17,Abu Dhabi Grand Prix,Q,Q2,PER,Racing Point,15.0,,1,False,False,no_time
+2021,2,Emilia Romagna Grand Prix,Q,Q1,TSU,AlphaTauri,20.0,,2,False,False,no_time
+2021,2,Emilia Romagna Grand Prix,Q,Q3,STR,Aston Martin,10.0,,6,False,False,no_time
+2021,5,Monaco Grand Prix,Q,Q1,MSC,Haas F1 Team,,,0,False,False,no_time
+2021,6,Azerbaijan Grand Prix,Q,Q1,STR,Aston Martin,19.0,,2,False,False,no_time
+2021,6,Azerbaijan Grand Prix,Q,Q1,GIO,Alfa Romeo Racing,20.0,,3,False,False,no_time
+2021,6,Azerbaijan Grand Prix,Q,Q2,GIO,Alfa Romeo Racing,20.0,,1,False,False,no_time
+2021,7,French Grand Prix,Q,Q1,STR,Aston Martin,19.0,,7,False,False,no_time
+2021,7,French Grand Prix,Q,Q1,TSU,AlphaTauri,20.0,,2,False,False,no_time
+2021,11,Hungarian Grand Prix,Q,Q1,MSC,Haas F1 Team,20.0,,0,False,False,no_time
+2021,11,Hungarian Grand Prix,Q,Q2,SAI,Ferrari,15.0,,2,False,False,no_time
+2021,16,Turkish Grand Prix,Q,Q2,SAI,Ferrari,15.0,,1,False,True,no_time
+2021,17,United States Grand Prix,Q,Q2,RUS,Williams,15.0,,5,False,False,no_time
+2022,2,Saudi Arabian Grand Prix,Q,Q1,TSU,AlphaTauri,20.0,,2,False,False,no_time
+2022,3,Australian Grand Prix,Q,Q1,STR,Aston Martin,20.0,,2,False,False,no_time
+2022,3,Australian Grand Prix,Q,Q3,ALO,Alpine,10.0,,2,False,False,no_time
+2022,5,Miami Grand Prix,Q,Q1,OCO,Alpine,20.0,,0,False,False,no_time
+2022,11,Austrian Grand Prix,Q,Q3,PER,Red Bull Racing,13.0,,6,False,False,no_time
+2022,12,French Grand Prix,Q,Q3,SAI,Ferrari,9.0,,4,False,False,no_time
+2022,16,Italian Grand Prix,Q,Q3,ALO,Alpine,10.0,,5,False,False,no_time
+2023,1,Bahrain Grand Prix,Q,Q2,ALB,Williams,15.0,,2,False,False,no_time
+2023,1,Bahrain Grand Prix,Q,Q3,HUL,Haas F1 Team,10.0,,3,False,False,no_time
+2023,3,Australian Grand Prix,Q,Q1,PER,Red Bull Racing,20.0,,2,False,False,no_time
+2023,5,Miami Grand Prix,Q,Q3,VER,Red Bull Racing,9.0,,3,False,False,no_time
+2023,5,Miami Grand Prix,Q,Q3,BOT,Alfa Romeo,10.0,,1,False,False,no_time
+2023,15,Singapore Grand Prix,Q,Q2,TSU,AlphaTauri,15.0,,4,False,False,no_time
+2023,16,Japanese Grand Prix,Q,Q1,SAR,Williams,20.0,,2,False,False,no_time
+2023,17,Qatar Grand Prix,Q,Q3,NOR,McLaren,10.0,,6,False,False,no_time
+2023,17,Qatar Grand Prix,SQ,Q1,SAR,Williams,20.0,,5,False,False,no_time
+2023,17,Qatar Grand Prix,SQ,Q2,ZHO,Alfa Romeo,15.0,,5,False,False,no_time
+2023,17,Qatar Grand Prix,SQ,Q3,ALO,Aston Martin,9.0,,3,False,False,no_time
+2023,17,Qatar Grand Prix,SQ,Q3,OCO,Alpine,10.0,,3,False,False,no_time
+2023,19,Mexico City Grand Prix,Q,Q1,SAR,Williams,20.0,,6,False,False,no_time
+2023,19,Mexico City Grand Prix,Q,Q2,TSU,AlphaTauri,15.0,,4,False,False,no_time
+2023,20,São Paulo Grand Prix,Q,Q3,PIA,McLaren,10.0,,2,False,False,no_time
+2023,22,Abu Dhabi Grand Prix,Q,Q1,SAR,Williams,20.0,,6,False,False,no_time
+2024,2,Saudi Arabian Grand Prix,Q,Q1,ZHO,Kick Sauber,20.0,,2,False,False,no_time
+2024,2,Saudi Arabian Grand Prix,Q,Q2,HUL,Haas F1 Team,15.0,,2,False,False,no_time
+2024,6,Miami Grand Prix,SQ,Q2,TSU,RB,15.0,,3,False,False,no_time
+2024,7,Emilia Romagna Grand Prix,Q,Q1,SAR,Williams,20.0,,8,False,False,no_time
+2024,10,Spanish Grand Prix,Q,Q3,PIA,McLaren,10.0,,5,False,False,no_time
+2024,11,Austrian Grand Prix,SQ,Q2,SAR,Williams,15.0,,3,False,False,no_time
+2024,11,Austrian Grand Prix,SQ,Q3,LEC,Ferrari,10.0,,2,False,False,no_time
+2024,15,Dutch Grand Prix,Q,Q1,ALB,Williams,10.0,,9,False,False,no_time
+2024,15,Dutch Grand Prix,Q,Q1,SAR,Williams,20.0,,0,False,False,no_time
+2024,17,Azerbaijan Grand Prix,Q,Q1,GAS,Alpine,15.0,,9,False,False,no_time
+2024,18,Singapore Grand Prix,Q,Q3,LEC,Ferrari,9.0,,5,False,False,no_time
+2024,18,Singapore Grand Prix,Q,Q3,SAI,Ferrari,10.0,,1,False,False,no_time
+2024,19,United States Grand Prix,SQ,Q2,STR,Aston Martin,13.0,,3,False,False,no_time
+2024,19,United States Grand Prix,SQ,Q2,ALO,Aston Martin,14.0,,3,False,False,no_time
+2024,19,United States Grand Prix,SQ,Q2,LAW,RB,15.0,,3,False,False,no_time
+2024,19,United States Grand Prix,Q,Q2,LAW,RB,15.0,,3,False,False,no_time
+2024,19,United States Grand Prix,Q,Q3,PER,Red Bull Racing,10.0,,5,False,False,no_time
+2024,21,São Paulo Grand Prix,SQ,Q3,BEA,Haas F1 Team,10.0,,3,False,False,no_time
+2025,1,Australian Grand Prix,Q,Q1,BEA,Haas F1 Team,20.0,,1,False,False,no_time
+2025,2,Chinese Grand Prix,SQ,Q2,HAD,Racing Bulls,15.0,,2,False,False,no_time
+2025,4,Bahrain Grand Prix,Q,Q2,OCO,Haas F1 Team,14.0,,2,False,False,no_time
+2025,4,Bahrain Grand Prix,Q,Q2,HUL,Kick Sauber,16.0,,8,False,False,no_time
+2025,5,Saudi Arabian Grand Prix,Q,Q3,NOR,McLaren,10.0,,1,False,False,no_time
+2025,6,Miami Grand Prix,SQ,Q2,SAI,Williams,15.0,,2,False,False,no_time
+2025,7,Emilia Romagna Grand Prix,Q,Q1,TSU,Red Bull Racing,20.0,,2,False,False,no_time
+2025,8,Monaco Grand Prix,Q,Q2,RUS,Mercedes,14.0,,2,False,False,no_time
+2025,9,Spanish Grand Prix,Q,Q2,COL,Alpine,19.0,,1,False,False,no_time
+2025,15,Dutch Grand Prix,Q,Q1,STR,Aston Martin,20.0,,2,False,False,no_time
+2025,17,Azerbaijan Grand Prix,Q,Q1,OCO,Haas F1 Team,20.0,,9,False,False,no_time
+2025,17,Azerbaijan Grand Prix,Q,Q2,BEA,Haas F1 Team,15.0,,2,False,False,no_time
+2025,17,Azerbaijan Grand Prix,Q,Q3,PIA,McLaren,9.0,,3,False,True,no_time
+2025,17,Azerbaijan Grand Prix,Q,Q3,LEC,Ferrari,10.0,,2,False,True,no_time
+2025,18,Singapore Grand Prix,Q,Q1,ALB,Williams,19.0,,8,False,False,no_time
+2025,18,Singapore Grand Prix,Q,Q1,SAI,Williams,20.0,,8,False,False,no_time
+2025,18,Singapore Grand Prix,Q,Q2,ALB,Williams,19.0,,6,False,False,no_time
+2025,18,Singapore Grand Prix,Q,Q2,SAI,Williams,20.0,,6,False,False,no_time
+2025,19,United States Grand Prix,SQ,Q1,BOR,Kick Sauber,20.0,,5,False,False,no_time
+2025,19,United States Grand Prix,SQ,Q2,LAW,Racing Bulls,15.0,,3,False,False,no_time
+2025,19,United States Grand Prix,Q,Q1,HAD,Racing Bulls,20.0,,2,False,False,no_time
+2025,21,São Paulo Grand Prix,Q,Q1,BOR,Kick Sauber,,,0,False,False,no_time
+2025,24,Abu Dhabi Grand Prix,Q,Q3,TSU,Red Bull Racing,10.0,,5,False,False,no_time
+2026,1,Australian Grand Prix,Q,Q1,STR,Aston Martin,,,0,False,False,no_time
+2026,1,Australian Grand Prix,Q,Q1,VER,Red Bull Racing,,,2,False,False,no_time
+2026,1,Australian Grand Prix,Q,Q1,SAI,Williams,,,0,False,False,no_time
+2026,2,Chinese Grand Prix,SQ,Q1,PER,Cadillac,,,0,False,False,no_time
+2026,4,Miami Grand Prix,SQ,Q1,ALO,Aston Martin,21.0,,6,False,False,no_time
+2026,4,Miami Grand Prix,SQ,Q1,STR,Aston Martin,22.0,,3,False,False,no_time
+2026,4,Miami Grand Prix,Q,Q1,HAD,Red Bull Racing,22.0,,9,False,False,no_time
+2026,4,Miami Grand Prix,Q,Q2,HAD,Red Bull Racing,22.0,,6,False,False,no_time
+2026,4,Miami Grand Prix,Q,Q3,HAD,Red Bull Racing,22.0,,6,False,False,no_time
+2026,5,Canadian Grand Prix,SQ,Q1,ALB,Williams,,,0,False,False,no_time
+2026,5,Canadian Grand Prix,SQ,Q1,LAW,Racing Bulls,,,0,False,False,no_time
+2026,7,Barcelona Grand Prix,Q,Q3,LEC,Ferrari,10.0,,2,False,False,no_time
+2026,10,Belgian Grand Prix,Q,Q3,HAD,Red Bull Racing,10.0,,4,False,False,no_time
+2026,14,Spanish Grand Prix,Q,Q1,STR,Aston Martin,,,2,False,False,no_time
+2026,14,Spanish Grand Prix,Q,Q1,BEA,Haas F1 Team,,,0,False,False,no_time
+2018,4,Azerbaijan Grand Prix,Q,Q1,HAR,Toro Rosso,19.0,117.354,5,False,True,over_107pct
+2019,9,Austrian Grand Prix,Q,Q2,SAI,McLaren,15.0,73.601,3,False,False,over_107pct
+2021,17,United States Grand Prix,Q,Q2,ALO,Alpine,14.0,104.549,6,False,False,over_107pct
+2021,18,Mexico City Grand Prix,Q,Q3,NOR,McLaren,10.0,96.83,5,False,False,over_107pct
+2021,21,Saudi Arabian Grand Prix,Q,Q2,SAI,Ferrari,15.0,113.652,7,False,False,over_107pct
+2022,11,Austrian Grand Prix,Q,Q2,NOR,McLaren,15.0,85.847,8,False,False,over_107pct
+2022,11,Austrian Grand Prix,Q,Q3,HAM,Mercedes,9.0,73.151,4,False,False,over_107pct
+2023,2,Saudi Arabian Grand Prix,Q,Q1,SAR,Williams,20.0,128.51,8,False,False,over_107pct
+2023,2,Saudi Arabian Grand Prix,Q,Q2,VER,Red Bull Racing,15.0,109.953,3,False,False,over_107pct
+2023,4,Azerbaijan Grand Prix,Q,Q1,DEV,AlphaTauri,20.0,115.282,3,False,False,over_107pct
+2023,9,Austrian Grand Prix,Q,Q2,PER,Red Bull Racing,15.0,126.688,9,False,False,over_107pct
+2024,22,Las Vegas Grand Prix,Q,Q3,HAM,Mercedes,10.0,108.106,6,False,False,over_107pct
+2018,1,Australian Grand Prix,Q,Q1,HAM,Mercedes,1.0,82.824,7,False,False,slow_lap
+2018,3,Chinese Grand Prix,Q,Q1,RIC,Red Bull Racing,6.0,93.877,3,False,False,slow_lap
+2018,11,German Grand Prix,Q,Q1,BOT,Mercedes,2.0,72.962,8,False,False,slow_lap
+2018,14,Italian Grand Prix,Q,Q1,RAI,Ferrari,1.0,80.722,8,False,True,slow_lap
+2018,14,Italian Grand Prix,Q,Q1,BOT,Mercedes,4.0,81.381,6,False,True,slow_lap
+2018,15,Singapore Grand Prix,Q,Q1,HAM,Mercedes,1.0,99.403,6,False,False,slow_lap
+2018,15,Singapore Grand Prix,Q,Q1,VER,Red Bull Racing,2.0,98.751,4,False,False,slow_lap
+2018,15,Singapore Grand Prix,Q,Q1,BOT,Mercedes,4.0,99.291,7,False,False,slow_lap
+2018,18,United States Grand Prix,Q,Q1,HAM,Mercedes,1.0,94.13,5,False,False,slow_lap
+2018,18,United States Grand Prix,Q,Q1,VET,Ferrari,2.0,94.569,5,False,False,slow_lap
+2018,18,United States Grand Prix,Q,Q1,RAI,Ferrari,3.0,94.703,5,False,False,slow_lap
+2018,18,United States Grand Prix,Q,Q1,BOT,Mercedes,4.0,94.518,5,False,False,slow_lap
+2018,21,Abu Dhabi Grand Prix,Q,Q1,HAM,Mercedes,1.0,96.828,6,False,False,slow_lap
+2019,1,Australian Grand Prix,Q,Q1,BOT,Mercedes,2.0,82.367,7,False,False,slow_lap
+2019,1,Australian Grand Prix,Q,Q1,VET,Ferrari,3.0,82.885,5,False,False,slow_lap
+2019,5,Spanish Grand Prix,Q,Q1,BOT,Mercedes,1.0,76.979,6,False,False,slow_lap
+2019,7,Canadian Grand Prix,Q,Q3,SAI,McLaren,9.0,73.981,5,False,False,slow_lap
+2019,8,French Grand Prix,Q,Q1,HAM,Mercedes,1.0,90.609,7,False,False,slow_lap
+2019,8,French Grand Prix,Q,Q1,BOT,Mercedes,2.0,90.55,5,False,False,slow_lap
+2019,8,French Grand Prix,Q,Q1,VER,Red Bull Racing,4.0,91.327,5,False,False,slow_lap
+2019,8,French Grand Prix,Q,Q3,GIO,Alfa Romeo Racing,10.0,93.42,3,False,False,slow_lap
+2019,15,Singapore Grand Prix,Q,Q1,VET,Ferrari,3.0,98.374,5,False,False,slow_lap
+2019,16,Russian Grand Prix,Q,Q1,LEC,Ferrari,1.0,93.613,6,False,False,slow_lap
+2019,17,Japanese Grand Prix,Q,Q1,VET,Ferrari,1.0,88.988,7,False,False,slow_lap
+2019,18,Mexican Grand Prix,Q,Q1,VET,Ferrari,3.0,76.696,5,False,False,slow_lap
+2019,18,Mexican Grand Prix,Q,Q1,BOT,Mercedes,6.0,77.062,5,False,False,slow_lap
+2019,19,United States Grand Prix,Q,Q1,LEC,Ferrari,4.0,93.988,7,False,False,slow_lap
+2020,3,Hungarian Grand Prix,Q,Q1,BOT,Mercedes,2.0,75.474,8,False,False,slow_lap
+2020,6,Spanish Grand Prix,Q,Q1,BOT,Mercedes,2.0,77.243,6,False,False,slow_lap
+2020,15,Bahrain Grand Prix,Q,Q2,RUS,Williams,14.0,91.218,3,False,False,slow_lap
+2021,1,Bahrain Grand Prix,Q,Q2,RUS,Williams,15.0,93.43,3,False,False,slow_lap
+2021,16,Turkish Grand Prix,Q,Q1,HAM,Mercedes,1.0,84.585,11,False,True,slow_lap
+2021,16,Turkish Grand Prix,Q,Q1,BOT,Mercedes,2.0,85.047,11,False,True,slow_lap
+2021,16,Turkish Grand Prix,Q,Q1,ALO,Alpine,6.0,85.174,10,False,True,slow_lap
+2022,20,Mexico City Grand Prix,Q,Q1,PER,Red Bull Racing,4.0,79.706,6,False,False,slow_lap
+2023,6,Monaco Grand Prix,Q,Q1,ALO,Aston Martin,2.0,72.886,10,False,False,slow_lap
+2023,6,Monaco Grand Prix,Q,Q1,LEC,Ferrari,3.0,72.912,11,False,False,slow_lap
+2023,11,Hungarian Grand Prix,Q,Q1,HAM,Mercedes,1.0,78.577,8,False,False,slow_lap
+2023,11,Hungarian Grand Prix,Q,Q1,VER,Red Bull Racing,2.0,78.318,9,False,False,slow_lap
+2023,11,Hungarian Grand Prix,Q,Q1,NOR,McLaren,3.0,78.697,11,False,False,slow_lap
+2023,11,Hungarian Grand Prix,Q,Q1,PIA,McLaren,4.0,78.464,9,False,False,slow_lap
+2023,11,Hungarian Grand Prix,Q,Q1,BOT,Alfa Romeo,7.0,78.775,8,False,False,slow_lap
+2023,11,Hungarian Grand Prix,Q,Q1,ALO,Aston Martin,8.0,78.58,9,False,False,slow_lap
+2023,14,Italian Grand Prix,Q,Q1,SAI,Ferrari,1.0,81.965,9,False,False,slow_lap
+2023,17,Qatar Grand Prix,Q,Q1,HAM,Mercedes,3.0,86.076,9,False,False,slow_lap
+2023,20,São Paulo Grand Prix,Q,Q3,NOR,McLaren,7.0,71.987,3,False,False,slow_lap
+2023,20,São Paulo Grand Prix,Q,Q3,SAI,Ferrari,8.0,71.989,3,False,False,slow_lap
+2023,20,São Paulo Grand Prix,Q,Q3,PER,Red Bull Racing,9.0,72.321,3,False,False,slow_lap
+2023,20,São Paulo Grand Prix,SQ,Q1,PER,Red Bull Racing,3.0,72.218,7,False,False,slow_lap
+2024,13,Hungarian Grand Prix,Q,Q1,NOR,McLaren,1.0,77.755,9,False,True,slow_lap
+2024,13,Hungarian Grand Prix,Q,Q1,PIA,McLaren,2.0,77.504,8,False,True,slow_lap
+2024,13,Hungarian Grand Prix,Q,Q1,VER,Red Bull Racing,3.0,77.087,9,False,True,slow_lap
+2024,13,Hungarian Grand Prix,Q,Q1,SAI,Ferrari,4.0,77.244,10,False,True,slow_lap
+2024,13,Hungarian Grand Prix,Q,Q1,LEC,Ferrari,6.0,77.437,10,False,True,slow_lap
+2024,13,Hungarian Grand Prix,Q,Q1,ALO,Aston Martin,7.0,77.624,7,False,True,slow_lap
+2024,15,Dutch Grand Prix,Q,Q1,NOR,McLaren,1.0,71.377,5,False,False,slow_lap
+2026,5,Canadian Grand Prix,SQ,Q1,RUS,Mercedes,1.0,74.772,6,False,False,slow_lap
+2026,5,Canadian Grand Prix,SQ,Q1,LEC,Ferrari,6.0,75.006,7,False,False,slow_lap
+2026,6,Monaco Grand Prix,Q,Q1,ANT,Mercedes,1.0,73.599,10,False,False,slow_lap
+2026,6,Monaco Grand Prix,Q,Q1,HAM,Ferrari,3.0,73.777,10,False,False,slow_lap
+2026,6,Monaco Grand Prix,Q,Q1,HAD,Red Bull Racing,5.0,74.408,8,False,False,slow_lap
+2026,6,Monaco Grand Prix,Q,Q1,RUS,Mercedes,6.0,74.214,10,False,False,slow_lap
+2026,6,Monaco Grand Prix,Q,Q1,PIA,McLaren,7.0,74.159,10,False,False,slow_lap
+2026,12,Dutch Grand Prix,SQ,Q1,RUS,Mercedes,1.0,73.278,9,False,True,slow_lap
+2026,12,Dutch Grand Prix,SQ,Q1,NOR,McLaren,2.0,73.071,4,False,True,slow_lap
+2026,12,Dutch Grand Prix,SQ,Q1,PIA,McLaren,4.0,73.126,4,False,True,slow_lap
+2026,12,Dutch Grand Prix,SQ,Q1,ANT,Mercedes,5.0,73.668,7,False,True,slow_lap
+2026,12,Dutch Grand Prix,SQ,Q1,VER,Red Bull Racing,6.0,73.585,7,False,True,slow_lap
+2026,12,Dutch Grand Prix,Q,Q1,NOR,McLaren,1.0,72.695,8,False,True,slow_lap
+2026,12,Dutch Grand Prix,Q,Q1,RUS,Mercedes,2.0,72.924,7,False,True,slow_lap
+2026,12,Dutch Grand Prix,Q,Q1,ANT,Mercedes,3.0,73.022,7,False,True,slow_lap
+2026,12,Dutch Grand Prix,Q,Q1,LEC,Ferrari,6.0,73.064,7,False,True,slow_lap
+2026,12,Dutch Grand Prix,Q,Q1,VER,Red Bull Racing,7.0,73.29,7,False,True,slow_lap
+2026,12,Dutch Grand Prix,Q,Q1,LAW,Red Bull Racing,8.0,73.392,10,False,True,slow_lap

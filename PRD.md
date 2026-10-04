@@ -90,8 +90,8 @@ Semua data gratis dan bisa diambil lewat Python.
 
 1. Buang bagian sesi (Q1/Q2/Q3) yang basah: ada driver yang memasang ban intermediate atau wet di bagian itu. Flag `Rainfall` FastF1 hanya dipakai sebagai cek tambahan karena sering on/off. Simpan daftarnya untuk v2.
 2. Buang lap yang dihapus karena melanggar batas lintasan. Pakai waktu resmi Q1/Q2/Q3 dari hasil sesi, yang sudah tidak menghitung lap yang dihapus.
-3. Buang driver yang tidak punya waktu (crash, masalah mesin, red flag sebelum sempat lap).
-4. Buang waktu yang lebih lambat dari 102% waktu tercepat di bagian sesi itu. Ini menangkap lap yang tidak serius: driver yang kena penalti grid, strategi ban Q2 (2018–2021), atau run terakhir yang batal karena bendera kuning atau merah.
+3. Buang driver yang ikut di bagian sesi itu tapi tidak punya waktu (crash, masalah mesin, red flag sebelum sempat lap). Driver yang gugur di bagian sebelumnya bukan data yang dibuang.
+4. Buang lap yang tidak serius: waktu yang lebih lambat dari 102% waktu terbaik driver itu sendiri di sesi yang sama (penalti grid, run yang batal karena bendera kuning atau merah), plus jaring pengaman 107% dari waktu tercepat di bagian sesi untuk driver yang hanya punya satu waktu. Patokan ke waktu tercepat grid tidak dipakai karena ikut membuang hampir semua data mobil lambat (contoh: Williams 2019).
 5. Sprint qualifying dipakai sebagai sesi tersendiri, dengan definisi per tahun:
    - 2021–2022: "Sprint Qualifying" sebenarnya balapan sprint, jadi **dibuang**. Grid sprint ditentukan qualifying biasa hari Jumat, dan itu tetap dipakai.
    - 2023: "Sprint Shootout" (SQ1/SQ2/SQ3), dipakai.

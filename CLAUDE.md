@@ -23,6 +23,7 @@ py -3.12 -m venv .venv
 ```bash
 .venv/Scripts/python -m pytest
 .venv/Scripts/python -m src.ingest
+.venv/Scripts/python -m src.clean
 ```
 
 ## Layout
