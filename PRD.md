@@ -66,8 +66,8 @@ Ada tiga hasil akhir: dashboard, tulisan blog, dan repository kode yang rapi.
 | Peta perpindahan driver | Gambar jaringan: siapa pernah setim dengan siapa, siapa pindah ke mana | Wajib |
 | Perjalanan karier | Grafik rating seorang driver dari tahun ke tahun | Wajib |
 | Mobil vs driver | Berapa persen performa dijelaskan mobil vs driver, per era regulasi | Wajib |
-| Simulasi tukar mobil | Pilih driver dan mobil, lihat perkiraan selisih ke pole | Bagus kalau ada |
-| Adu dua driver | Peluang driver A lebih cepat dari driver B | Bagus kalau ada |
+| Simulasi tukar mobil | Pilih driver dan mobil, lihat perkiraan selisih ke pole | Wajib |
+| Adu dua driver | Peluang driver A lebih cepat dari driver B | Wajib |
 
 **Tulisan blog** menjelaskan masalahnya, cara kerja model dengan bahasa awam, temuan utama, dan batasan model secara jujur.
 
@@ -282,7 +282,7 @@ Catatan implementasi:
 4. **Tahap 4: Validasi**
    - [x] Semua tes di bagian Ukuran keberhasilan dijalankan dan hasilnya dicatat
 5. **Tahap 5: Dashboard dan tulisan**
-   - [ ] Dashboard modern menggunakan Next JS dengan 5 fitur wajib
+   - [ ] Dashboard modern menggunakan Next JS dengan 7 fitur wajib
    - [ ] Tulisan blog dan README
 
 **Contoh prompt pembuka di Claude Code:**
