@@ -4,7 +4,7 @@ Oct 1, 2026 · @Riza Nursyah · Status: Draft v2
 
 ## Ringkasan
 
-Kita membangun alat analisis yang memisahkan **seberapa cepat driver F1** dari **seberapa cepat mobilnya**, memakai data qualifying 2018–2026. Hasil akhirnya adalah ranking driver dan ranking mobil yang "adil", lengkap dengan tingkat keyakinannya, ditampilkan di dashboard dan dijelaskan dalam satu tulisan blog.
+Kita membangun alat analisis yang memisahkan **seberapa cepat driver F1** dari **seberapa cepat mobilnya**, memakai data qualifying 2018–2026. Hasil akhirnya adalah ranking driver dan ranking mobil yang "adil", lengkap dengan tingkat keyakinannya, ditampilkan di dashboard interaktif yang mudah dipahami penggemar F1.
 
 Project ini adalah side project portfolio. Fokusnya murni data science (statistik dan modeling), tanpa LLM. Target selesai versi pertama: 4 minggu.
 
@@ -55,7 +55,7 @@ Pertanyaan utama yang harus bisa dijawab:
 
 ## Apa yang dibangun
 
-Ada tiga hasil akhir: dashboard, tulisan blog, dan repository kode yang rapi.
+Ada dua hasil akhir: dashboard dan repository kode yang rapi dengan README singkat.
 
 **Isi dashboard:**
 
@@ -69,7 +69,9 @@ Ada tiga hasil akhir: dashboard, tulisan blog, dan repository kode yang rapi.
 | Simulasi tukar mobil | Pilih driver dan mobil, lihat perkiraan selisih ke pole | Wajib |
 | Adu dua driver | Peluang driver A lebih cepat dari driver B | Wajib |
 
-**Tulisan blog** menjelaskan masalahnya, cara kerja model dengan bahasa awam, temuan utama, dan batasan model secara jujur.
+**Halaman "Cara kerja & batasan"** di dashboard menjelaskan masalahnya, cara kerja model dengan bahasa awam, temuan utama, dan batasan model secara jujur, termasuk hasil validasi Tahap 4.
+
+**README** berisi ringkasan masalah, cara kerja model dalam beberapa kalimat, hasil validasi, cara menjalankan pipeline, dan screenshot dashboard.
 
 **Cara membaca rating:** angka dalam satuan persen selisih waktu. Contoh: rating -0,3% berarti driver itu sekitar 0,3% lebih cepat dari rata-rata driver di mobil yang sama. Di lap 90 detik, itu sekitar 0,27 detik.
 
@@ -182,7 +184,7 @@ Tes "masa depan" adalah yang paling penting. Regulasi 2026 mengubah mobil secara
 | --- | --- | --- |
 | Dua driver yang hanya pernah setim satu sama lain | Selisih mereka jelas, tapi posisi mereka dibanding grid kurang akurat | Tampilkan peta perpindahan driver dan beri catatan di dashboard |
 | Rookie dengan data sedikit | Rentang keyakinan lebar | Tampilkan rentangnya, jangan disembunyikan |
-| Perlakuan tim tidak sama ke dua driver (upgrade duluan, setup beda) | Ikut terhitung sebagai skill driver | Sebutkan sebagai batasan di tulisan blog |
+| Perlakuan tim tidak sama ke dua driver (upgrade duluan, setup beda) | Ikut terhitung sebagai skill driver | Sebutkan di halaman "Cara kerja & batasan" |
 | Mobil kuat di sirkuit tertentu saja | Rating mobil jadi rata-rata kasar | Sebagian sudah diserap efek tim × bagian sesi. Efek tipe sirkuit ditangani di v2 |
 | Data 2026 belum lengkap | Rating 2026 kurang stabil | Update model setiap selesai seri |
 | Proses perhitungan lambat | Iterasi jadi lama | Mulai dengan 2–3 musim dulu, baru diperluas; pakai NumPyro kalau perlu |
@@ -281,9 +283,10 @@ Catatan implementasi:
    - [x] Simpan rating driver dan mobil ke `outputs/`
 4. **Tahap 4: Validasi**
    - [x] Semua tes di bagian Ukuran keberhasilan dijalankan dan hasilnya dicatat
-5. **Tahap 5: Dashboard dan tulisan**
+5. **Tahap 5: Dashboard dan README**
    - [ ] Dashboard modern menggunakan Next JS dengan 7 fitur wajib
-   - [ ] Tulisan blog dan README
+   - [ ] Halaman "Cara kerja & batasan" di dashboard
+   - [ ] README singkat
 
 **Contoh prompt pembuka di Claude Code:**
 
