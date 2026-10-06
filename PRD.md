@@ -69,6 +69,29 @@ Ada dua hasil akhir: dashboard dan repository kode yang rapi dengan README singk
 | Simulasi tukar mobil | Pilih driver dan mobil, lihat perkiraan selisih ke pole | Wajib |
 | Adu dua driver | Peluang driver A lebih cepat dari driver B | Wajib |
 
+**Tampilan dashboard:**
+
+- **Bahasa UI:** Inggris.
+- **Satu fitur = satu halaman.** Navbar punya dropdown "Features" berisi 7 fitur. Halaman awal langsung ke ranking driver. Di dalam tiap halaman ada dropdown filter, misalnya musim atau driver.
+- **Foto driver:** setiap nama driver tampil bersama foto formal resminya. URL foto diambil dari data FastF1 (`HeadshotUrl`, tersedia untuk 2020 ke atas), memakai foto terbaru tiap driver. Foto tidak disimpan di repo karena hak ciptanya milik Formula 1, dan ada kredit di dashboard. Driver tanpa foto (misalnya yang terakhir balapan 2018–2019) atau foto yang gagal dimuat diganti avatar inisial dengan warna tim.
+- **Bahasa F1, bukan bahasa statistik:** selisih ditampilkan dalam detik, rentang keyakinan sebagai bar, dan memakai warna tim serta kode driver.
+
+**Definisi fitur:**
+
+- **Mobil vs driver:** porsi perbedaan kecepatan di grid yang datang dari mobil, yaitu sebaran rating mobil dibagi total sebaran mobil + driver (varians, dihitung per sampel posterior). Ditampilkan per musim dan per era regulasi: 2018–2021, 2022–2025, dan 2026. Contoh: 2026 = 95% mobil, 2023 = 35% mobil.
+- **Simulasi tukar mobil:** driver dan mobil dari musim yang sama. Perkiraan waktu = rating driver + rating mobil. Patokan pole = kombinasi driver + mobil asli tercepat di musim itu, dihitung per sampel posterior sehingga hasilnya punya rentang. Persen diubah ke detik memakai lap pole tipikal musim itu (median lap tercepat tiap sesi). Ditampilkan sebagai perkiraan "bagaimana kalau", bukan ramalan.
+- **Adu dua driver:** peluang = persentase sampel posterior di mana rating A lebih tinggi dari B. Default di musim yang sama. Boleh lintas musim, tapi diberi catatan bahwa rating tiap musim relatif ke grid musim itu.
+
+**Data dashboard:** dashboard membaca file JSON di `outputs/`, yang di-copy ke `web/public/data/` saat build.
+
+| File | Dibuat oleh | Dipakai untuk |
+| --- | --- | --- |
+| `ratings.json` | `model.py` | Ranking driver, ranking mobil, perjalanan karier |
+| `network.json` | `network.py` | Peta perpindahan driver |
+| `draws.json` | `export.py` | Simulasi tukar mobil, adu dua driver (400 sampel posterior per driver-musim dan mobil-musim) |
+| `seasons.json` | `export.py` | Mobil vs driver, lap pole tipikal per musim |
+| Foto driver | `export.py` | URL foto per driver dari cache FastF1 |
+
 **README** berisi ringkasan masalah, cara kerja model dalam beberapa kalimat, hasil validasi, cara menjalankan pipeline, dan screenshot dashboard.
 
 **Cara membaca rating:** angka dalam satuan persen selisih waktu. Contoh: rating -0,3% berarti driver itu sekitar 0,3% lebih cepat dari rata-rata driver di mobil yang sama. Di lap 90 detik, itu sekitar 0,27 detik.
@@ -226,7 +249,8 @@ f1-driver-vs-car/
 │   ├── network.py     # peta perpindahan driver
 │   ├── baseline.py    # pembanding sederhana
 │   ├── model.py       # model Bayesian
-│   └── evaluate.py    # semua tes keberhasilan
+│   ├── evaluate.py    # semua tes keberhasilan
+│   └── export.py      # data tambahan untuk dashboard
 ├── notebooks/         # eksplorasi dan hasil
 ├── outputs/           # hasil model (JSON rating + sampel posterior, grafik)
 ├── web/               # dashboard Next.js, baca JSON dari outputs/

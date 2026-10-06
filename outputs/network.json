@@ -1,0 +1,900 @@
+{
+  "teams": [
+    {
+      "id": "Williams",
+      "color": "#64C4FF",
+      "names": [
+        "Williams"
+      ]
+    },
+    {
+      "id": "Racing Bulls",
+      "color": "#6692FF",
+      "names": [
+        "AlphaTauri",
+        "RB",
+        "Racing Bulls",
+        "Toro Rosso"
+      ]
+    },
+    {
+      "id": "Red Bull",
+      "color": "#1E3A8A",
+      "names": [
+        "Red Bull",
+        "Red Bull Racing"
+      ]
+    },
+    {
+      "id": "Alpine",
+      "color": "#FF87BC",
+      "names": [
+        "Alpine",
+        "Renault"
+      ]
+    },
+    {
+      "id": "Aston Martin",
+      "color": "#229971",
+      "names": [
+        "Aston Martin",
+        "Force India",
+        "Racing Point"
+      ]
+    },
+    {
+      "id": "McLaren",
+      "color": "#FF8000",
+      "names": [
+        "McLaren"
+      ]
+    },
+    {
+      "id": "Mercedes",
+      "color": "#27F4D2",
+      "names": [
+        "Mercedes"
+      ]
+    },
+    {
+      "id": "Ferrari",
+      "color": "#E8002D",
+      "names": [
+        "Ferrari"
+      ]
+    },
+    {
+      "id": "Haas",
+      "color": "#9CA3AF",
+      "names": [
+        "Haas",
+        "Haas F1 Team"
+      ]
+    },
+    {
+      "id": "Audi",
+      "color": "#52E252",
+      "names": [
+        "Alfa Romeo",
+        "Alfa Romeo Racing",
+        "Audi",
+        "Kick Sauber",
+        "Sauber"
+      ]
+    },
+    {
+      "id": "Cadillac",
+      "color": "#1F1F1F",
+      "names": [
+        "Cadillac"
+      ]
+    }
+  ],
+  "drivers": [
+    {
+      "id": "AIT"
+    },
+    {
+      "id": "ALB"
+    },
+    {
+      "id": "ALO"
+    },
+    {
+      "id": "ANT"
+    },
+    {
+      "id": "BEA"
+    },
+    {
+      "id": "BOR"
+    },
+    {
+      "id": "BOT"
+    },
+    {
+      "id": "COL"
+    },
+    {
+      "id": "DEV"
+    },
+    {
+      "id": "DOO"
+    },
+    {
+      "id": "ERI"
+    },
+    {
+      "id": "FIT"
+    },
+    {
+      "id": "GAS"
+    },
+    {
+      "id": "GIO"
+    },
+    {
+      "id": "GRO"
+    },
+    {
+      "id": "HAD"
+    },
+    {
+      "id": "HAM"
+    },
+    {
+      "id": "HAR"
+    },
+    {
+      "id": "HUL"
+    },
+    {
+      "id": "KUB"
+    },
+    {
+      "id": "KVY"
+    },
+    {
+      "id": "LAT"
+    },
+    {
+      "id": "LAW"
+    },
+    {
+      "id": "LEC"
+    },
+    {
+      "id": "LIN"
+    },
+    {
+      "id": "MAG"
+    },
+    {
+      "id": "MAZ"
+    },
+    {
+      "id": "MSC"
+    },
+    {
+      "id": "NOR"
+    },
+    {
+      "id": "OCO"
+    },
+    {
+      "id": "PER"
+    },
+    {
+      "id": "PIA"
+    },
+    {
+      "id": "RAI"
+    },
+    {
+      "id": "RIC"
+    },
+    {
+      "id": "RUS"
+    },
+    {
+      "id": "SAI"
+    },
+    {
+      "id": "SAR"
+    },
+    {
+      "id": "SIR"
+    },
+    {
+      "id": "STR"
+    },
+    {
+      "id": "TSU"
+    },
+    {
+      "id": "VAN"
+    },
+    {
+      "id": "VER"
+    },
+    {
+      "id": "VET"
+    },
+    {
+      "id": "ZHO"
+    }
+  ],
+  "links": [
+    {
+      "source": "AIT",
+      "target": "Williams",
+      "seasons": [
+        2020
+      ]
+    },
+    {
+      "source": "ALB",
+      "target": "Williams",
+      "seasons": [
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ]
+    },
+    {
+      "source": "COL",
+      "target": "Williams",
+      "seasons": [
+        2024
+      ]
+    },
+    {
+      "source": "DEV",
+      "target": "Williams",
+      "seasons": [
+        2022
+      ]
+    },
+    {
+      "source": "KUB",
+      "target": "Williams",
+      "seasons": [
+        2019
+      ]
+    },
+    {
+      "source": "LAT",
+      "target": "Williams",
+      "seasons": [
+        2020,
+        2021,
+        2022
+      ]
+    },
+    {
+      "source": "RUS",
+      "target": "Williams",
+      "seasons": [
+        2019,
+        2020,
+        2021
+      ]
+    },
+    {
+      "source": "SAI",
+      "target": "Williams",
+      "seasons": [
+        2025,
+        2026
+      ]
+    },
+    {
+      "source": "SAR",
+      "target": "Williams",
+      "seasons": [
+        2023,
+        2024
+      ]
+    },
+    {
+      "source": "SIR",
+      "target": "Williams",
+      "seasons": [
+        2018
+      ]
+    },
+    {
+      "source": "STR",
+      "target": "Williams",
+      "seasons": [
+        2018
+      ]
+    },
+    {
+      "source": "ALB",
+      "target": "Racing Bulls",
+      "seasons": [
+        2019
+      ]
+    },
+    {
+      "source": "ALB",
+      "target": "Red Bull",
+      "seasons": [
+        2019,
+        2020
+      ]
+    },
+    {
+      "source": "DEV",
+      "target": "Racing Bulls",
+      "seasons": [
+        2023
+      ]
+    },
+    {
+      "source": "GAS",
+      "target": "Racing Bulls",
+      "seasons": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022
+      ]
+    },
+    {
+      "source": "HAD",
+      "target": "Racing Bulls",
+      "seasons": [
+        2025
+      ]
+    },
+    {
+      "source": "HAR",
+      "target": "Racing Bulls",
+      "seasons": [
+        2018
+      ]
+    },
+    {
+      "source": "KVY",
+      "target": "Racing Bulls",
+      "seasons": [
+        2019,
+        2020
+      ]
+    },
+    {
+      "source": "LAW",
+      "target": "Racing Bulls",
+      "seasons": [
+        2023,
+        2024,
+        2025,
+        2026
+      ]
+    },
+    {
+      "source": "LIN",
+      "target": "Racing Bulls",
+      "seasons": [
+        2026
+      ]
+    },
+    {
+      "source": "RIC",
+      "target": "Racing Bulls",
+      "seasons": [
+        2023,
+        2024
+      ]
+    },
+    {
+      "source": "TSU",
+      "target": "Racing Bulls",
+      "seasons": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ]
+    },
+    {
+      "source": "GAS",
+      "target": "Red Bull",
+      "seasons": [
+        2019
+      ]
+    },
+    {
+      "source": "HAD",
+      "target": "Red Bull",
+      "seasons": [
+        2026
+      ]
+    },
+    {
+      "source": "LAW",
+      "target": "Red Bull",
+      "seasons": [
+        2025,
+        2026
+      ]
+    },
+    {
+      "source": "PER",
+      "target": "Red Bull",
+      "seasons": [
+        2021,
+        2022,
+        2023,
+        2024
+      ]
+    },
+    {
+      "source": "RIC",
+      "target": "Red Bull",
+      "seasons": [
+        2018
+      ]
+    },
+    {
+      "source": "TSU",
+      "target": "Red Bull",
+      "seasons": [
+        2025
+      ]
+    },
+    {
+      "source": "VER",
+      "target": "Red Bull",
+      "seasons": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ]
+    },
+    {
+      "source": "ALO",
+      "target": "Alpine",
+      "seasons": [
+        2021,
+        2022
+      ]
+    },
+    {
+      "source": "ALO",
+      "target": "Aston Martin",
+      "seasons": [
+        2023,
+        2024,
+        2025,
+        2026
+      ]
+    },
+    {
+      "source": "ALO",
+      "target": "McLaren",
+      "seasons": [
+        2018
+      ]
+    },
+    {
+      "source": "COL",
+      "target": "Alpine",
+      "seasons": [
+        2025,
+        2026
+      ]
+    },
+    {
+      "source": "DOO",
+      "target": "Alpine",
+      "seasons": [
+        2024,
+        2025
+      ]
+    },
+    {
+      "source": "GAS",
+      "target": "Alpine",
+      "seasons": [
+        2023,
+        2024,
+        2025,
+        2026
+      ]
+    },
+    {
+      "source": "HUL",
+      "target": "Alpine",
+      "seasons": [
+        2018,
+        2019
+      ]
+    },
+    {
+      "source": "OCO",
+      "target": "Alpine",
+      "seasons": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024
+      ]
+    },
+    {
+      "source": "RIC",
+      "target": "Alpine",
+      "seasons": [
+        2019,
+        2020
+      ]
+    },
+    {
+      "source": "SAI",
+      "target": "Alpine",
+      "seasons": [
+        2018
+      ]
+    },
+    {
+      "source": "HUL",
+      "target": "Aston Martin",
+      "seasons": [
+        2020,
+        2022
+      ]
+    },
+    {
+      "source": "OCO",
+      "target": "Aston Martin",
+      "seasons": [
+        2018
+      ]
+    },
+    {
+      "source": "PER",
+      "target": "Aston Martin",
+      "seasons": [
+        2018,
+        2019,
+        2020
+      ]
+    },
+    {
+      "source": "STR",
+      "target": "Aston Martin",
+      "seasons": [
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ]
+    },
+    {
+      "source": "VET",
+      "target": "Aston Martin",
+      "seasons": [
+        2021,
+        2022
+      ]
+    },
+    {
+      "source": "NOR",
+      "target": "McLaren",
+      "seasons": [
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ]
+    },
+    {
+      "source": "PIA",
+      "target": "McLaren",
+      "seasons": [
+        2023,
+        2024,
+        2025,
+        2026
+      ]
+    },
+    {
+      "source": "RIC",
+      "target": "McLaren",
+      "seasons": [
+        2021,
+        2022
+      ]
+    },
+    {
+      "source": "SAI",
+      "target": "McLaren",
+      "seasons": [
+        2019,
+        2020
+      ]
+    },
+    {
+      "source": "VAN",
+      "target": "McLaren",
+      "seasons": [
+        2018
+      ]
+    },
+    {
+      "source": "ANT",
+      "target": "Mercedes",
+      "seasons": [
+        2025,
+        2026
+      ]
+    },
+    {
+      "source": "BOT",
+      "target": "Mercedes",
+      "seasons": [
+        2018,
+        2019,
+        2020,
+        2021
+      ]
+    },
+    {
+      "source": "HAM",
+      "target": "Mercedes",
+      "seasons": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024
+      ]
+    },
+    {
+      "source": "RUS",
+      "target": "Mercedes",
+      "seasons": [
+        2020,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ]
+    },
+    {
+      "source": "BEA",
+      "target": "Ferrari",
+      "seasons": [
+        2024
+      ]
+    },
+    {
+      "source": "BEA",
+      "target": "Haas",
+      "seasons": [
+        2024,
+        2025,
+        2026
+      ]
+    },
+    {
+      "source": "HAM",
+      "target": "Ferrari",
+      "seasons": [
+        2025,
+        2026
+      ]
+    },
+    {
+      "source": "LEC",
+      "target": "Ferrari",
+      "seasons": [
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ]
+    },
+    {
+      "source": "RAI",
+      "target": "Ferrari",
+      "seasons": [
+        2018
+      ]
+    },
+    {
+      "source": "SAI",
+      "target": "Ferrari",
+      "seasons": [
+        2021,
+        2022,
+        2023,
+        2024
+      ]
+    },
+    {
+      "source": "VET",
+      "target": "Ferrari",
+      "seasons": [
+        2018,
+        2019,
+        2020
+      ]
+    },
+    {
+      "source": "FIT",
+      "target": "Haas",
+      "seasons": [
+        2020
+      ]
+    },
+    {
+      "source": "GRO",
+      "target": "Haas",
+      "seasons": [
+        2018,
+        2019,
+        2020
+      ]
+    },
+    {
+      "source": "HUL",
+      "target": "Haas",
+      "seasons": [
+        2023,
+        2024
+      ]
+    },
+    {
+      "source": "MAG",
+      "target": "Haas",
+      "seasons": [
+        2018,
+        2019,
+        2020,
+        2022,
+        2023,
+        2024
+      ]
+    },
+    {
+      "source": "MAZ",
+      "target": "Haas",
+      "seasons": [
+        2021
+      ]
+    },
+    {
+      "source": "MSC",
+      "target": "Haas",
+      "seasons": [
+        2021,
+        2022
+      ]
+    },
+    {
+      "source": "OCO",
+      "target": "Haas",
+      "seasons": [
+        2025,
+        2026
+      ]
+    },
+    {
+      "source": "BOR",
+      "target": "Audi",
+      "seasons": [
+        2025,
+        2026
+      ]
+    },
+    {
+      "source": "BOT",
+      "target": "Audi",
+      "seasons": [
+        2022,
+        2023,
+        2024
+      ]
+    },
+    {
+      "source": "ERI",
+      "target": "Audi",
+      "seasons": [
+        2018
+      ]
+    },
+    {
+      "source": "GIO",
+      "target": "Audi",
+      "seasons": [
+        2019,
+        2020,
+        2021
+      ]
+    },
+    {
+      "source": "HUL",
+      "target": "Audi",
+      "seasons": [
+        2025,
+        2026
+      ]
+    },
+    {
+      "source": "KUB",
+      "target": "Audi",
+      "seasons": [
+        2021
+      ]
+    },
+    {
+      "source": "LEC",
+      "target": "Audi",
+      "seasons": [
+        2018
+      ]
+    },
+    {
+      "source": "RAI",
+      "target": "Audi",
+      "seasons": [
+        2019,
+        2020,
+        2021
+      ]
+    },
+    {
+      "source": "ZHO",
+      "target": "Audi",
+      "seasons": [
+        2022,
+        2023,
+        2024
+      ]
+    },
+    {
+      "source": "BOT",
+      "target": "Cadillac",
+      "seasons": [
+        2026
+      ]
+    },
+    {
+      "source": "PER",
+      "target": "Cadillac",
+      "seasons": [
+        2026
+      ]
+    }
+  ]
+}

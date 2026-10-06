@@ -1,3 +1,4 @@
+import json
 from pathlib import Path
 
 import matplotlib.pyplot as plt
@@ -8,6 +9,7 @@ from matplotlib.colors import to_rgb
 
 CLEAN = Path("data/clean/qualifying.parquet")
 FIGURE = Path("outputs/figures/driver_network.png")
+GRAPH = Path("outputs/network.json")
 
 TEAMS = {
     "Williams": ("#64C4FF", ""),
@@ -58,6 +60,22 @@ def build_graph(df: pd.DataFrame) -> nx.Graph:
         G.add_node(team, kind="team")
         G.add_edge(driver, team, seasons=seasons)
     return G
+
+
+def to_json(G: nx.Graph) -> dict:
+    teams = [n for n, k in G.nodes(data="kind") if k == "team"]
+    drivers = [n for n, k in G.nodes(data="kind") if k == "driver"]
+    return {
+        "teams": [
+            {"id": t, "color": TEAMS[t][0], "names": sorted({t} | {k for k, v in LINEAGE.items() if v == t})}
+            for t in teams
+        ],
+        "drivers": [{"id": d} for d in drivers],
+        "links": [
+            {"source": d, "target": t, "seasons": G.edges[d, t]["seasons"]}
+            for d, t in ((d, t) if t in TEAMS else (t, d) for d, t in G.edges)
+        ],
+    }
 
 
 def year_label(seasons: list[int]) -> str:
@@ -154,7 +172,8 @@ def main() -> None:
     print(f"{len(drivers)} drivers, {len(G) - len(drivers)} teams, "
           f"{len(movers)} drove for 2+ teams, connected: {nx.is_connected(G)}")
     draw(G, FIGURE)
-    print(f"saved {FIGURE}")
+    GRAPH.write_text(json.dumps(to_json(G), indent=2))
+    print(f"saved {FIGURE}, {GRAPH}")
 
 
 if __name__ == "__main__":
