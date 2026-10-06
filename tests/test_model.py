@@ -6,7 +6,7 @@ import pandas as pd
 import pytest
 import xarray as xr
 
-from src.model import build_model, center_matrix, encode, ratings, seasons_since, walk_matrix, zero_sum_basis
+from src.model import build_model, center_matrix, encode, ratings, seasons_since, second_season, walk_matrix, zero_sum_basis
 
 
 def make_drivers():
@@ -48,6 +48,11 @@ def test_seasons_since_counts_missed_seasons():
     assert gap.dropna().tolist() == [3, 1]
 
 
+def test_second_season_flags_only_drivers_who_debuted_in_the_data():
+    drivers = pd.DataFrame({"driver": ["ALO", "ALO", "PIA", "PIA", "PIA"], "season": [2018, 2019, 2023, 2024, 2025]})
+    assert second_season(drivers).tolist() == [0, 0, 0, 1, 0]
+
+
 def test_ratings_flip_sign_and_list_teams_per_driver_season():
     df = pd.DataFrame({
         "season": [2024, 2024, 2024],
@@ -80,4 +85,14 @@ def test_build_model_has_one_effect_per_driver_season_and_team_season():
     model = build_model(df)
     assert len(model.coords["driver_season"]) == 8
     assert len(model.coords["team_season"]) == 4
+    assert np.isfinite(model.compile_logp()(model.initial_point()))
+
+
+def test_build_model_adds_forecast_driver_seasons_without_data():
+    df = pd.DataFrame({
+        "season": 2023, "round": 1, "session": "Q", "part": "Q1",
+        "driver": ["AAA", "BBB"], "team": "X", "lap_time": [90.0, 90.2],
+    })
+    model = build_model(df, forecast=pd.DataFrame({"driver": ["AAA", "CCC"], "season": [2024, 2024]}))
+    assert model.coords["driver_season"] == ("AAA 2023", "AAA 2024", "BBB 2023", "CCC 2024")
     assert np.isfinite(model.compile_logp()(model.initial_point()))

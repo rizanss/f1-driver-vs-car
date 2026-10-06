@@ -102,20 +102,21 @@ Semua data gratis dan bisa diambil lewat Python.
 
 ## Cara kerja model
 
-Model menganggap setiap waktu lap tersusun dari empat bagian:
+Model menganggap setiap waktu lap tersusun dari lima bagian:
 
-**Waktu lap = kondisi sesi + kecepatan mobil + kecepatan driver + faktor acak**
+**Waktu lap = kondisi sesi + kecepatan mobil + kecepatan driver + kondisi tim di sesi itu + faktor acak**
 
 | Bagian | Artinya | Contoh |
 | --- | --- | --- |
 | Kondisi sesi | Semua hal yang sama untuk semua driver di sesi itu | Panjang sirkuit, suhu, aspal makin cepat menjelang Q3 |
 | Kecepatan mobil | Seberapa cepat mobil tim tertentu di musim tertentu | Mobil juara 2023 vs mobil papan bawah 2023 |
 | Kecepatan driver | Seberapa cepat driver dibanding driver rata-rata di mobil yang sama | Selisih rutin seorang driver ke rekan setimnya |
+| Kondisi tim di sesi itu | Hal yang dirasakan bersama dua rekan setim di satu bagian sesi | Mobil kebetulan tidak cocok dengan sirkuit itu, waktu keluar pit yang sama |
 | Faktor acak | Hal kecil yang tidak bisa dijelaskan | Angin, sedikit kesalahan di satu tikungan |
 
 Tiga aturan penting di dalam model:
 
-1. **Skill driver boleh berubah pelan-pelan dari musim ke musim.** Driver bisa berkembang atau menurun, tapi tidak melompat drastis tanpa alasan.
+1. **Skill driver boleh berubah pelan-pelan dari musim ke musim.** Driver bisa berkembang atau menurun, tapi tidak melompat drastis tanpa alasan. Driver baru rata-rata membaik di musim keduanya, dan besarnya dipelajari dari data.
 2. **Mobil dianggap baru setiap musim.** Terutama karena ada perubahan regulasi besar di 2022 dan 2026, mobil tahun lalu tidak bisa dijadikan patokan.
 3. **Model tidak gampang "kaget" oleh lap aneh.** Satu lap yang rusak tidak boleh mengubah rating secara besar.
 
@@ -140,12 +141,40 @@ Project dianggap berhasil kalau semua tes di bawah lolos.
 | Ketahanan asumsi | Kalau asumsi awal diubah sedikit, apakah ranking berubah drastis? | Urutan 5 besar tetap mirip |
 | Akal sehat | Apakah hasil cocok dengan kasus yang sudah diketahui publik? | Kasus driver pindah tim yang terkenal bisa dijelaskan model |
 
-**Definisi dua tes pertama:** yang ditebak adalah selisih waktu ke rekan setim di tiap bagian sesi (dalam persen), pada data yang tidak dipakai untuk latihan. Ukurannya MAE (rata-rata besar melesetnya tebakan). Pembanding = rata-rata selisih driver ke rekan setim per musim, dan tebakan selisih A vs B = (rating A − rating B) / 2.
+**Definisi dua tes pertama:** yang ditebak adalah selisih waktu ke rekan setim di tiap bagian sesi (dalam persen), pada data yang tidak dipakai untuk latihan. Ukurannya MAE (rata-rata besar melesetnya tebakan).
 
-- Tes lawan pembanding: 20% GP per musim disembunyikan secara acak (satu akhir pekan utuh). Angka pembanding: MAE 0,315%.
-- Tes masa depan: latih dengan data sampai 2025, uji di 2026. Angka pembanding: MAE 0,382%, sedikit lebih buruk dari tebakan "semua rekan setim setara" (0,372%), karena banyak pasangan baru di 2026.
+- **Tebakan pembanding:** pembanding = rata-rata selisih driver ke rekan setim per musim. Tebakan selisih A vs B = (rating A − rating B) / 2, karena tiap selisih terhitung dua kali (dari sisi A dan dari sisi B).
+- **Tebakan model:** β_A − β_B, karena mobil dan kondisi sesi saling coret untuk dua rekan setim. Driver-musim yang ditebak dimasukkan ke model sebagai musim tanpa data, jadi tebakannya mengikuti random walk, termasuk efek musim kedua.
+- **Tes lawan pembanding:** 20% GP per musim disembunyikan secara acak (satu akhir pekan utuh), diulang dengan 5 pengacakan (seed 0–4). Angka pembanding: MAE 0,315% di seed 0, atau 0,315–0,338% di 5 seed. Lolos kalau model lebih baik di setiap pengacakan.
+- **Tes masa depan:** latih dengan data sampai 2025, uji di 2026. Angka pembanding: MAE 0,382%, sedikit lebih buruk dari tebakan "semua rekan setim setara" (0,372%), karena banyak pasangan baru di 2026.
 
 Tes "masa depan" adalah yang paling penting. Regulasi 2026 mengubah mobil secara total, jadi ini membuktikan rating driver benar-benar terbawa ke mobil baru, bukan sekadar menghafal data lama.
+
+**Kriteria tes lainnya (dikunci sebelum melihat hasil):**
+
+- **Data palsu vs data asli:** dari model dibuat 400 dataset tiruan. Kuantil 25, 50, 75, 90, dan 99% dari besar selisih ke rekan setim di data asli harus masuk rentang 90% dataset tiruan.
+- **Kesehatan model:** R-hat < 1,01 dan 0 divergence, berlaku untuk model penuh dan semua run latih ulang.
+- **Ketahanan asumsi:** prior τ_driver, τ_drift, dan τ_mobil masing-masing dikali ½ dan 2, jadi ada 6 variasi. Lolos kalau minimal 4 dari 5 driver teratas tiap musim tetap sama.
+- **Akal sehat:** 6 kasus pindah tim. Lolos kalau bagian terbesar dari perubahan rating cocok dengan yang diharapkan:
+  - Karena mobil: ALO 2022→2023, SAI 2024→2025, PER 2020→2021, BOT 2021→2022, dan ALB 2020→2022.
+  - Karena driver: RIC 2020→2021.
+
+**Hasil validasi (Tahap 4, model final):** angka lengkapnya ada di `outputs/validation.json`.
+
+| Tes | Hasil | Status |
+| --- | --- | --- |
+| Lawan pembanding | Model menang di 5 dari 5 pengacakan. MAE model 0,309–0,326% vs pembanding 0,315–0,338% (seed 0: 0,313 vs 0,315) | Lolos |
+| Tes masa depan | Model 0,385% vs pembanding 0,382% vs "semua setara" 0,372% | Gagal tipis |
+| Data palsu vs asli | 3 dari 5 kuantil masuk. Median selisih tiruan 0,290% vs asli 0,277% (selisih sekitar 5%) | Gagal tipis |
+| Kesehatan model | Model penuh: 0 divergence, R-hat 1,004. Run latih ulang: semuanya 0 divergence, tapi 4 dari 12 punya R-hat > 1,01 (tertinggi 1,025) | Gagal di run latih ulang |
+| Ketahanan asumsi | Minimal 4 dari 5 driver teratas tetap sama di semua musim dan semua variasi | Lolos |
+| Akal sehat | 4 dari 6 cocok. PER (driver +0,076 vs mobil +0,069) dan RIC (dua-duanya di bawah 0,03) nyaris seri | Gagal tipis |
+
+**Catatan hasil:**
+
+- **Tes masa depan:** kekalahan model menumpuk di Red Bull. Model menebak HAD 0,51% lebih lambat dari VER, padahal aslinya 0,10%, dan LAW juga begitu. Di 2026 keunggulan VER atas rekan setimnya mengecil. Di luar Red Bull, model lebih akurat dari pembanding. Contohnya pasangan baru BOT–PER di Cadillac: model meleset 0,65%, pembanding 0,91%.
+- **Kesehatan model:** R-hat tinggi berasal dari Haas 2018–2020. MAG dan GRO cuma pernah membawa Haas, jadi porsi mobil dan driver sulit dipisah, apalagi kalau 20% GP disembunyikan. Low-rank mass matrix dari nutpie sudah dicoba dan tidak membantu.
+- **Perbaikan model hanya satu putaran:** efek tim × bagian sesi, plus efek musim kedua. Sebelum perbaikan hasilnya: tes masa depan 0,398%, median selisih tiruan 0,364%, akal sehat 5 dari 6. Perbaikan berhenti di situ karena hasil 2026 sudah terlihat, dan perbaikan lebih lanjut berisiko menyesuaikan model ke data uji. Kegagalan yang tersisa dicatat sebagai batasan model.
 
 ## Risiko dan batasan
 
@@ -154,7 +183,7 @@ Tes "masa depan" adalah yang paling penting. Regulasi 2026 mengubah mobil secara
 | Dua driver yang hanya pernah setim satu sama lain | Selisih mereka jelas, tapi posisi mereka dibanding grid kurang akurat | Tampilkan peta perpindahan driver dan beri catatan di dashboard |
 | Rookie dengan data sedikit | Rentang keyakinan lebar | Tampilkan rentangnya, jangan disembunyikan |
 | Perlakuan tim tidak sama ke dua driver (upgrade duluan, setup beda) | Ikut terhitung sebagai skill driver | Sebutkan sebagai batasan di tulisan blog |
-| Mobil kuat di sirkuit tertentu saja | Rating mobil jadi rata-rata kasar | Ditangani di v2 dengan efek tipe sirkuit |
+| Mobil kuat di sirkuit tertentu saja | Rating mobil jadi rata-rata kasar | Sebagian sudah diserap efek tim × bagian sesi. Efek tipe sirkuit ditangani di v2 |
 | Data 2026 belum lengkap | Rating 2026 kurang stabil | Update model setiap selesai seri |
 | Proses perhitungan lambat | Iterasi jadi lama | Mulai dengan 2–3 musim dulu, baru diperluas; pakai NumPyro kalau perlu |
 
@@ -219,14 +248,23 @@ Target: y = 100 × ln(waktu lap dalam detik). Satuan efek = persen.
 ```latex
 \begin{aligned}
 y_i &\sim \text{StudentT}(\nu,\ \mu_i,\ \sigma) \\
-\mu_i &= \alpha_{\text{sesi}[i]} + \beta_{\text{driver}[i],\,\text{musim}[i]} + \gamma_{\text{tim}[i],\,\text{musim}[i]} \\
-\beta_{d,s} &\sim \mathcal{N}(\beta_{d,s-1},\ \tau_{\text{drift}}), \quad \beta_{d,s_0} \sim \mathcal{N}(0,\ \tau_{\text{driver}}) \\
+\mu_i &= \alpha_{\text{sesi}[i]} + \beta_{\text{driver}[i],\,\text{musim}[i]} + \gamma_{\text{tim}[i],\,\text{musim}[i]} + \delta_{\text{tim}[i],\,\text{sesi}[i]} \\
+\beta_{d,s} &\sim \mathcal{N}(\beta_{d,s-1} + \lambda\,\mathbb{1}[s = \text{musim kedua } d],\ \tau_{\text{drift}}), \quad \beta_{d,s_0} \sim \mathcal{N}(0,\ \tau_{\text{driver}}) \\
 \gamma_{t,s} &\sim \mathcal{N}(0,\ \tau_{\text{mobil}}), \quad \textstyle\sum_t \gamma_{t,s} = 0 \\
+\delta_{t,p} &\sim \mathcal{N}(0,\ \tau_{\text{tim-sesi}}) \\
 \textstyle\sum_{d \in D_s} \beta_{d,s} &= 0 \quad \text{(}D_s\text{ = driver yang aktif di musim } s\text{)}
 \end{aligned}
 ```
 
-Catatan implementasi: rata-rata β tiap musim dikunci ke nol karena tidak bisa dibedakan dari α (semua sesi di satu musim kena geseran yang sama). Tanpa kunci ini, random walk membuat rata-rata grid bergeser bebas, dan sampler jadi lambat atau divergen. Caranya: kurangi β mentah dengan rata-ratanya per musim sebelum masuk ke μ. Selain itu, pakai non-centered parameterization; driver yang absen satu musim atau lebih tetap pakai random walk dengan drift yang diperbesar sesuai jumlah musim yang hilang; tampilkan rating dengan tanda dibalik supaya angka lebih tinggi = lebih cepat.
+Catatan implementasi:
+
+- **Kunci nol untuk β:** rata-rata β tiap musim dikunci ke nol karena tidak bisa dibedakan dari α (semua sesi di satu musim kena geseran yang sama). Tanpa kunci ini, random walk membuat rata-rata grid bergeser bebas, dan sampler jadi lambat atau divergen. Caranya: kurangi β mentah dengan rata-ratanya per musim sebelum masuk ke μ.
+- **Non-centered parameterization** dipakai untuk efek-efek di model.
+- **Driver yang absen satu musim atau lebih** tetap pakai random walk, dengan drift yang diperbesar sesuai jumlah musim yang hilang.
+- **δ (kondisi tim di sesi itu)** menangkap hal yang dirasakan bersama dua rekan setim di satu bagian sesi. Tanpa δ, noise dua rekan setim berkorelasi 0,29 dan sebaran data tiruan jadi terlalu lebar.
+- **λ (efek musim kedua)** hanya berlaku untuk driver yang debut di 2018 ke atas, jadi bukan veteran yang kembali seperti KUB dan KVY. Hasil estimasinya: driver rata-rata 0,13% lebih cepat di musim keduanya.
+- **Sampling:** 4 chain × 2.000 draw.
+- **Tampilan rating:** tanda dibalik, supaya angka lebih tinggi = lebih cepat.
 
 **Urutan tahap dan syarat selesai:**
 
@@ -242,7 +280,7 @@ Catatan implementasi: rata-rata β tiap musim dikunci ke nol karena tidak bisa d
    - [x] Model jalan untuk semua musim
    - [x] Simpan rating driver dan mobil ke `outputs/`
 4. **Tahap 4: Validasi**
-   - [ ] Semua tes di bagian Ukuran keberhasilan dijalankan dan hasilnya dicatat
+   - [x] Semua tes di bagian Ukuran keberhasilan dijalankan dan hasilnya dicatat
 5. **Tahap 5: Dashboard dan tulisan**
    - [ ] Dashboard modern menggunakan Next JS dengan 5 fitur wajib
    - [ ] Tulisan blog dan README

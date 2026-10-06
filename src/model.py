@@ -10,9 +10,16 @@ import pymc as pm
 CLEAN = Path("data/clean/qualifying.parquet")
 OUTPUTS = Path("outputs")
 PART = ["season", "round", "session", "part"]
-HYPER = ["tau_driver", "tau_drift", "tau_car", "sigma", "nu"]
+DRIVER = ["driver", "season"]
+HYPER = ["tau_driver", "tau_drift", "learn", "tau_car", "tau_team_part", "sigma", "nu"]
+NUISANCE = ["z_team_part"]
 SAMPLE_DIMS = ("chain", "draw")
 SEED = 2023
+PRIORS = {"tau_driver": 0.5, "tau_drift": 0.1, "learn": 0.2, "tau_car": 1.0, "tau_team_part": 0.3, "sigma": 0.5}
+DEBUT_BEFORE_2018 = {
+    "ALO", "BOT", "ERI", "GAS", "GIO", "GRO", "HAM", "HAR", "HUL", "KUB", "KVY",
+    "MAG", "OCO", "PER", "RAI", "RIC", "SAI", "STR", "VAN", "VER", "VET",
+}
 
 
 def encode(df: pd.DataFrame, keys: list[str]) -> tuple[pd.DataFrame, np.ndarray]:
@@ -43,40 +50,56 @@ def seasons_since(drivers: pd.DataFrame) -> pd.Series:
     return drivers.groupby("driver")["season"].diff()
 
 
-def build_model(df: pd.DataFrame) -> pm.Model:
+def second_season(drivers: pd.DataFrame) -> np.ndarray:
+    nth = drivers.groupby("driver").cumcount()
+    return ((nth == 1) & ~drivers["driver"].isin(DEBUT_BEFORE_2018)).to_numpy(float)
+
+
+def build_model(df: pd.DataFrame, priors: dict = PRIORS, forecast: pd.DataFrame | None = None) -> pm.Model:
     y = 100 * np.log(df["lap_time"].to_numpy())
     parts, part = encode(df, PART)
-    drivers, driver = encode(df, ["driver", "season"])
+    drivers, driver = encode(pd.concat([df[DRIVER], forecast[DRIVER]]) if forecast is not None else df, DRIVER)
+    driver = driver[: len(df)]
     teams, team = encode(df, ["team", "season"])
+    team_parts, team_part = encode(df, PART + ["team"])
     gap = seasons_since(drivers)
     part_mean = pd.Series(y).groupby(part).mean().to_numpy()
 
-    coords = {"part": labels(parts), "driver_season": labels(drivers), "team_season": labels(teams)}
+    coords = {
+        "part": labels(parts), "driver_season": labels(drivers),
+        "team_season": labels(teams), "team_part": labels(team_parts),
+    }
     with pm.Model(coords=coords) as model:
         alpha = pm.Normal("alpha", mu=part_mean, sigma=2, dims="part")
 
-        tau_driver = pm.HalfNormal("tau_driver", 0.5)
-        tau_drift = pm.HalfNormal("tau_drift", 0.1)
+        tau_driver = pm.HalfNormal("tau_driver", priors["tau_driver"])
+        tau_drift = pm.HalfNormal("tau_drift", priors["tau_drift"])
         step = pm.math.where(gap.isna().to_numpy(), tau_driver, tau_drift * np.sqrt(gap.fillna(1).to_numpy()))
+        learn = pm.Normal("learn", 0, priors["learn"])
         z_driver = pm.Normal("z_driver", dims="driver_season")
-        beta_raw = walk_matrix(drivers) @ (step * z_driver)
+        beta_raw = walk_matrix(drivers) @ (learn * second_season(drivers) + step * z_driver)
         beta = pm.Deterministic("beta", center_matrix(drivers["season"].to_numpy()) @ beta_raw, dims="driver_season")
 
-        tau_car = pm.HalfNormal("tau_car", 1.0)
+        tau_car = pm.HalfNormal("tau_car", priors["tau_car"])
         basis = zero_sum_basis(teams["season"].to_numpy())
         car = pm.Normal("car", 0, tau_car, shape=basis.shape[1])
         gamma = pm.Deterministic("gamma", basis @ car, dims="team_season")
 
-        sigma = pm.HalfNormal("sigma", 0.5)
+        tau_team_part = pm.HalfNormal("tau_team_part", priors["tau_team_part"])
+        z_team_part = pm.Normal("z_team_part", dims="team_part")
+        delta = tau_team_part * z_team_part
+
+        sigma = pm.HalfNormal("sigma", priors["sigma"])
         nu = pm.Gamma("nu", alpha=2, beta=0.1)
-        pm.StudentT("y", nu=nu, mu=alpha[part] + beta[driver] + gamma[team], sigma=sigma, observed=y)
+        mu = alpha[part] + beta[driver] + gamma[team] + delta[team_part]
+        pm.StudentT("y", nu=nu, mu=mu, sigma=sigma, observed=y)
     return model
 
 
 def sample(model: pm.Model, seed: int = SEED):
     with model:
         return pm.sample(
-            nuts_sampler="nutpie", draws=4000, chains=4, target_accept=0.85, random_seed=seed, progressbar=False
+            nuts_sampler="nutpie", draws=2000, chains=4, target_accept=0.85, random_seed=seed, progressbar=False
         )
 
 
@@ -98,8 +121,8 @@ def summarize(table: pd.DataFrame, draws) -> pd.DataFrame:
 
 
 def ratings(idata, df: pd.DataFrame) -> dict:
-    drivers, _ = encode(df, ["driver", "season"])
-    teams = df.groupby(["driver", "season"])["team"].unique().map(list).to_numpy()
+    drivers, _ = encode(df, DRIVER)
+    teams = df.groupby(DRIVER)["team"].unique().map(list).to_numpy()
     cars, _ = encode(df, ["team", "season"])
     return {
         "drivers": summarize(drivers.assign(teams=teams), -idata.posterior["beta"]).to_dict("records"),
@@ -114,10 +137,13 @@ def main() -> None:
         df = df[df["season"].isin(seasons)]
     idata = sample(build_model(df))
     print(az.summary(idata, var_names=HYPER).to_string())
-    print(diagnostics(idata))
+    diag = diagnostics(idata)
+    print(diag)
     if not seasons:
         OUTPUTS.mkdir(exist_ok=True)
-        (OUTPUTS / "ratings.json").write_text(json.dumps(ratings(idata, df), indent=2))
+        result = ratings(idata, df) | {"diagnostics": diag}
+        (OUTPUTS / "ratings.json").write_text(json.dumps(result, indent=2))
+        idata["posterior"] = idata.posterior.to_dataset().drop_vars(NUISANCE)
         idata.to_netcdf(OUTPUTS / "posterior.nc")
 
 

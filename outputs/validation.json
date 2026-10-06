@@ -1,0 +1,324 @@
+{
+  "random_events": {
+    "splits": [
+      {
+        "test_rows": 1514,
+        "baseline_mae": 0.31548991186469605,
+        "zero_mae": 0.3732357205816642,
+        "model_mae": 0.31251413399042144,
+        "divergences": 0,
+        "max_rhat": 1.0245290723246563,
+        "min_ess_bulk": 345.5806864129484,
+        "seed": 0
+      },
+      {
+        "test_rows": 1562,
+        "baseline_mae": 0.33812640322215837,
+        "zero_mae": 0.362281344436438,
+        "model_mae": 0.32637883916418475,
+        "divergences": 0,
+        "max_rhat": 1.004562484758138,
+        "min_ess_bulk": 1302.9095067352234,
+        "seed": 1
+      },
+      {
+        "test_rows": 1432,
+        "baseline_mae": 0.3213299026326796,
+        "zero_mae": 0.35036240998928114,
+        "model_mae": 0.3093801139116191,
+        "divergences": 0,
+        "max_rhat": 1.0102667677241848,
+        "min_ess_bulk": 1006.3908958753734,
+        "seed": 2
+      },
+      {
+        "test_rows": 1546,
+        "baseline_mae": 0.32396524699785084,
+        "zero_mae": 0.36257339998908306,
+        "model_mae": 0.3175450388799136,
+        "divergences": 0,
+        "max_rhat": 1.0059390924011178,
+        "min_ess_bulk": 1246.864324037246,
+        "seed": 3
+      },
+      {
+        "test_rows": 1456,
+        "baseline_mae": 0.32684998466922593,
+        "zero_mae": 0.36986750627460485,
+        "model_mae": 0.32279040246979146,
+        "divergences": 0,
+        "max_rhat": 1.0244675577298936,
+        "min_ess_bulk": 314.68755339114375,
+        "seed": 4
+      }
+    ],
+    "passed": true
+  },
+  "future_2026": {
+    "test_rows": 838,
+    "baseline_mae": 0.38182993335907633,
+    "zero_mae": 0.3724699486664239,
+    "model_mae": 0.3850675050119401,
+    "divergences": 0,
+    "max_rhat": 1.0134998549664502,
+    "min_ess_bulk": 642.2885673758757,
+    "passed": false
+  },
+  "ppc": {
+    "abs_gap_quantiles": [
+      {
+        "quantile": 0.25,
+        "real": 0.12736537384057556,
+        "sim_q05": 0.12749811602519118,
+        "sim_median": 0.13506404538347283,
+        "sim_q95": 0.14299102847740527,
+        "inside": false
+      },
+      {
+        "quantile": 0.5,
+        "real": 0.27707509165637134,
+        "sim_q05": 0.27951458483078256,
+        "sim_median": 0.2902881716586734,
+        "sim_q95": 0.3016441292260609,
+        "inside": false
+      },
+      {
+        "quantile": 0.75,
+        "real": 0.4956757307122075,
+        "sim_q05": 0.49357489260085574,
+        "sim_median": 0.5125316725329583,
+        "sim_q95": 0.5287061486931833,
+        "inside": true
+      },
+      {
+        "quantile": 0.9,
+        "real": 0.772136629171257,
+        "sim_q05": 0.7465225456886515,
+        "sim_median": 0.7738373309977078,
+        "sim_q95": 0.8017930618544185,
+        "inside": true
+      },
+      {
+        "quantile": 0.99,
+        "real": 1.6324599681575007,
+        "sim_q05": 1.4096357427411144,
+        "sim_median": 1.528113802624778,
+        "sim_q95": 1.6693582300614107,
+        "inside": true
+      }
+    ],
+    "passed": false
+  },
+  "health": {
+    "full": {
+      "divergences": 0,
+      "max_rhat": 1.0044466133507381,
+      "min_ess_bulk": 1215.059588109723
+    },
+    "refits_healthy": 8,
+    "refits": 12,
+    "passed": false
+  },
+  "robustness": {
+    "variants": {
+      "tau_driver x0.5": {
+        "min_top5_overlap": 5,
+        "top5_overlap": {
+          "2018": 5,
+          "2019": 5,
+          "2020": 5,
+          "2021": 5,
+          "2022": 5,
+          "2023": 5,
+          "2024": 5,
+          "2025": 5,
+          "2026": 5
+        },
+        "divergences": 0,
+        "max_rhat": 1.0048575974638236,
+        "min_ess_bulk": 1330.8608344320621
+      },
+      "tau_driver x2": {
+        "min_top5_overlap": 5,
+        "top5_overlap": {
+          "2018": 5,
+          "2019": 5,
+          "2020": 5,
+          "2021": 5,
+          "2022": 5,
+          "2023": 5,
+          "2024": 5,
+          "2025": 5,
+          "2026": 5
+        },
+        "divergences": 0,
+        "max_rhat": 1.0052804521179222,
+        "min_ess_bulk": 1385.6990646745355
+      },
+      "tau_drift x0.5": {
+        "min_top5_overlap": 5,
+        "top5_overlap": {
+          "2018": 5,
+          "2019": 5,
+          "2020": 5,
+          "2021": 5,
+          "2022": 5,
+          "2023": 5,
+          "2024": 5,
+          "2025": 5,
+          "2026": 5
+        },
+        "divergences": 0,
+        "max_rhat": 1.0058891308681797,
+        "min_ess_bulk": 1088.0213482506304
+      },
+      "tau_drift x2": {
+        "min_top5_overlap": 4,
+        "top5_overlap": {
+          "2018": 4,
+          "2019": 5,
+          "2020": 5,
+          "2021": 5,
+          "2022": 5,
+          "2023": 5,
+          "2024": 5,
+          "2025": 5,
+          "2026": 5
+        },
+        "divergences": 0,
+        "max_rhat": 1.0041949522061735,
+        "min_ess_bulk": 1294.2168944872146
+      },
+      "tau_car x0.5": {
+        "min_top5_overlap": 4,
+        "top5_overlap": {
+          "2018": 4,
+          "2019": 5,
+          "2020": 5,
+          "2021": 5,
+          "2022": 5,
+          "2023": 5,
+          "2024": 5,
+          "2025": 5,
+          "2026": 5
+        },
+        "divergences": 0,
+        "max_rhat": 1.0042381688334998,
+        "min_ess_bulk": 1278.862469456946
+      },
+      "tau_car x2": {
+        "min_top5_overlap": 4,
+        "top5_overlap": {
+          "2018": 4,
+          "2019": 5,
+          "2020": 5,
+          "2021": 5,
+          "2022": 5,
+          "2023": 5,
+          "2024": 5,
+          "2025": 5,
+          "2026": 5
+        },
+        "divergences": 0,
+        "max_rhat": 1.0079076175885133,
+        "min_ess_bulk": 1338.8976369046122
+      }
+    },
+    "passed": true
+  },
+  "sanity": {
+    "cases": [
+      {
+        "driver": "ALO",
+        "seasons": [
+          2022,
+          2023
+        ],
+        "teams": [
+          "Alpine",
+          "Aston Martin"
+        ],
+        "driver_change": -0.019,
+        "car_change": 0.124,
+        "expected": "car",
+        "dominant": "car"
+      },
+      {
+        "driver": "SAI",
+        "seasons": [
+          2024,
+          2025
+        ],
+        "teams": [
+          "Ferrari",
+          "Williams"
+        ],
+        "driver_change": -0.1,
+        "car_change": -0.303,
+        "expected": "car",
+        "dominant": "car"
+      },
+      {
+        "driver": "PER",
+        "seasons": [
+          2020,
+          2021
+        ],
+        "teams": [
+          "Racing Point",
+          "Red Bull Racing"
+        ],
+        "driver_change": 0.07600000000000001,
+        "car_change": 0.069,
+        "expected": "car",
+        "dominant": "driver"
+      },
+      {
+        "driver": "BOT",
+        "seasons": [
+          2021,
+          2022
+        ],
+        "teams": [
+          "Mercedes",
+          "Alfa Romeo"
+        ],
+        "driver_change": -0.092,
+        "car_change": -0.731,
+        "expected": "car",
+        "dominant": "car"
+      },
+      {
+        "driver": "ALB",
+        "seasons": [
+          2020,
+          2022
+        ],
+        "teams": [
+          "Red Bull Racing",
+          "Williams"
+        ],
+        "driver_change": -0.025,
+        "car_change": -0.6619999999999999,
+        "expected": "car",
+        "dominant": "car"
+      },
+      {
+        "driver": "RIC",
+        "seasons": [
+          2020,
+          2021
+        ],
+        "teams": [
+          "Renault",
+          "McLaren"
+        ],
+        "driver_change": -0.018000000000000002,
+        "car_change": 0.028999999999999998,
+        "expected": "driver",
+        "dominant": "car"
+      }
+    ],
+    "passed": false
+  }
+}
