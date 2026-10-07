@@ -14,14 +14,14 @@ GRAPH = Path("outputs/network.json")
 TEAMS = {
     "Williams": ("#64C4FF", ""),
     "Racing Bulls": ("#6692FF", "Toro Rosso\nAlphaTauri · RB"),
-    "Red Bull": ("#1E3A8A", ""),
+    "Red Bull": ("#3671C6", ""),
     "McLaren": ("#FF8000", ""),
     "Alpine": ("#FF87BC", "Renault"),
     "Aston Martin": ("#229971", "Force India\nRacing Point"),
-    "Haas": ("#9CA3AF", ""),
+    "Haas": ("#B6BABD", ""),
     "Ferrari": ("#E8002D", ""),
     "Audi": ("#52E252", "Sauber · Alfa Romeo\nKick Sauber"),
-    "Cadillac": ("#1F1F1F", ""),
+    "Cadillac": ("#909090", ""),
     "Mercedes": ("#27F4D2", ""),
 }
 LINEAGE = {

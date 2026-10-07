@@ -19,7 +19,7 @@
     },
     {
       "id": "Red Bull",
-      "color": "#1E3A8A",
+      "color": "#3671C6",
       "names": [
         "Red Bull",
         "Red Bull Racing"
@@ -65,7 +65,7 @@
     },
     {
       "id": "Haas",
-      "color": "#9CA3AF",
+      "color": "#B6BABD",
       "names": [
         "Haas",
         "Haas F1 Team"
@@ -84,7 +84,7 @@
     },
     {
       "id": "Cadillac",
-      "color": "#1F1F1F",
+      "color": "#909090",
       "names": [
         "Cadillac"
       ]

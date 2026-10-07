@@ -3,7 +3,7 @@ import pandas as pd
 import pytest
 import xarray as xr
 
-from src.export import by_era, car_share, draws, pole_laps, records
+from src.export import by_era, car_share, draws, has_photo, pole_laps, records
 
 
 def frame(rows: dict, key: str) -> pd.DataFrame:
@@ -47,3 +47,9 @@ def test_records_rounds_draws_and_uses_plain_ints():
     out = records(frame({("VER", 2023): [0.12345, -0.5]}, "driver"))
     assert out == [{"driver": "VER", "season": 2023, "draws": [0.123, -0.5]}]
     assert type(out[0]["season"]) is int
+
+
+def test_has_photo_rejects_missing_urls():
+    assert has_photo("https://media.formula1.com/x/1col/image.png")
+    assert not has_photo("None")
+    assert not has_photo(float("nan"))

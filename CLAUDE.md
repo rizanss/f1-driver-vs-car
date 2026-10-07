@@ -30,6 +30,9 @@ py -3.12 -m venv .venv
 .venv/Scripts/python -m src.model
 .venv/Scripts/python -m src.evaluate
 .venv/Scripts/python -m src.export
+npm --prefix web install
+npm --prefix web run dev
+npm --prefix web run build
 ```
 
 ## Layout
@@ -40,7 +43,8 @@ py -3.12 -m venv .venv
 - `outputs/` — model ratings (JSON), posterior samples, figures, dashboard data (`network.json`, `draws.json`, `seasons.json`)
 - `notebooks/` — exploration
 - `tests/` — pytest
-- `web/` — Next.js dashboard (Stage 5)
+- `web/` — Next.js dashboard (static export, reads `outputs/` at build time)
+- `docs/` — dashboard screenshots used in the README
 
 ## Modeling conventions
 

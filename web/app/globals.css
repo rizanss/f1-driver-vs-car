@@ -1,0 +1,74 @@
+@import "tailwindcss";
+
+@theme {
+  --color-page: #0d0d0d;
+  --color-surface: #1a1a19;
+  --color-raised: #242422;
+  --color-ink: #ffffff;
+  --color-ink-2: #c3c2b7;
+  --color-muted: #898781;
+  --color-grid: #2c2c2a;
+  --color-axis: #383835;
+  --color-accent: #e10600;
+  --color-car: #e10600;
+  --color-driver: #3987e5;
+
+  --animate-fade-in: fade-in 500ms ease-out both;
+  --animate-rise: rise 700ms cubic-bezier(0.2, 0.8, 0.2, 1) both;
+
+  @keyframes fade-in {
+    from {
+      opacity: 0;
+    }
+  }
+  @keyframes rise {
+    from {
+      opacity: 0;
+      transform: translateY(14px);
+    }
+  }
+}
+
+@theme inline {
+  --font-sans: var(--font-barlow);
+  --font-display: var(--font-barlow-condensed);
+}
+
+html {
+  color-scheme: dark;
+}
+
+body {
+  background:
+    radial-gradient(70rem 30rem at 0% -8%, rgb(225 6 0 / 0.13), transparent 62%),
+    radial-gradient(50rem 26rem at 110% 0%, rgb(57 135 229 / 0.07), transparent 60%),
+    var(--color-page);
+  @apply min-h-screen font-sans text-ink antialiased;
+}
+
+@layer components {
+  .card {
+    @apply rounded-2xl border border-grid bg-surface;
+  }
+  .kicker {
+    @apply font-display text-sm font-semibold tracking-[0.18em] text-muted uppercase;
+  }
+  .select {
+    @apply cursor-pointer appearance-none rounded-lg border border-axis bg-surface py-2 pr-9 pl-3 text-sm font-semibold text-ink transition-colors outline-none hover:border-muted focus-visible:border-ink;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12'%3E%3Cpath d='M2 4l4 4 4-4' fill='none' stroke='%23c3c2b7' stroke-width='1.6'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 0.75rem center;
+  }
+  .select option {
+    background: var(--color-surface);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation: none !important;
+    transition: none !important;
+  }
+}

@@ -5,63 +5,72 @@
       "car_share": 0.906,
       "q05": 0.856,
       "q95": 0.944,
-      "pole_lap": 86.925
+      "pole_lap": 86.925,
+      "rounds": 20
     },
     {
       "season": 2019,
       "car_share": 0.884,
       "q05": 0.823,
       "q95": 0.93,
-      "pole_lap": 85.093
+      "pole_lap": 85.093,
+      "rounds": 21
     },
     {
       "season": 2020,
       "car_share": 0.782,
       "q05": 0.676,
       "q95": 0.865,
-      "pole_lap": 78.887
+      "pole_lap": 78.887,
+      "rounds": 15
     },
     {
       "season": 2021,
       "car_share": 0.598,
       "q05": 0.455,
       "q95": 0.73,
-      "pole_lap": 78.762
+      "pole_lap": 78.762,
+      "rounds": 20
     },
     {
       "season": 2022,
       "car_share": 0.697,
       "q05": 0.592,
       "q95": 0.786,
-      "pole_lap": 81.992
+      "pole_lap": 81.992,
+      "rounds": 18
     },
     {
       "season": 2023,
       "car_share": 0.352,
       "q05": 0.201,
       "q95": 0.51,
-      "pole_lap": 85.587
+      "pole_lap": 85.587,
+      "rounds": 20
     },
     {
       "season": 2024,
       "car_share": 0.493,
       "q05": 0.32,
       "q95": 0.652,
-      "pole_lap": 81.804
+      "pole_lap": 81.804,
+      "rounds": 23
     },
     {
       "season": 2025,
       "car_share": 0.478,
       "q05": 0.26,
       "q95": 0.676,
-      "pole_lap": 82.207
+      "pole_lap": 82.207,
+      "rounds": 23
     },
     {
       "season": 2026,
       "car_share": 0.948,
       "q05": 0.913,
       "q95": 0.971,
-      "pole_lap": 84.792
+      "pole_lap": 84.792,
+      "rounds": 15
     }
   ],
   "eras": [

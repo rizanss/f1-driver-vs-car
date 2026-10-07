@@ -55,7 +55,7 @@ Pertanyaan utama yang harus bisa dijawab:
 
 ## Apa yang dibangun
 
-Ada dua hasil akhir: dashboard dan repository kode yang rapi dengan README singkat.
+Ada tiga hasil akhir: dashboard, repository kode yang rapi dengan README singkat, dan video motion graphics 45 detik tentang dashboard untuk dipamerkan di LinkedIn.
 
 **Isi dashboard:**
 
@@ -73,7 +73,7 @@ Ada dua hasil akhir: dashboard dan repository kode yang rapi dengan README singk
 
 - **Bahasa UI:** Inggris.
 - **Satu fitur = satu halaman.** Navbar punya dropdown "Features" berisi 7 fitur. Halaman awal langsung ke ranking driver. Di dalam tiap halaman ada dropdown filter, misalnya musim atau driver.
-- **Foto driver:** setiap nama driver tampil bersama foto formal resminya. URL foto diambil dari data FastF1 (`HeadshotUrl`, tersedia untuk 2020 ke atas), memakai foto terbaru tiap driver. Foto tidak disimpan di repo karena hak ciptanya milik Formula 1, dan ada kredit di dashboard. Driver tanpa foto (misalnya yang terakhir balapan 2018–2019) atau foto yang gagal dimuat diganti avatar inisial dengan warna tim.
+- **Foto driver:** setiap nama driver tampil bersama foto formal resminya. URL foto diambil dari data FastF1 (`HeadshotUrl`, tersedia untuk 2020 ke atas), memakai foto terbaru tiap driver. Foto tidak disimpan di repo karena hak ciptanya milik Formula 1, dan ada kredit di dashboard. Driver tanpa foto (yang terakhir balapan 2018, plus driver pengganti AIT, FIT, KUB) atau foto yang gagal dimuat diganti avatar inisial dengan warna tim.
 - **Bahasa F1, bukan bahasa statistik:** selisih ditampilkan dalam detik, rentang keyakinan sebagai bar, dan memakai warna tim serta kode driver.
 
 **Definisi fitur:**
@@ -82,7 +82,7 @@ Ada dua hasil akhir: dashboard dan repository kode yang rapi dengan README singk
 - **Simulasi tukar mobil:** driver dan mobil dari musim yang sama. Perkiraan waktu = rating driver + rating mobil. Patokan pole = kombinasi driver + mobil asli tercepat di musim itu, dihitung per sampel posterior sehingga hasilnya punya rentang. Persen diubah ke detik memakai lap pole tipikal musim itu (median lap tercepat tiap sesi). Ditampilkan sebagai perkiraan "bagaimana kalau", bukan ramalan.
 - **Adu dua driver:** peluang = persentase sampel posterior di mana rating A lebih tinggi dari B. Default di musim yang sama. Boleh lintas musim, tapi diberi catatan bahwa rating tiap musim relatif ke grid musim itu.
 
-**Data dashboard:** dashboard membaca file JSON di `outputs/`, yang di-copy ke `web/public/data/` saat build.
+**Data dashboard:** dashboard membaca file JSON langsung dari `outputs/` saat build (static export), jadi tidak ada salinan data di `web/`.
 
 | File | Dibuat oleh | Dipakai untuk |
 | --- | --- | --- |
@@ -90,7 +90,7 @@ Ada dua hasil akhir: dashboard dan repository kode yang rapi dengan README singk
 | `network.json` | `network.py` | Peta perpindahan driver |
 | `draws.json` | `export.py` | Simulasi tukar mobil, adu dua driver (400 sampel posterior per driver-musim dan mobil-musim) |
 | `seasons.json` | `export.py` | Mobil vs driver, lap pole tipikal per musim |
-| Foto driver | `export.py` | URL foto per driver dari cache FastF1 |
+| `drivers.json` | `export.py` | Nama lengkap dan URL foto tiap driver dari cache FastF1 |
 
 **README** berisi ringkasan masalah, cara kerja model dalam beberapa kalimat, hasil validasi, cara menjalankan pipeline, dan screenshot dashboard.
 
@@ -306,8 +306,13 @@ Catatan implementasi:
 4. **Tahap 4: Validasi**
    - [x] Semua tes di bagian Ukuran keberhasilan dijalankan dan hasilnya dicatat
 5. **Tahap 5: Dashboard dan README**
-   - [ ] Dashboard modern menggunakan Next JS dengan 7 fitur wajib
-   - [ ] README singkat
+   - [x] Dashboard modern menggunakan Next JS dengan 7 fitur wajib
+   - [x] README singkat
+6. **Tahap 6: Video motion graphics**
+   - Tujuan: video motion graphics 45 detik yang memamerkan dashboard ini, sekaligus jadi showreel kemampuan motion design untuk portfolio dan LinkedIn.
+   - Prompt:
+     > make a dynamic 45-second motion graphics video that shows what an incredible motion designer you are, like it's your showreel for a résumé. go all out.
+   - [ ] Video motion graphics 45 detik tentang dashboard
 
 **Contoh prompt pembuka di Claude Code:**
 
