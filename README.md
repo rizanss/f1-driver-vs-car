@@ -2,6 +2,8 @@
 
 How much of an F1 qualifying lap comes from the driver, and how much from the car? This project separates the two with a Bayesian model of every dry qualifying lap from 2018 to 2026, and shows the results in an interactive dashboard.
 
+**Live dashboard: [f1-driver-vs-car.vercel.app](https://f1-driver-vs-car.vercel.app)**
+
 ![Driver ranking](docs/driver-ranking.png)
 
 ## The problem
